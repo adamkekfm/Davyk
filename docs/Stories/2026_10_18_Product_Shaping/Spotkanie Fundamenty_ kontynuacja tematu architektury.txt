@@ -1,0 +1,1568 @@
+Spotkanie Fundamenty kontynuacja tematu architektury-20261014_143009-Nagrywanie spotkania
+14 października 2026, 12:30PM
+1godz. 57min 28s
+
+Marcin Grzybowski rozpoczęto transkrypcję
+
+Adam Koper   0:04
+No chyba tak.
+
+Marek Królikowski   0:13
+Dzień dobry.
+
+Adam Koper   0:16
+Cześć.
+
+Wojciech Grabowski   0:16
+6 6.
+
+Zbigniew Dzido   0:18
+Cześć.
+
+Adam Koper   0:19
+Cześć wszystkim.
+
+Paweł Derlacz   0:20
+Cześć.
+
+Michał Baum   0:22
+Cześć.
+
+Marek Królikowski   0:29
+Czyżby dzisiaj wszyscy zdalnie?
+
+Adam Koper   0:32
+Prawie to znaczy na sali Jestem ja adam i Bolek.
+Jest Artur.
+Kwiatkowski proszę teraz.
+
+Marek Królikowski   0:45
+Czyli przodownicy pracy.
+
+Adam Koper   0:49
+Jak zawsze.
+Sprzedam mu plac, grób się nagrywał.
+Nagrywa się.
+
+Marek Królikowski   1:18
+Nie zapomnijcie Amerykanom wysłać.
+
+Adam Koper   1:23
+Dobrze.
+To się nagrywa, więc to.
+Uważaj Marek.
+Serwerowni pewnie sisco.
+Rozmawiamy przez logitecha cześć.
+No tak.
+No dobra.
+Możemy gonić to w ogóle jest Michał, jeszcze Artura potrzebuje.
+Gdzieś na którą?
+Gada przez telefon.
+Dobra.
+Nie ma Artur, ale mam nadzieję, że zaraz się pojawi, ale tak możemy już zaczynać.
+Dziś większość jest.
+Temat wygląda następująco, ostatnio spotkaliśmy się przy gadaliśmy temat.
+Problemy, że tak powiem jaki jakaś nowa fala informacji.
+Została głośniej powiedziana.
+Większym gronie my się spotkaliśmy przed tym spotkaniem do danym i z bogaliśmy.
+Mój pomysł architektury Adama.
+Chroniliśmy go trochę już wielkość i będziemy się skupiać na rozwiązaniu mniejszym. Adam swoją architekturę.
+Stworzył w taki sposób, że to są rozmiary koszulek, gdzie TRSK jest najmniejsza, później jest MK.
+Tą mką się nie będziemy zajmować, natomiast naszkicował namalował.
+Yy.
+I do niej przejdziemy, jak faktycznie będziemy mieli działające środowisko.
+Co do tych spotkań o architekturze?
+Najważniejsze dla nas jest, żeby.
+Zacząć wdrażać coś, co faktycznie będzie działać w urzędzie.
+I nie będziemy mieli jakiś dodatkowych blokad, więc te wszystkie eczka jest są dla nas mega istotne.
+I teraz tak.
+Ostatnio rozmawialiśmy też o.
+Dwutorowo ości.
+Gdzie ta dwutorowo gość była zrozumiana przez.
+Wiele osób inaczej każdy miał swoje zdanie o tej dwutorowo ości i że tak powiem, wyszliśmy z jakąś tam myślą w głowie się okazało przy rozmowach takich one on one, że jednak trochę inaczej rozumieliśmy tą dwutorowość.
+I teraz.
+Jeżeli mielibyśmy coś robić dwutorowo, to jedyny sens tej dwutorowości nie mówię tutaj o.
+Barkę bym nie wchodzi w ogóle w ten skład.
+Tej nietoległości ono musi istnieć i póki nie nie mamy szansy, że tak powiem przepisania w pełni aplikacji, no to to embarcadero nadal będzie, ale.
+W kontekście naszego rozwiązania z wiem ką motorowość to tak naprawdę jest.
+Zrobienie architektury, która będzie najłatwiejsza do instalacji u klientów nawet tych.
+Najmniejszych z najsłabszym sprzętem.
+I posiadanie rozwiązania, które zainstalujemy tak jak ta wiem, k niekoniecznie, to musi być ta wiem oka, czyli rozwiązania w pełni serwerowego.
+Z prawdziwego zdarzenia.
+I to jest ta dwutorowo gość.
+Natomiast.
+Nie skupiałbym się na tej wielce w tym momencie.
+A skupiłbym się na tym, żeby.
+Postawić.
+Na tych słabych zasobach.
+Coś rozwiązanie, które będzie?
+Używalnej spięte w jedną wielką całość.
+Artur Kwiatkowski zrobił.
+Ostatni no taki panel.
+Dla dystrybutorów.
+I widzę w nim potencjał taki, że może nam się przydać przy propozycji Adama.
+Którą zaraz zobaczycie.
+I będę chciał, żeby Artur wam pokazał to.
+Przy rozmowie z józkiem zobaczyłem, że on też ma podobne w sumie potrzeby i podobne bolączki. Chociażby szyfrowanie jest petów.
+I to też nam pan jest jest blisko naszych potrzeb.
+I fajnie by było właśnie się zgadzać i iść jednym torem i zrobić to dobrze razem wspólnie PS jakiś tam bocznych torów i bocznej roboty, tylko ładnie skoordynowany proces.
+Dlatego zbieram wszystkich i chciałbym też.
+Przypadkiem?
+Dostać ten feedback serwisowy, jeżeli tutaj będą jakieś rozwiązania, które?
+Totalnie nie przejdą.
+To mega ważne jest, żebyśmy zostało wypowiedziane.
+Przy tym jaj, które teraz jest przy tym rozwoju, ja jest łatwiej pisać aplikacje szybciej możemy to robić i coś, co wyglądać może na wielką krowę i nie do zrobienia zaczyna się.
+Dawać zasięgu naszej ręki, więc.
+No ja bym się jakoś strasznie nie bał, natomiast wiadomo no nie zrobimy wszystkiego i teraz na pewno zaraz pokażę rozwiązanie swoje CRSI my będziemy raz, że to będzie trzeba, że tak powiem powiedzieć to nie przejdzie.
+A 2 wyciągnąć z tego mwp, bo nie zrobimy tego rozwiązania tak od razu.
+A w naszym Biblii na pewno jest w skład naszego MVP na pewno będzie.
+Zainstalowanie.
+Aplikacji m obywatel.
+W tym nie płatnościami plus.
+Od strony rapid plus CRU kompletna i do tego eauta. Jeżeli te 4 rozwiązania będą w sposób.
+Jednolity będą miały jednolite architekturę, będą jednolicie instalowane.
+I nie będzie z tym problemu. Zrobimy jakiś taki pilotaż, to znaczy, że.
+Zadanie zostało to wykonane.
+No ale.
+Będziemy jeszcze te mw, że tak powiem dopieszczać i wybierać co w tym mw są w co wchodzi w skład tego.
+Teraz.
+Że tak powiem, dałbym głos adamowi.
+No ja będę pokazał swoje rozwiązanie.
+A później jak porozmawiamy, to jeszcze chciałbym, żeby Artur pokazał swoje rozwiązanie.
+Jestem w spotkaniu powiedział.
+Dobra.
+Dobra, to adam jedziesz?
+No dobra.
+Powinien być widoczny ekran za chwilę.
+Albo już jest widoczne.
+Jakby nie było widać ekranu to mówcie.
+
+Zbigniew Dzido   10:48
+Widać widać.
+
+Adam Koper   10:51
+A więc taki jest wstępny pomysł na to rozwiązanie, że.
+Jak Marcin wspomniał.
+Ograniczamy.
+Do 4 aplikacji i celem jest zainstalowanie właśnie tych e out kseve m obywatel.
+Aplikacje.
+Te są napisane, no różnie.
+Więc prawdopodobnie nie unikniemy jakiegoś tam etapu, gdzie te aplikacje trzeba będzie zunifikować dostosować.
+Do jakiejś jednolitej, powiedzmy postaci tak, aby się dało je podobnie, powiedzmy instalować.
+Ale główny pomysł jest taki, że chcielibyśmy mieć możliwość instalacji.
+Aplikacji.
+Dotnetowych.
+Na maszynach u naszych klientów i teraz wiemy, że te aplikacje.
+Są Przepraszam, że te maszyny, które są dostępne u naszych klientów, są bardzo różne. Czasami jest to.
+Serwer.
+Na jakimś nowszym windowsie Windows serwera serwerze windowsie.
+Czasami jest to Linux z tego co tam rozumiem. Czasami jest to maszyna, jakaś końcówka, na której po prostu pracownik operator pracuje.
+Więc Jestem bardzo różnie.
+No i to się.
+To się może wydawać bardzo trudne zadanie.
+Ale spróbujemy podejść, być może do tego.
+W taki sposób, że.
+A właśnie jest jeszcze jeden powiedzmy problem do rozwiązania, że w tych aplikacjach m obywatel auta i ceru w każdej z tych aplikacji w różny sposób wygląda uwierzytelnianie.
+Być może do do tych do tego pierwszego m vip włączymy.
+Etap dostosowania właśnie tego uwierzytelniania, tak aby aby to było jednolicie rozwiązane.
+A być może pominiemy ten krok, zobaczymy w trakcie analizy, czy czy to będzie potrzebne konieczne, czy opcjonalne i czy się na to zdecydujemy.
+Generalnie na tych wszystkich typach maszyn, które będą dostępne w placówkach, wydaje się, że będzie tam można zainstalować enginexa.
+To jest coś, co?
+Będzie wspólne na tych maszynach.
+Ee.
+I.
+Prawdopodobnie na pewno w tych w tych nowszych aplikacjach, które ostatnio powstały, czyli.
+Da się odpalić te aplikacje w castellu i skompilować to w taki sposób aby.
+Ee.
+Aby ta kabina arka była self containt można ją skompilować na Windowsa można ją skompilować na Linuksa więc powinno to być.
+Zasięgu.
+Nie wiem jak jest dokładnie ze mną obywatelem i autami, ale prawdopodobnie da się to też w ten sposób takie paczki przygotować.
+Jest jeszcze jeden problem, który który mamy jest to.
+Fakt, że.
+W plikach konfiguracyjnych najczęściej na komputerze końcówce.
+Z tego co rozumiem, yy, są przechowywane jakieś sekrety.
+Więc to też jest jakiś problem do rozwiązania?
+Jest jeszcze jeden i siu, który tam gdzieś zanotowałem, że w przypadku m obywatela, jeżeli ta aplikacja działa na ja się to jest problem.
+Ze skadrem, ponieważ ta aplikacja po prostu w momencie braku aktywności się wygasza i skeczu nie zawsze działa.
+Tak jak byśmy tego chcieli, po prostu czasami wygasza się działanie tej aplikacji zainstalowane na a ja się.
+No i w takim przypadku rozwiązaniem mogą być instalowanie przynajmniej części takiego m obywatela, ale jeśli dałoby się to widzieć, a pewnie się da tego skeczu lera instalowania jako Windows Service.
+Jeśli chodzi o te sekrety, to być może można by było je przechowywać.
+W bazie danych po prostu fajerwerdzie być może takie wstępne. Wstępna propozycja jest taka, żeby skorzystać.
+Z windowsowego mechanizmu data protection.
+Jeżeli okaże się, że nie musimy na Linux się instalować.
+Jeżeli będzie trzeba na linuksie instalować to trzeba będzie jeszcze nad tym.
+Pomyśleć co tam dokładnie zrobić.
+I.
+
+Marek Królikowski   16:02
+Może na pytanie zadać?
+
+Adam Koper   16:03
+Jasne.
+
+Marek Królikowski   16:05
+Adam takie pytanie, bo powiedziałeś, że zamiast a ja jessa będzie engineers po stronie klienta.
+Takie pytanie, a kto będzie aktualizować te naj x?
+
+Adam Koper   16:20
+A kto aktualizuje a i SA?
+
+Marek Królikowski   16:25
+Wiesz, a ja je SA to zazwyczaj to jest przynajmniej tak większości przez Windowsa update sobie ludzie tam klikają, natomiast NXA to już nie jest Windows update, trzeba całą procedurę jakby opisać i tak dalej, więc czy wzięliście to pod uwagę?
+Bo co innego jest zrobić ab dates przez Windows update kliknąć dalej dalej dalej ze start i zadowolony, a co innego jest.
+Postawienie nga i niksa u klienta i utrzymanie go.
+
+Adam Koper   16:56
+Generalnie mamy na to pomysł. Pomysł jest taki, że.
+Tak jak na tym rysunku widać będzie też coś co nazywamy tutaj side agentem.
+W takiej instalacji i to będzie jakaś usługa. Nie wiem czy będziemy mogli coś takiego zainstalować, ale jeżeli byśmy dostali takie pozwolenie, to ta usługa mogłaby właśnie odpowiadać za aktualizację tego typu rozwiązań jak NG next albo po prostu e-u tak se w celu i tak dalej, bo musimy mieć.
+Jakiś mechanizm z poziomu.
+
+Marek Królikowski   17:31
+Czyli rozumiem, że pod linuksem będzie said agent Linux Service?
+
+Adam Koper   17:37
+Tak jakaś usługa czy to będzie pod linuksem? Czy to będzie na windowsie będzie?
+
+Marek Królikowski   17:41
+O k. Bo tutaj na rysunku jest Windows dlatego tak się pytam, bo trzeba podejść tak jak powiedziałeś w 2 strony, jeżeli są też linuksy no to trzeba podejść na linuksie.
+No to teraz takie pytanie kolejne, a ktoś ktokolwiek rozmawiał czy czy nie ma problemu z instalacją takich rzeczy, bo.
+Nie wiem ostatnio tam na spotkaniu było mówione, że że oni słabo patrzą się na to, żeby coś tam doinstalować do do komputerów serwerów, tak poza nimi.
+
+Adam Koper   18:09
+Znaczy właśnie po to jest to spotkanie, to po pierwsze.
+Jest są tutaj serwis.
+
+Marek Królikowski   18:13
+No to może ktoś z serwisu by się wypowiedział na ten temat, czy czy w ogóle coś takiego wchodzi, że nagle my sobie zdalnie bierzemy, aktualizujemy jakieś tam rzeczy u klienta w sensie właśnie tego NGAI tym podobne.
+
+Adam Koper   18:28
+Zwrócił uwagę na to marku, że.
+Tutaj na całym tym stadzie jest napisane, że że ta maszyna, na której to wszystko jest zainstalowane, jest to serwer lub PC operatora. Jeżeli będzie cały czas.
+
+Marek Królikowski   18:42
+Tak, tak, tak, ja to rozumiem doskonale.
+
+Adam Koper   18:44
+Tam minął ten Windows Service też więc jeżeli na dzień dzisiejszy znaczy to jest takie moje założenie, być może błędne, ale jeżeli na dzień dzisiejszy.
+Możemy aktualizować aplikację te m barca dero na na maszynach na końcówkach no to na podobnej zasadzie przyjmuje, że będzie można aktualizować również aplikacje nie nie embarcadero na końcówkach.
+
+Marek Królikowski   19:08
+No i właśnie stąd moje pytanie do serwisu, żeby ktoś z serwisu się może wypowiedział jak to wygląda, bo ja bo tam pamiętam.
+Jakiś czas temu, no było zupełnie inny przekaz, że tak powiem, że że właśnie nie.
+
+Adam Koper   19:24
+No właśnie jeżeli będzie, jeżeli się okaże, że na na tych maszynach serwerowych możemy cokolwiek w ogóle zainstalować.
+Z tego co rozumiem, to mamy na dzień dzisiejszy zainstalowane już aplikacje pewne na a ja się więc jest jakaś tam droga.
+Jak będziemy mieli na takiej maszynie zainstalowane?
+Właśnie takiego taką aplikację agenta, która potrafi.
+I właśnie teraz powstaje tutaj kilka tematów, które trzeba było zaimplementować w ramach takiego sita agenta.
+Taka aplikacja powinna umieć zainstalować i aktualizować te aplikacje hostowane w celu powinna.
+Wraz z taką instalacją i aktualizacją również wykonać odpowiednie zmiany w konfiguracji. W konfiguracji NG naxa, bo tam jest Rewers, więc każda aplikacja zainstalowana będzie musiała mieć również dedykowane jakieś zmiany w tym enginesie. Jeśli chodzi o ten routing i tak dalej.
+Będzie musiała ta aplikacja mieć możliwość instalowania Windows serwisów.
+I ja oczekuję też, że taka aplikacja będzie działała na odpowiednim koncie, będzie trzeba przygotować odpowiednie konto, żeby te uprawnienia wszystkie.
+Po prostu ta aplikacja miała, żeby można było właśnie czy to edytować właśnie konfiguracja ginexa, czy to instalować nowe aplikacje?
+Czy to po?
+
+Marek Królikowski   20:53
+Czyli założenia ten said agent Windows Service musi działać z poziomu administratora komputera.
+
+Adam Koper   20:59
+Tak, tak, tak, tak.
+
+Marek Królikowski   21:00
+Żeby nikomu nie wyskoczyło jakiś tam, o jezu już nie pamiętam nazwy ten windowsowy ta windowsowa blokada czy coś tam tak.
+
+Adam Koper   21:08
+Tak tak to będzie musiało działać na wysokich uprawnieniach. No i właśnie mieć te powiedzmy wtyczki taki tuning, który umie instalować właśnie te wszystkie rzeczy, nie Windows Service, zwykłe aplikacje, konfiguracja enginesa, być może dostęp do.
+
+Marek Królikowski   21:25
+I z czym będzie się komunikować?
+Z czym będzie się komunikować, bo rozumiem, że said said, a ten agent Windows Service, to on będzie się komunikować.
+Z fill internetem nazwę to, bo fill?
+
+Adam Koper   21:39
+Tak.
+
+Marek Królikowski   21:40
+Z internetu nie będzie do niego dostępu.
+
+Adam Koper   21:44
+Zgadza się.
+
+Marek Królikowski   21:45
+O Ki teraz pytanie do czego on się będzie komunikował?
+
+Adam Koper   21:51
+To co?
+
+Marek Królikowski   21:52
+Do czego pytanie, do czego on się będzie komunikował?
+
+Adam Koper   21:57
+On będzie się komunikował ze źródłem artefaktów.
+To jest.
+
+Marek Królikowski   22:06
+No dobra, ale źródła, ale te faktów to jest jedna rzecz, natomiast sam powiedziałeś, że zmiana konfiguracji, instalacja i tak dalej. No to to chyba.
+Yy no takie.
+
+Adam Koper   22:19
+No.
+
+Marek Królikowski   22:20
+Wydaje mi się, że to chociaż no dobra, ok, jeżeli w tą stronę.
+
+Adam Koper   22:26
+To jest cały czas propozycja, no co tam?
+Test i res.
+Tak.
+Ten zarys.
+Oni trochę tego nie czają, żeby nie pokazywać teraz tego wcześniejszego rysu tego jeszcze bardziej ogólnego, tak.
+Bo tutaj nadają tak dobra, jeszcze wam pokażę jeden rysunek, tylko zwróćcie uwagę, że to nie jest wiedza objawiona, tylko teraz tutaj się zebraliśmy po to, aby porozmawiać o tym rozwiązaniu. Tak?
+A.
+
+Marek Królikowski   23:03
+Nie no tak, tak, tak tak, ja tylko po prostu pytam, żeby jak gdyby uzupełnić wiedzę, która jest na obrazku no bo na obrazku rozumiem wszystko, natomiast po prostu wiesz.
+
+Adam Koper   23:09
+Tak.
+
+Marek Królikowski   23:13
+Ale te fakty to tak bardzo jest. Wiesz powiedziane no.
+Źródło, artefaktów jest źródło wiedzy na zasadzie.
+Bardziej mi interesuje co to jest, bo wiesz, to jest tak, powiedzieliście fajnie źródło, ale te faktów, ale co to dokładnie ma być?
+
+Adam Koper   23:31
+Tak tam jest, tam jest więcej rzeczy, no bo ja ja to widzę w ten sposób, że taki agent jeszcze podzieli jak się tam rysunkiem za chwilę o tym pogadamy, ale.
+Tym źródłem artefaktów, czy tam powiedzmy serwerem, z którym się on komunikuje. Tam tam będą przechowywane właśnie.
+Ja to widzę jeszcze znaczy może tak co jest potrzebne po stronie naszej musimy mieć właśnie źródło artefaktów, czyli informacje, jakie tam nowe wersje są dostępne. Chcielibyśmy, aby ten agent raportował do.
+Do tej części serwerowej.
+Ta część serwerowa będzie musiała być hostowana na naszych maszynnach na infrastrukturze.
+System tam chciałbym, żeby zwrotnie z agenta ill wędrowała INFORMACJA O stanie każdej z tych aplikacji, czyli tam, czy czy jest podniesione, czy działa tak, jeżeli to jest na serwerze tak, a jeżeli jest na końcówce, to w sumie też.
+
+Marek Królikowski   24:31
+Przepraszam, jeśli mogę znowu wejść ci słowo, czy pojedziesz potrzebował tylko httpsa czy coś jeszcze, bo od razu już myślę. Ja w jaki sposób to.
+Umiejscowić u was na.
+Czy tam wedle tego rysunku jak tam było HTTPS to rozumiem, że jak zrobimy https, a na porcie nie wiem 65000 to będzie ok.
+
+Adam Koper   24:58
+Dlaczego na 65000?
+
+Marek Królikowski   25:00
+Wiesz co? Dlatego, bo nie macie w ogóle wolnych adresów ip, że tak powiem.
+Legionowie, więc będzie trzeba zrobić nata, więc przez jakiś serwer po prostu udostępni się jakiś dziwny port, a serwer będzie w rzeczywistości wewnątrz.
+Yy, czyli takiego dm zeta na zasadzie dmz a o.
+Czyli zapewne przez serwer natowy będzie puszczony. Nie wiem port na przykład tak jak powiedziałem 65000, który będzie szedł do jakiegoś serwera waszego wewnętrznego.
+
+Adam Koper   25:22
+No tak, ale ale adres.
+A na tym na adresie tam publicznym tym groszek pel nie da się wystawić jakiegoś tam pod domenie.
+
+Marek Królikowski   25:39
+Groszek pel stoi vh.
+
+Adam Koper   25:42
+Znaczy, ja nie znam tej infrastruktury. To jest szczegół.
+
+Marek Królikowski   25:44
+To ja ci mówię, ja ci mówię?
+Tak, dlatego ci powiedziałem, że ciężko będzie pod 4 4 3 wziąć tutaj u was w Legionowie tak mi się coś kojarzy.
+
+Adam Koper   26:00
+Nie, nie, nie, nie chcę w tym momencie wchodzić w tą dyskusję, bo wydaje mi się, że to jest po prostu szczegół. Jeżeli to nie będzie możliwe, to będziemy jakoś próbowali ten problem rozwiązać. Najpierw chciałem porozmawiać ogólnie o pomyśle o takim zarysie w ogóle architektury, jak to mogłoby działać bez wnikania w szczegóły typu, na którym porcie ma to być wystawione.
+Rozumiem, że to może być realny problem, ale wydaje mi się, że to jest do rozwiązania, tak, jeśli już będziemy, jeżeli już będziemy mieli klepnięte tą architekturę i takie rozwiązanie, to to będzie chyba najmniejszy problem.
+Chyba, że się mylę.
+Ktoś chce coś nad tym temacie, czy możemy dać trochę, żeby była też taka jasność?
+Który jest tutaj namalowany to można by nazwać to.
+Raz, że aplikacją wilgosa.
+Po która tam aktualnie robi aktualizacje automatyczne.
+I w kontekście Rafała rozwiązania, no to.
+Artifact Store to jest właśnie ściąganie tych naszych egzaminów z vipów ze stronki z jakiegoś tam miejsca przez Rafała telemetria, to jest to, co wysyła Rafał, te różne dziwne raporcik o zgłoszeniu o coś tam.
+W kontekście Rafała.
+I było do czego.
+Powiedzmy, że zarządzanie, zarządzanie licencjami, jakieś takie rzeczy, no to zarządzanie, no to szef, to Ta strona, stara groszek PLZ, zakładką generowania kluczy licencyjnych.
+Tak pi razy drzwi to to jest rozwiązanie embarcade owe w kontekście wiem która tam była robiona przez Marka i i tutaj też Janek w tym brał udział co?
+No to to jest architekt startoński groszek pls w zasadzie.
+Yy no i ten free serwer to jest rozwiązanie tak mary, która ma też aplikację.
+Sklonowaną do zarządzania tymi kluczami działa na tej samej bazie szef w no to jest na tym celem działa więc te rozwiązania mamy te elementy, nie mieliśmy i te, a te elementy. Ja swoją drogą to jest też chociażby heartbet kwiatka, który już na tym nowym.
+Panelu groszek PL chciał tego harbita wdrożyć, ale jeszcze api nie mają tego.
+No to tak w skrócie, jeżeli chodzi do tego agenta, żeby mieć trochę świadomość czym to może być i jaki to ma jakiś kontekst w tym co już zrobiliśmy?
+No to jest rozwiązanie też dla dotneta a nie dla aplikacji tych egzaminowych.
+Nie dla embarg to nie jest rozwiązanie dla adderas.
+No tak tak, czyli to jest Zamiana tego co mamy z wielką.
+Coś jeszcze o tym rysunku chciałeś powiedzieć, bo tutaj jest też.
+Powiedzmy, że bardziej uogólniony rysunek, jeśli chodzi o TRS, ale jest też trochę więcej, bo jeszcze jest.
+Jakaś platforma centralna, która też uwzględnia jeszcze?
+Powiedzmy, że usługi dla obywatela i tak tego typu rzeczy, ale to w ogóle nie wchodzi w zakres dzisiejszego spotkania, więc więc to pominiemy.
+Dobra, to ja wracam do.
+Do tego rysunku.
+Więc po stronie po.
+Powiedzmy serwera właśnie.
+Jakbyśmy już tak zdecydowali się na tego typu rozwiązanie, to ja widzę to w ten sposób, że.
+Trzeba by było wydzielić.
+Powiedzmy, że taki taką aplikację narzędziową właśnie jak ten agent serwis, agent, agent i ten czy to będzie Windows Service tam, czy to będzie wersja tego agenta dla linuxa?
+To nie ma dużego znaczenia, będzie spełniał tę samą funkcję. To znaczy będzie odpowiedzialny. Będzie musiał umieć zainstalować.
+Jakieś tam api, takie jak chcemy, będzie musiał mieć zainstalować usługę.
+Będzie musiał.
+Być może w przyszłości na przykład nie wiem, instalować kontener albo coś tam przekazać. Nie wiem.
+Do wiemki generalnie ta architektura powinna być.
+Taka aby można było to później rozwinąć o jakieś nowe sposoby instalacji tych aplikacji. Na dzień dzisiejszy być może wybierzemy.
+To też nie jest wyryte w kamieniu. To jest na razie taka propozycja.
+Więc więc tak i teraz po po stronie serwera też będzie potrzebne coś w rodzaju api i właśnie takiego powiedzmy narzędzia dla serwisu, na którym będzie można zobaczyć właśnie.
+Powiedzmy listę.
+Lokalizacji, na których mamy zainstalowane nasze usługi i dla każdej takiej lokalizacji powinna być możliwość sprawdzenia, jakie.
+Konkretnie usługi na danej lokalizacji są zainstalowane i status każdej z takiej z takich instancji zainstalowanych na danej na danej lokalizacji.
+I to jest powiedzmy.
+W dużym skrócie.
+Odpowiedzialność powiedzmy tej narzędziowej części i teraz musimy jeszcze jakoś w to wpasować sposób w ogóle.
+Realizowania dostarczania nowych wersji powiedzmy aplikacji, jak również.
+Licencjonowania tych aplikacji, więc ja widzę, że tutaj może być druga powiedzmy domena.
+Jakiegoś tam serwisu, który jest po stronie infrastruktury info system.
+Tam byłaby.
+Być może używana wiedza z tej bazy istniejącej o licencjach. Prawdopodobnie będzie to musiało działać, czerpać stamtąd dane. Tam będzie można właśnie powiedzmy na tej bazie zbudować.
+Wiedzę co ma być instalowane na danych końcówkach na tej to będzie taką podstawą do tego właśnie co tam może i co ma być zainstalowane.
+Ee będzie tam też INFORMACJA O tym, która wersja jest zakupiona przez daną daną placówkę, lokalizację i te dane mogą zasilać.
+Ten serwer.
+Ze źródłem artefaktów, bo na tym serwerze.
+Ze źródłem artefaktów powinna też być informacja.
+Jakie usługi chcemy mieć na jakiej?
+Powiedzmy lokalizacji zainstalowane to działałoby trochę podobnie do tego, jak działa.
+Jak jest zbudowany kubernetes tam też to wygląda w ten sposób, że jest jakiś centralny api, na którym.
+Wgrywamy informacje.
+Jaka jest nasza pożądana? Powiedzmy struktura zainstalowanych usług na naszym klastrze na każdym.
+Na każdej końcówce na każdym note'dzie tego klastra jest agent, który dba o to, aby aby na na na właśnie tych nudech były zainstalowane usługi w takiej konfiguracji jaką jakiej oczekujemy, więc trochę podobne rozwiązanie do tego tylko, że oczywiście.
+No w innym kontekście, bo tutaj nie będziemy zarządzali przynajmniej w pierwszej.
+W pierwszej wersji tej MVP.
+No nie będziemy zarządzali kontenerami.
+Taki jest bardzo ogólny pomysł.
+I nocą.
+Czekam na wasze kolejne pytania i uwagi do tego jakie widzicie jeszcze inne zagrożenia, wymagania, które które.
+Może się nie udać spełnić w takiej architekturze.
+A nawet jeżeli się uda spełnić albo jest taka możliwość, ale nie jest to wymienione w tym dokumencie albo nie rozmawialiśmy o tym jeszcze, to wspomnijcie o tym to uwzględnimy to w wymaganiach i spróbujemy dostosować ten projekt.
+
+Jan Grabowski   34:59
+A mógł go zadać jakieś pytania?
+Na przykład ten front end rozumiem, że na razie w wersji takiej na papierze to będzie engins a backend, a ja jest tak.
+
+Adam Koper   35:13
+Nie.
+Wszystko będzie przechodziło przez anginexa, na którym mamy możliwość zestawienia telesa jakiegoś tam szyfrowania, a wszystkie aplikacje typu jakieś tam dot netowe web app y czy jakieś tam fronty i tak dalej to będzie na na caestelu gdzieś tam albo na node'dzie.
+Stało tak jakby za nginexem ngin axes będzie naszym Rewers proxy.
+
+Jan Grabowski   35:41
+Aha, czyli jako takie usługi Windowsa na przykład tak coś takiego te api będą działały.
+
+Adam Koper   35:47
+Może tak to być zrealizowane?
+Może tak to być zrealizowane? Może to być też tak zrealizowane, że jest to podnoszone jako zwykłe egzekucji, jeżeli będziemy mieli tego agenta, bo wtedy on będzie mógł to podnosić testelowe aplikacje, więc można to na różne sposoby.
+Zrobić nie jest to jeszcze postanowione. Wiemy jedynie, że na kestelu nie zostawimy to LSA.
+Więc.
+Więc tego nie możemy zrobić. Taka usłyszałem gdzieś tam w rozmowach.
+Yy, powiedzmy, że wymaganie, że chcemy zrezygnować z a i SAI, że go w ogóle nie będziemy używali, więc to jest alternatywne rozwiązanie do a i SA będzie.
+
+Marek Królikowski   36:32
+A ja mam takie pytanie, Przepraszam w takim razie tutaj też do serwisu, bo często jest tak przynajmniej tak zrozumiałem, że na tym. A ja się też są inne usługi czy coś. Ja może źle zrozumiałem.
+
+Adam Koper   36:47
+Barku, to znaczy nawet nie musisz pytać serwisu. Są usługi na tylko.
+Chodzi o to.
+
+Marek Królikowski   36:52
+No właśnie, bo wiesz, a ja jest nie może działać na tym samym pocie, co?
+Nie więc właśnie mi o to chodzi.
+
+Adam Koper   37:01
+Spoko tylko.
+To nie jest problem, żeby chodziło na innym porcie, tylko chodzi o to, że.
+A jest jest problematyczny w instalacji.
+Jeżeli chodzi o różne rozwiązania typu zainstalowanie na uda na nim to to jakiś rusek robił plugin i tak dalej.
+Wyrzucamy zostawienia mi się nad nim, natomiast to, co teraz chodzi, będzie przepisane.
+
+Marek Królikowski   37:25
+No tak tak, no to ja rozumiem, że chcecie wyrzucić, natomiast mi chodzi o.
+O rzeczy film trzecich, które działają na jajesie czy nie ma takiego przypadku tylko wy używać, a ja je SAII możemy w każdej chwili sobie wyrzucić.
+
+Adam Koper   37:42
+Zmienimy port najwyżej.
+
+Marek Królikowski   37:46
+No tak, ale jeżeli to ma być uniwersalne, no to trzeba. Wiesz, mocno się już teraz zastanowić na takich rzeczach, bo później nagle się okaże, że.
+Wiesz, dlatego ja patrzę trochę bardziej szerzej na ten temat niż tak wąsko, bo na razie rozmawiamy o ogólnie, natomiast o pewnych rzeczach już należy rozmawiać, jakie muszą być wyjątki porobione od reguły, bo wiesz, jeżeli byśmy mieli wszędzie to samo, to to, co pokazuje adam jest świetne. Natomiast musimy też pamiętać o tym i to jest to, co.
+Ostatnio nam mówił Artur, że dużo wyjątków jest od reguły.
+I musimy to wziąć pod uwagę.
+
+Adam Koper   38:25
+Tak.
+Tak, na pewno jednym z wyjątków jest fajerwerki.
+Te hasło jest serwerowe.
+W sensie na na serwer, a nie na bazę danych.
+Więc jak my sobie zrobimy zmianę hasła i będziemy robić to fajnie, to na pewno ci te firmy, które używają fajerwerda w urzędzie.
+Nagle nie będą mogły się zalogować do aplikacji.
+W przypał w takich dziwnych akcji takie wystarczy wtedy na różnych portach różne instancje.
+Miałem taką propozycję, Rafał ma. Ja bym chciał, żeby Rafał się trochę poudzielał, bo on ma taki dużo, że tak powiem w skrajnych przypadków.
+Chciałbym tutaj konfrontację zrobić taką, żeby niech on się wypowie i reszta i serwis.
+********** ważne.
+No rzeka moja.
+
+Rafał Wilgos   39:26
+Sekunda, pogadam.
+
+Adam Koper   39:33
+A ty możesz Paweł powiedzieć, jeżeli chodzi o takie skrajne dziwolągi, to już są. Powiem ci, że teraz już normą staje się kilka instancji fajerwerda w premierze, bo to już coraz więcej jest tych.
+Mają te programy i tak w różnych wersjach, bo jedne ciągle siedzą na 2,5 inne już są 5, więc to się też zaczyna rozjeżdżać. Powoli, że kiedyś było wiesz tak jakby te programy w miarę pracowały na tym samym co najwyżej. My trochę byliśmy z tyłu, a teraz my jesteśmy często i z tyłu i do przodu.
+O Ki to ostatnio nawet trafiłaś, a to były 4 instancje fireberda na serwerze. Ja dzisiaj trafiłem 2.
+Gdybym chciał zainstalować nasze problemy, uczciwie musiałbym postawić trzecią, ale po prostu wrzuciłem starą bazę pod 2,5, a jeszcze nie i stwierdziłem, że tamci nas kiedyś dogonią, to wtedy migrujemy to się pokazywało, a to się pokazywało, że tam 180 jakiś takich jednostek. Swoje program 2,5 tak żeby powoli. No tak, tylko że widzisz tylko, że to się często właśnie wiąże z tym, że wtedy musimy tak jakby stawiać drugą.
+Znaczy my jak my nie, ale że trzeba i tak drugą instancję fajtwarda wtedy.
+To nie jest jakieś problematyczne, bo wtedy na różnych portach chodzi po prostu nie, ale wtedy też każdy ma swoją konfigurację, więc to.
+Tak jakby jeśli chodzi o hasła.
+To jest to jest temat fair berta.
+A temat znaczy?
+
+Marek Królikowski   41:01
+A co jest przeciwko, żeby wyrównać te wersje fireberda?
+Czy tak trudno jest z migrować z 2,5 x 3 i później na 4 i później na 5?
+
+Adam Koper   41:10
+A 4 jest trudno.
+Łatwiej jest 3 x 5 przeskoczyć, ale w głównym problemem u nas są w tej chwili podatki, które ciągle są na DBXA.
+I przez to nie możemy.
+Na 5 przejść.
+I nie możemy też przez to zmienić dialektu.
+
+Marek Królikowski   41:29
+O k no ale to rozumiem problem raczej problem rozumiem, jest z jednej aplikacji, ale teraz pytanie, ale to jest problem taki, że nie da się tego zrobić, tylko czy trzeba usiąść i popracować i żeby się dało migrować?
+
+Adam Koper   41:46
+Biologiczny profil białko białkowe interfejs białkowy zachodzi.
+
+Marek Królikowski   41:51
+Czyli mówiąc w sumie da się zrobić tylko po prostu trzeba usiąść i to zrobić.
+
+Adam Koper   41:56
+Wszystkie inne programy działają. Ten jeden został tak.
+
+Marek Królikowski   41:58
+No to o k no to po prostu trzeba się skupić. No bo rozumiem względem tego, co adam tu przygotował. No to dążymy do ujednolicenia całej infrastruktury. Tu jest akurat napisane fajerwerki 3 istniejąca usługa, ale rozumiem, że będzie fajerwerki 5 istniejąca usługa fill.
+
+Adam Koper   42:15
+Tak, bo jakieś marzenie dobremu nie po piątka jest.
+Piątka jest relatywnie dobra, bo na wstecz jeszcze otwiera bazy, a czwórka jest taka oderwana od rzeczywistości. Dlatego piątka jest spokój. Naszym programem. W tej chwili płace, budżet, środki te józkowe plus romanowe działają na facebook'u piątce.
+
+Marek Królikowski   42:33
+No to widzicie, no to można tutaj zmienić to od razu ten ten adam sobie zmień tutaj na piątkę i trzeba dążyć do piątki. Natomiast osoby odpowiedzialne za tą jedną aplikację po prostu muszą przysiąść i ogarnąć temat no.
+
+Adam Koper   42:47
+No więc to jest takie do jeszcze do.
+
+Marek Królikowski   42:50
+No bo to jest dosyć duży problem. No nie możemy tak być, że będzie 7 baz danych tak, czy tam 5.
+
+Adam Koper   42:57
+Znaczy z naszego punktu widzenia, no to najlepiej by było dojść do jednego. To jasne, że tak to.
+
+Marek Królikowski   43:00
+No i właśnie o to chodzi. Dążymy do ujednolicenia infrastruktury, żeby wszędzie było to samo.
+
+Adam Koper   43:03
+Nie będzie pozwoli.
+Po naszej stronie to tu nikt nie będzie bronił, żeby trzymać stary fire berdy bardziej tak jak mówię, są oprogramowania innych firm, które potrzebują starego fajer branda, no ale mówię, ale to wtedy się drugą instancję instaluje i wtedy to działa. No przynajmniej na windowsie nie wiem jak to na linuksie, bo Linux jest.
+
+Marek Królikowski   43:23
+Akurat tutaj nie ma problemu, wydaje mi się no bo można sobie wiele instancji postawić, więc to nie jest żaden problem.
+
+Adam Koper   43:28
+I kwestia instalacji to nie na.
+
+Marek Królikowski   43:28
+Natomiast my powinniśmy patrzeć na nas, a nie na innych, no bo jak będziemy patrzeć na innych, to daleko nie zajdziemy. Raczej patrzmy tak, żeby nam było dobrze.
+
+Adam Koper   43:35
+Tak czasami mają.
+Różne dziwne linuksy, na które nie ma nowszych fajerwerków.
+Jest jakiś taki przypadek to rafałek będzie lepiej wiedział, że nie na wszystkie linuksy jest są na przykład nowe fire.
+Więc tam jest taki problem, a na przykład klienci mają tylko to jest kwestia tego kwestia skali, bo być może łatwiej będzie.
+
+Marek Królikowski   43:55
+Nie, to jest akurat wiesz co to nie sądzę. Jeżeli jeżeli dążymy do tego, żeby ten said agent Windows Service działał to bez żadnego problemu można przygotować. Czy to paczkę debian nową, czy to paczkę red hot ową, czy jakąkolwiek inną do instalacji?
+Pamiętaj, że Linux to jest tak naprawdę.
+Nieważne jaki system tak naprawdę możesz każdego Linuksa każdego fajerwerda kompilować wy nas serwerze w w macie właśnie wersję 2,5 z latami tam, które wyszły już dawno po po po, że tak powiem jak już nie był w ogóle nawet wspierany i też był kompilowany dosłownie od zera.
+
+Adam Koper   44:43
+Bardzo mnie martwi, że jak będzie aplikacja instalować na ile odpowiedzialności na nas spadnie za te instalacje wtedy.
+No dopóki to.
+
+Marek Królikowski   44:49
+Tak, to jest właśnie to i to jest właśnie to, co bardzo dobrze, że się to poruszył. Dlatego właśnie mówiłem, bo jak ten, a ja jest sobie działał.
+No to sobie działał i jak gdyby wiadomo natomiast jak taki n gajnik z będzie no to no nie ma co ukrywać to spadnie na nas w sensie odpowiedzialność za jego działanie, dostępność i tak dalej.
+
+Adam Koper   45:10
+No my będziemy musieli w ramach tego said agenta aktualizować nie tylko te auta, no tylko wszystkie te komponenty, które tutaj są narysowane, tak.
+Może poza fajerwerdem, bo to jest nie nasze. Ja tutaj wrzuciłem fajerwerd 3 jeszcze powinien, no powinno być dialekt 3, bo to jest minimum, którego potrzebujemy, żeby to wszystko uruchomić.
+Jak będzie piątka to oczywiście nam pasuje.
+
+Marek Królikowski   45:37
+Przyjmujemy, że piątka od razu nie nie bawmy się w jakieś przejściowe wersje, tylko idźmy po prostu w jedną stronę porządnie.
+Tym bardziej później, w razie czego, jeżeli że tak powiem.
+Wersja trzecia przestanie być wspierana, to nagle będziemy musieli wszystkich migrować i tak dalej, a tak to już jeżeli robimy coś od zera to już lepiej od razu przejść na najnowszą wspieraną wersję.
+
+Adam Koper   46:10
+Tak głupio się zapytam jeżeli chodzi o stronę serwisowej jak będziemy mieli fajerwerda 2,5 czy tam 3.
+Do bazy PK.
+Mapy, żeby mieli fajerwerka 5 0 do do bazy.
+Jeszcze raz, że będziemy, że jak będziemy mieli na 1 x 2 nasze różne różnych jednym TK.
+Ja co się stanie?
+Czyli jedną bazę otwierać 2 wersjami pani roberda.
+Podejrzewam, że wybuchnie. No właśnie to znaczy, dopóki to chyba będzie 3.
+
+Jan Grabowski   46:50
+Raczej wybuchnie.
+
+Adam Koper   46:51
+Ale jak to będzie 2,5 i 5 to nie ma szans, bo jest inna struktura. Bazy jest inaczej, zupełnie inna.
+Ja właśnie się.
+
+Jan Grabowski   46:59
+Mi się mi się wydaje, że jak są 2 serwery faje berda to one nie mogą być połączone do tej samej bazy naraz.
+
+Adam Koper   47:08
+Że one mają innego odessa, więc 2,5 i 3 już się pogryzą, więc tam najpierw otworzy, nawet nie spróbuję, no.
+3 i 5. Może nie wiem karkołownia najlepszym dla takich wiedzieć, czy ktoś nie rozumiemy bawny jakiś głupi sposób, no bo ten frajer bardzo on nie otwiera, tylko czy my tak zaskoczył, że on głupie pytanie specjalnie.
+Ale on tego nie otworzy, nie, nie zepsuje, nie powinien zepsuć, że jest rok piątki. Każda baza ma swoje hasło, czy nadal będzie to wasze serwer fajerwerdowy i hasło leci na serio?
+Na godzinę pani nie wiem, to po prostu Rafał, no.
+Bo ja tak bardzo może fajerwerki piątka w końcu nie interesowałem się tak bardzo ma hasło, bo jeśli pan szczepienie sięgnęła więc.
+To rafałek jest odczytania wiadomość.
+
+Rafał Wilgos   48:01
+Baza danych ogólnie to nie excel ponownie to nie excel, że ma swoje hasło hasło jest do serwera zawsze.
+
+Zbigniew Dzido   48:02
+Marcin, jakie było pytanie?
+
+Rafał Wilgos   48:08
+Tak jak borak lu taki fajerwerki taki wszędzie.
+Łączę się do serwera, dopiero serwer gada z bazą danych.
+Rady inaczej, no to oczywiste.
+
+Adam Koper   48:29
+Marcin tam miałeś pytanie do do Rafała.
+Może pytanie do Rafała pytanie do Rafała, żeby serwis się wypowiedział?
+
+Rafał Wilgos   48:39
+Dobra, ja się wypowiem, bo już skończyłem gadać, słuchałem jednym uchem, potem co chwilę mi się coś dzieje. Generalnie fajnie. No super, super było mieciem gigsa ja sam korzystam bardzo piękna sprawa, wszystko się instaluje, sam sobie aktualizuje, ola ma mi to robi cudownie pięknie.
+I to jest świat idealny, którego niestety nie mamy tutaj praktyka w połączeniu z prawnymi pobożnymi życzeniami. Niestety będziemy teraz. Po pierwsze baza danych to nie jest tak, że my nie jesteśmy w stanie sobie z migrować. My jesteśmy w stanie zmigrować, tylko my mamy 5000 klientów, którzy mają te bazy danych z migrowanie tego u każdego.
+To nie jest takie proste, oni nie zatrzymają roboty. Te bazy mają po 7 giga największe podatkowe po 40 giga. Migracja takiej bazy to nie trwa 15 minut. Trzeba ją wziąć na Weekend, bo oni zatrzymają roboty takie Marki Warszawa. Najwięksi klienci, bo nie będą 2 dni sobie stali, czekali, aż my to z migrujemy, więc Weekend papa u mniejszych klientów. Jasne, ale nie ma informatyka, nie ma dostępu na serwer, nie ma wyjścia, czasami muszą przesłać bazy, bo chłopaki chcą zrobić testowo, bo nikogo nie ma, bo ja czy Paweł to zrobimy na żywce jak ktoś tam się rozwali, to czy józek to sobie poradzimy, ale tak to niestety.
+To się robi testowo, to trwa, potem to trzeba zrobić u klienta, więc tutaj czas jest kluczowym problemem. Migracja do fajerwerda piątki i ten cholerny dialekt. Trzeci też nie jest taka prosta, ponieważ wstrzymuje nas fajerwerdzie piątce cały czas DBIX.
+I tak wiemy, że trzeba go zrobić. To wie także autor tego procederu. Tak?
+
+Adam Koper   50:01
+A mogę jedno pytanie.
+Mogę jedno pytanie, a czy a czy jest możliwe, żeby wziąć plik od?
+
+Rafał Wilgos   50:04
+Tak, tak.
+
+Adam Koper   50:11
+Tej Warszawy czy tam kogoś większego?
+I przemigrować to właśnie lokalnie i później odpalić ich im aplikację, na tym przemig rowanym u nas pliku tak żeby to dało się nie wiem na jakimś sprzęcie czy czymś zrobić na tyle szybko, żeby po prostu w tym okienku czasowym, które mamy to faktycznie z migrować.
+
+Rafał Wilgos   50:36
+Zanim prześlą ci te 40 giga, to swoje minie zanim tościągniemy to swoje minie zanim u mnie takie 40 giga dzisiaj Marcin bazę.
+Chyba siódmy beczkę. No to szło prawie godzinę.
+
+Adam Koper   50:48
+Ale to jeszcze.
+
+Rafał Wilgos   50:48
+Jeszcze jakiś błąd ci wyskoczy klucze, cuda niewidy bez testów to to trzeba to poprawić i od początku, bo tamten.
+
+Adam Koper   50:55
+Oku, ale to trzeba przy okazji.
+
+Rafał Wilgos   50:55
+Ja umiem zmienić asemblerem nagłówek, ale to jest.
+No wiadomo co to jest, to jest chirurgia już na maksa, więc mógłbym zmienić sobie nagłówek z bazy drugiej na trzecią, ale jak coś się sypnie to nie będziemy się później ruskich prosić o pomoc.
+
+Adam Koper   51:13
+Oni już to mają.
+Mamy zmiana dialektu, to będzie jeszcze gorzej, bo sama zmiana fair na to jedno, a jeszcze tak jak mamy dialekt przy okazji zmieniać, to będzie jeszcze więcej tej roboty, więc czy jeszcze gorzej?
+Poza tym jeszcze nie wiem czy nie dochodziłaby kwestiałączenia baz wtedy, bo przecież mamy te bazy tp po dublowane dla różnych systemów, więc.
+W idealnym świecie pod tym oprogramowania wymagałyby pewnie jednej bazy.
+
+Rafał Wilgos   51:39
+Tak migracja do dylektu trzeciego to jest kopiowanie bazy całej z dialektu pierwszego na dialekt, trzeci z konwersją niektórych danych, bo się zmieniają tam bikini. Ty dochodzą ten stan y są osobno i tak dalej, więc to też gruba robota. Oczywiście jest oprogramowanie do tego, bo napisaliśmy tylko kwestia tego, że no czasowo się nie.
+Zamyka ja i tak kombinuję co mogę. Już robię egzekutor, blog fireberg to jest najszybsza metoda dużo 70 razy szybciej, tak jak patrzy mi przenosi niż normalnie.
+Data tablema, ale mimo wszystko i tak jest bóg.
+
+Adam Koper   52:13
+Dobra, ponawiam pytanie, no bo jeżeli jest możliwe, żeby z migrować w jakimś tam?
+Jak rozumiem, powiedzmy, że gminy czy tam te placówki nie pracują w weekendy, jeżeli tak faktycznie jest, a my poza tulem, który można przynieść na pendrive i nacisnąć Enter, jakbyśmy mieli powiedzmy narzędzie na przykład rozszerzenie do tej Twojej Rafał aplikacji, która umie aktualizować, jakbyśmy mieli rozszerzenie tej aplikacji, takie, które potrafi na przykład odpalić taką migrację.
+I na przykład skopiować te dane przemigrować nie wiem w jakikolwiek sposób to się dzieje.
+Gdzieś do pliku obok tej bazy produkcyjnej, jakby to dało się zdalnie odpalić właśnie z takiego z takiej aplikacji czy to, czy takie podejście jest w ogóle możliwe?
+Na przykład musisz, nie wiem mieć tą aplikację uruchomioną na serwerze po prostu twoja aplikacja do aktualizacji tam nie działa i po prostu się tego nie da zrobić.
+
+Rafał Wilgos   53:13
+Nikt nas nie wpuści na serwer.
+To od razu mówi, odpada. To jest największy problem, to wszystko, co mówią ci dystrybutorzy, że oni sobie aktualizują czy coś to jest bajka, bo oni podpisują umowy, mają na serwer, mają ten i tak dalej. My się do serwerów nie dostaniemy, klient nasz jest mądrzejszy, Mazowiecki ogólnie województwo to nie są idioci tak jak mówią tam informatycy się nie znają w Warszawie nawet informatycy z dzielnicy nie mają dostępu na serwer, tam siedzą wszystkie ważne i dane trzeba się.
+
+Adam Koper   53:17
+Czytam migracja.
+
+Rafał Wilgos   53:39
+Pismem do miasta. Udostępnienie bazy trzeba 500 tych podpisać jest wszystko, poblokowane wszystkie wyjścia VPN em my się na serwer nie dostaniemy, jeżeli się dostaniemy.
+My to po znajomości i tylko dlatego, że informatyk nas puści i patrzy na ręce.
+Tak to robią wszystko sami.
+
+Adam Koper   53:55
+A co jest potrzebne aby z migrować taką bazę? Czy potrzebujesz ten wjazd na serwer? Potrzebujesz te operacje robić z tego serwera?
+Czy możesz to zrobić z poziomu właśnie tej końcówki, na której jest twoja aplikacja do aktualizacji?
+
+Rafał Wilgos   54:10
+Jeżeli wywołamy sobie poch tc p tą aplikację to ona się połączy. Problem będzie taki, że nie będzie w stanie zapisać tam pliku fizycznie, bo nie ma dostępu pobrać bazę. Mogę oczywiście czy skąd na niej zrobić mogę, ale zapisanie pliku na dysku zaczyna się być problemowe. Próbowaliśmy z tym CRU czystym tak 10 razy wyszło, a 10 razy nie wyszło. Musieliśmy robić ręcznie, tak samo inne bazy.
+Zatem naprawdę nam się zdarzają cuda. No baza 7 giga powinna mieć 5 razy więcej miejsca na serwerze, a wolnego miejsca jest 12 giga albo 10 i niestety gleba.
+Więc to wszystko to są kwestie lokalne?
+Poza tym to trzeba czasu to jest najgorszy problem to.
+Do fajerwerda trójki przechodzimy od lat i udaje się nie wiem, no przy dobrym przyspieszeniu w tamtym roku to robiliśmy 2 3 dziennie to jest maks jaki jesteśmy w stanie zrobić jednostki to 5000 jednostek.
+
+Adam Koper   55:08
+A jakby to, a jakby to z automatyzować właśnie w taki sposób, który próbuje opisać.
+To by można było zrobić więcej niż 3 placówki dziennie.
+
+Rafał Wilgos   55:18
+Śliskie, bo.
+Problem z samymi bibliotekami fajerwerda jest taki, że one nie za bardzo lubią zwracać błędy i nie będziemy w stanie tego naprawić przy błędzie trzeba by przerwać przywrócić.
+I zaczynają się schody. Musisz zrobić kopię bazy, potem musisz.
+Indeksować tą bazę na trójkę czy tam zmienić ten dialekt? Jeżeli ci coś wyskoczy, będzie problem przy danych jasna piłka, ale jeżeli coś w tym g baku fajerwerda w tym całym indeksowaniu w tej tej to jest problem z łykaniem błędu, bo żadnym biblioteki tylko nie mają, trzeba by coś swojego wymyślić.
+
+Adam Koper   55:49
+A czy to skopiowanie i skopiowanie i te pozostało pracy da się zrobić z poziomu skryptu?
+A jeżeli się da zrobić, a jak się da zrobić, to czemu tego nie zautomatyzować właśnie?
+
+Rafał Wilgos   55:55
+O tak oczywiście.
+Jasne.
+Nie za duże ryzyko.
+
+Adam Koper   56:04
+Ale czym ryzykujesz, jeśli działasz na kopii?
+
+Rafał Wilgos   56:10
+Dobrze chodzić i myślałem, że chcesz to robić u klienta bezpośrednio na serwerze.
+
+Adam Koper   56:14
+Nie chciałbym. Chcę znaleźć taki sposób, aby dało się tą operację wykonać zdalnie. Ja wiem, że to będzie znacznie trudniejsze i będą różne problemy, ale jeżeli uda nam się przygotować automat, który można wywołać zdalnie i choćby ten plik, nie wiem na jakieś tam maszynie. Końcówce jednego zaprzyjaźnionego urzędnika to odpalić albo ściągnąć. Nie wiem do info system i tutaj spróbować skonwertować.
+Czy cokolwiek tak, żeby to dało się odpalać?
+Po prostu zdalnie.
+To to by było rozwiązanie, bo jeżeli jedyną naszą naszym sposobem na podbicie wersji jest pojechanie na placówkę, a mamy 20000 placówek, no to tego nie nie zrobimy nigdy.
+
+Rafał Wilgos   56:56
+Nie, nie, nie, nie, nie, absolutnie.
+Absolutnie oczywiście, że bierzemy do siebie i robimy u siebie na weekendy, bo jest szybciej, bo coś się sypnęło, naprawiamy, oddajemy w niedzielę. Tak łączymy się do serwerów, łączymy się do końcówek, robimy to na końcówkach. Nie ma fajerwerków, trzeba by przeinstalować, musi być serwer i tak dalej, więc to my zrobimy tak czy siak, no jeżeli to tak idzie, to nikt cię tego nie ogarnie, bo.
+Też nie tylko to robimy. To nie jest tak, że ktoś usiądzie i ci 5000 tych dostanie 2 tygodnie i będzie wydzwaniał i robił tak, robimy rzeczywiście młodzież to robi, ale to.
+Nie do przeskoczenia jest w niektórych aspektach zadzwonisz, nie dadzą ci dostępu, zadzwonisz, nie ma informatyka, zadzwonisz i tak dalej i tak dalej.
+Czasami to jest umawianie się tygodniami.
+
+Adam Koper   57:38
+Ja nie wiem.
+
+Michał Baum   57:38
+No i jeszcze dostępność dostępny czasami jest poniedziałek ósma, dziesiąta i tylko i tylko w tych godzinach przez te 2 godziny. Jak nie zdążysz to kolejny poniedziałek.
+
+Rafał Wilgos   57:45
+Ak tak to działa.
+A robienie czegokolwiek u nich automatycznie wchodzenie na serwerze czy coś absolutnie w to nie wchodzimy. My ściągamy z siebie umowami całą odpowiedzialność, ponieważ baza jest klienta i cała instalacja też jest klienta. Klient nie zmieni hasła, my mówimy to jasno, 90% klientów ma Master cay, no to ja Jestem w stanie w Warszawie. Nie wiem do cb, a się dostać z poziomu dzielnicy, to jest niesamowite po prostu, bo znając ścieżkę do bazy i login hasło.
+A znam bo jest Master.
+Ogólnie pomysł jest dobry, fajny jakby wszystko było jakbyśmy nie wiem. 20 lat temu też coś takiego byś głupiego nagleśmy mieli wszystko w tych samych katalogach, wszystko na jednych instancjach wszystko było razem jest bajzel i tego się nie posprząta, nawet jak się posprząta to długa droga przed tym żeby na tego fajerwerda przejść. Po pierwsze trzeba naprawić DBXA po drugie emigrować na piątkę jeżeli będzie DBX po trzecie zrobić dialekt a dialekt to jest skopiowanie danych, inaczej się nie da.
+Te bazy są ogromne, no niestety.
+Będą jeszcze bardziej rosły, bo teraz weszły doręczenia.
+
+Michał Baum   58:44
+No dialekt utworzenie nowej bazy, no tak naprawdę tworzymy nową bazę po prostu.
+
+Rafał Wilgos   58:48
+No tak robię, bo tak było najłatwiej. Zakładam bazę na podstawie tej tak z nowymi danymi kopiujemy wszystkie pola po kolei.
+Lepszego pomysłu nie miałem.
+
+Adam Koper   59:00
+Nie wiadomo na ile jeszcze kwestia scalania przy tym wszystkim.
+To ten.
+
+Rafał Wilgos   59:02
+No jeszcze może się okazać, że mają po 5 baz tak plus mają stare bazy, nowe bazy, archiwa, cuda niewidy. Pamiętajcie, że jeszcze jest aris, co jeszcze są powiązane te których też nie możemy olać. Oni też będą działać na tych serwerach parisco to jest taka firma, która robi wymiar śmieci, a był wysyła do naszej księgowości. Tutaj też będzie problem. Czarek używa bloków bo fajerwerdowych nie może mieć różnych portów w bloku, bo mu się to knoci.
+
+Adam Koper   59:07
+Dobra, no to to możemy.
+
+Rafał Wilgos   59:28
+Pewnie by to trzeba było przepisać, nie robi tego programowo, więc baza musi mieć ten sam port.
+Docelowa i źródłowa, a niektóre takie marze pobiera w ten sposób dane.
+To jest dużo dużo, dużo dużo tych pomysł jest świetny, a też bym tak chciał tak, ale.
+Będzie więcej wyjątków niż niż ten, więc założenie, że to będzie dobrze, to to jest nie założenie. My sobie z tym poradzimy, bo sobie radzimy od lat, ale no tak, chciałbym, żeby partyzantka się skończyła też, ale to nie będzie takie proste. Trzeba najpierw posprzątać dom.
+
+Adam Koper   59:56
+No to chyba możemy na razie zarzucić już rozmowę o tym fajerwerki, bo jeśli dobrze rozumiem, to i tak do e opłat m obywatela e out.
+Mamy już tą wersję trzecią, tak to wszystko działa na trzeciej tam gdzie jest zainstalowane.
+Więc na tych placówkach, na których musimy zmienić sposób instalacji i tak czy inaczej jest ten fajerwerk trzeci.
+I jeżeli to jest?
+Wystarczające do tego, żeby dalej pracować na tym MFP to możemy pracować, albo jeżeli musimy opracować rozwiązanie, które zadziała również na tych serwerach, gdzie jest fireberg 2,5, którego się nie da zmigrować, no to po prostu tego nie przeskoczymy. To nie nie zrobimy tego.
+To raczej uciekniemy. No to to.
+Panie Robert trzeci tyle tylko jak w tym rocznym dialekt.
+Bo nie wiem z.
+
+Marek Królikowski   1:00:49
+Rafał a jak widzisz w ogóle instalacje tego NJ sa u wszystkich?
+
+Rafał Wilgos   1:00:56
+Nie widzę większego problemu, żeby to zrobić. Informatycy sobie z tym poradzą w zależności od tego, co wybierzemy tu nie widzę problemu.
+
+Adam Koper   1:01:03
+Znaczy ja bym chciał zwrócić uwagę na to, że ten enginex nie będzie instalowany przez informatyków przez informatyk, ewentualnie będzie zainstalowany ten side agent.
+Który będzie dalej takie jest założenie, żebyśmy my mieli tego działającego z uprawnieniami.
+Odpowiednimi, że można było tego zainstalować, aktualizować go i.
+I też działać na pozostałych naszych aplikacjach.
+
+Jan Grabowski   1:01:34
+A co do tego enginesa to jesteście pewni, że on dobrze działa na windowsie, bo jakiś czas temu jeszcze przynajmniej to na windowsie raczej był w takiej wersji eksperymentalnej.
+
+Adam Koper   1:01:47
+No i właśnie w tej wersji będziemy go używać, jeżeli zostaniemy przy enginesie.
+
+Jan Grabowski   1:01:52
+O k.
+
+Rafał Wilgos   1:01:55
+Znaczy, ja używam do moich serwisów do pkp, mam powiązane z doktorem, mam powiązane z instalatorami i nie narzekam tak powiem.
+100. Nie widzę problemu, żeby to rozwijać w ten sposób.
+
+Adam Koper   1:02:14
+Dobra jest.
+
+Rafał Wilgos   1:02:14
+Słuchajcie, jeszcze jedno założenie, bo tutaj trochę źle podchodzimy do problemu, bo mamy czas przed instalowaniem tego, żeby to przemyśleć i zrobić będziemy na razie robić pojedynczo. Najgorszy będzie ten moment, kiedy będziemy chcieli przejść mamy nie wiem, no liczę te 2000 klientów będzie chciało przejść na te nowe wersje, dobrze, jeżeli pojedynczo spoko, sprzedajemy coś tam robimy, idziemy, a co, jeżeli nagle będzie trzeba wszystkim to zainstalować? Co jeżeli gdzieś coś się sypnie, kogoś nie będzie, to są dla mnie najgorsze kłopoty.
+
+Adam Koper   1:02:33
+A stop stop pismo wstąp, poczekaj.
+Ale na razie.
+Rafał na razie mówimy o z tego, co ja pamiętam o zakresie instalacji chyba 60 instalacji czy coś takiego, bo na tylu maszynach działają usługi m obywatel i e-uta zainstalowane przez ai SA więc mówimy o 60 instancjach, a nie o 20000.
+
+Rafał Wilgos   1:03:01
+Dobra, tutaj sobie poradzimy i do 300 to nie będzie problem, bo znam przez tydzień to ogarniemy, ale musimy myśleć na przyszłość, jeżeli nagle to wybuchnie, będzie trzeba coś robić, bo ludzie nam potrafią kupić z dnia na dzień.
+Dużo szczególnie teraz jak jest koniec roku, no mamy zamówień tygodniami tylko nie wiem, siedzą chłopaki dziewczyny instalują codziennie po kilkanaście tych programów plus szkolenie plus pokaz plus inne rzeczy, więc musimy założyć na później, że musimy mieć bazę już fireberdzie, jeżeli będziemy chcieli mieć w dialekcie spoko, po kolei sobie to będziemy robić dialekt, instalacja, dialekt, instalacja, ale jeżeli nam to nagle bóg nie, to znowu trzeba będzie to zrobić naraz i to jest największe wyzwanie.
+
+Adam Koper   1:03:43
+Tak no wymagania dla dla tego setupu będzie dialekt trzeci fajerwerd z tego co ja wiem, przynajmniej na pewno do celu takie jest wymaganie, więc na wszystkich placówkach na których siedzi ksyw i CRUS jest już ten fajerwerd trzeci i dialekt trzeci.
+A na pewno trzeba będzie zrobić maksymalnie łatwe dla was, serwisantów. Instalowanie tego side agenta, bo to będzie pierwszy taki element, który tam ma być zainstalowany. To będzie musiało być jakoś tam powiedzmy ręcznie zrobione.
+A później jest takie założenie, że pozostałe usługi będą już instalowane przez tego agenta i tutaj też z kolei będzie wasz powiedzmy wkład, wymagania potrzebny. No bo my chcemy tą aplikację zrobić tak, żeby to było dla was wygodne. To instalowanie, więc dlatego.
+Jesteście na tym spotkaniu i dlatego chcemy od was zebrać te wymagania.
+
+Zbigniew Dzido   1:04:37
+Ja mam jeszcze adam pytanko odnośnie tego stoi ten agenta.
+Bo czasami, bo jak rozumiem, to ten powiedzmy ta usługa miałaby mieć w sobie zaszyte pewne schematy instalacji różnych usług.
+Ale niektóre instalacje na przykład nx czasami wymagają jakieś interaktywnego działania, nie i teraz.
+Jak to, w jaki sposób można by było to rozwiązać?
+
+Adam Koper   1:05:01
+Będziemy przygotowywali paczki w ten sposób, aby nie było potrzebne żadne interaktywne podawanie czegokolwiek.
+Paczki będą musiały być przygotowane paczki, czyli skrypty zipy czy cokolwiek tam będzie będzie to musiało być tak.
+Przygotowane.
+
+Marek Królikowski   1:05:18
+Ja nie Jestem specjalistą, ale moi koledzy robią paczki ms i to sami je robią sami podpisują i normalnie w PKP mamy także dostajemy normalnie właśnie za pomocą tam jakiegoś instalatora po prostu paczkę MSI sam instaluje wszystko sam potwierdza sam jakby wszystko robi więc.
+Na pewno da się bez żadnego problemu.
+
+Zbigniew Dzido   1:05:44
+Na windowsie tak, ale pytanie teraz jest jak to będzie na linuksie na przykład wyglądało nie.
+
+Marek Królikowski   1:05:50
+To na linuksie to tym bardziej prościzna na linuksie to można wszystko wziąć ten ten ustawić żeby się nie pytał.
+
+Adam Koper   1:05:50
+Dlatego nie chcemy.
+Wszystko jest plikiem i to odpowiednie uprawnienia, po prostu trzeba mieć użytkownika i będzie to działać na linuksie, ale dlatego właśnie chcemy.
+Mieć tego, żeby żeby ten sposób instalacji był jednolity niezależnie od tego, czy jest Windows, czy to jest.
+Linux po prostu będziemy musieli dopracować ten tu Link do instalacji w taki sposób, aby właśnie było to instalowane automatycznie bez interakcji użytkownika.
+Ja tylko mogę skomentować, że to jest możliwe, bo tego typu instalacje robiłem w jednej z firm, gdzie robiliśmy aktualizację.
+W sklepach typu leroy obi.
+Na maszynach, na których się są kasy, czyli te rozwiązania point of sail tak i to właśnie mniej więcej w ten sposób działało, że na takiej końcówce był zainstalowany właśnie taki agent i tam mieliśmy agenta skonfigurowanego z odpowiednimi uprawnieniami tak aby aplikacje czy to dotnetowe javowe, czy jakiekolwiek inne. Chcieliśmy, żeby można było je instalować w pewnym momencie nawet też obsługiwaliśmy.
+Aplikacje, które dyplomy z całym kontenerem.
+Do krajowym.
+Jest to da się zrobić.
+
+Rafał Wilgos   1:07:31
+Mhm.
+Tu potwierdzam i się zgadzam i generalnie to nie będzie zbyt skomplikowana, że jeżeli natrafimy na coś dziwnego, to po prostu będziemy musieli sobie poradzić jak zawsze, więc tu.
+
+Adam Koper   1:07:41
+Dobra, ale ja mam jeszcze jedno pytanie krytyczne, że tak powiem.
+Jeżeli said agent będzie na serwerze.
+Załóżmy w Legionowo.
+Załóżmy, że mają Windowsa nie idąc.
+Ułatwi.
+To z linuksem byłoby łatwiej?
+W sensie?
+Pokaz pokop wracając jest szansa, że.
+Ten Fight agents nie dostanie internetu.
+Czy słyszane było pytanie?
+
+Marek Królikowski   1:08:19
+Tak, ja ja słyszałem, ale to chyba zostało ostatnio powiedziane, że podobno wszędzie jest internet.
+
+Adam Koper   1:08:24
+Poczekaj, poczekaj, bo to funt i różne rzeczy. Ja z Rafałem trochę pogadałem i teraz uwaga na końcówkach internet jest, ale na serwerze może nie być, może nie być, ale jest taki critical że tak. A ja mam taką taką uwagę, bo wśród tych usług, które będziemy instalować jest między innymi obywatel i e opłaty. Jeżeli to jest zainstalowane na i s ie na tym serwerze.
+I m obywateli e opłaty polega na tym, że wysyłamy coś na zewnątrz do jakiejś platformy rządowej.
+No to ja wnioskuję, że tam jest ten internet, więc oczywiście może na niektórych serwerach nie być internetu, ale na pewno na tych.
+W serwerach, na które celujemy w m. Vip, czyli te 60 czy ileś jednostek, to tam chyba jest ten internet czy tam po prostu ten m obywatel jest zainstalowany i on nic nie wysyła, bo.
+No ale jak wyjdziemy poza te 60, to wjeżdżamy w klientów, którzy tych systemów nie mają. To są nasze mocno niszowe systemy, których większość zdecydowana nie ma.
+Jak przygotowujemy pod wszystko, jak dostaniemy klienta, który ma tylko podatki i budżet, to on internetu nie będzie miał.
+Znaczy może nie mieć w sensie i tak jakby nie może możemy go nie móc zmusić do tego, bo on powie, że on nie potrzebuje, bo on tego ma inny serwer nie, a tutaj chcę trzymać, tylko to nie jest, to jest to możliwe, no bo być może MVPS błędnie z założeniem jest założony podsystemy, które po prostu istnieją, a nie pod te, które docelowo będziemy używać tak naprawdę.
+Głównie no to ja widzę przynajmniej 2 sposoby na rozwiązanie tego problemu albo na tych maszynach będziemy instalowali po prostu na PiS i operatora tak na końcówce.
+Albo będzie trzeba przygotować jeszcze jeden.
+Po to, żeby właśnie serwerem udostępnione to jak wróci na końcówkę są tak amerykan barca der wrzucasz aplikację na końcówkę tak, ale to embarcadero na końcówce jest zawsze. No ale mówisz o serwerze. W tej chwili też tak, ale to rozwiązanie jest zarówno na separacji, jak się sprawdza u klienta, który ma jedno, 2 czy 3 stanowiska i jest udostępnione, powiedzmy faktycznie z jednego operatora, ale są może być duża jednostka, który ma, która ma dużo końcówek.
+I tam nie może być od operatora tylko dlaczego? No bo na serwerze chcą mieć bazę zwyczajnie, ale pasa zostaje na serwerze.
+Czyli wtedy klienckie tak jak w p ten grał no tak no tak działa.
+No jak tam, no to to nie tylko, że no tutaj mamy.
+Tak i tak przydałoby się coś, co żyje cały czas, bo jest od tego, żeby.
+Synchronizować coś bolączka RUIM obywatela to jest to, że to powinno siedzieć na serwerze synchronizowane.
+No w celu jest to jakoś tam obsługiwane, ale się okazuje, że to nie działa 100% niezaludnie.
+Bo po pierwsze po prostu Użytkownik czasem wyłącza swój komputer, bo idzie do domu, po drugie czasem przestawia sobie datę, jakieś wychodziły tego typu problemy się okazuje, że na serwerze też jest przestawiona data, no ale to już więc jeżeli.
+Będziemy zmuszeni do tego, aby taką architekturę przyjąć jako potencjalnie.
+Powiedzmy.
+Przypadek, który wystąpi w rzeczywistości, że będzie trzeba na tych łańcuchach instalować. No to też te aplikacje auta, opłaty i tak dalej trzeba będzie pisać w taki sposób, aby one mogły działać na takiej końcówce.
+Jeżeli.
+Bo możemy też rozwiązać ten problem w ten sposób, że poza takim agentem zainstalowanym na serwerze mogą być jeszcze jakieś pomocnicze, agenty na końcówkach, które będą się komunikowały, będą naszym takim wyjściem na świat. Tylko pytanie, czy to będzie w ogóle tak, jakby architektura do zaakceptowania dla powiedzmy takiej.
+Placówki tak dla takiej gminy, bo oni na ten serwer.
+Nie wpuszczają, nie mają tam internetu właśnie po to, żeby żeby tego nie było, my możemy to obejść.
+Poprzez właśnie taki trik, że damy jeszcze tam.
+Yy jedną usługę, która będzie na końcówce czy tam na końcówkach w takiej lokalizacji będzie tam tam wystawiała te informacje.
+Będzie to robiła za takie proksy, ale być może to będzie niezgodne po prostu z prawem czy tam polityką bezpieczeństwa i po prostu nie będziemy mogli tego zrobić. Jeżeli tak będzie, no to będą musiały te nasze usługi być instalowane po prostu na końcówkach, albo ten sunset, jak to jakoś tak zewnętrzna usługa, którą administrator może być na swoim komputerze, z którego się łączy serwerem, na przykład nie gdzie u siebie ma internet?
+Wtedy on to, albo wtedy, to wtedy wtedy mówię wtedy to, no nie, też nie dlatego, że my potrzebujemy tego po to, aby on działa właśnie na tej maszynie, na której ma instalować osi, tam działać z odpowiednimi uprawnieniami.
+Żeby się łączył wewnętrznie posiedzieć i tam jak ten drugi agent, który o którym ja mówiłem, to jest ten agent, który mogły te nadmienić mieć na swoim komputerze, tak.
+Takie coś to pewnie jeszcze by przeszło.
+O kiedy po do serwera?
+
+Rafał Wilgos   1:13:45
+Tynk.
+To jeżeli auta będą na innym serwerze, ma obywatel na innym, ponieważ na przykład nie chcą, żeby auta miały wyjście na zewnątrz, a obywatel ma mieć wyjście na zewnątrz to jest najprostsze rozwiązanie bazy stawiam na serwerze a aplikacje desktopowe na serwerze BA wychodzące na zewnątrz na serwerze CI to jest najlepsze rozwiązanie najbezpieczniejsze, wtedy tylko po porcie się komunikują z bazą danych aplikacji tego typowe i aplikacje, które wychodzą na zewnątrz, są na osobnym serwerze wyłączone.
+I też się komunikują tylko z bazą danych, więc sama baza danych ten serwer nie powinien mieć wyjścia żadnego na zewnątrz, a te, które mają m.
+
+Adam Koper   1:14:15
+No właśnie.
+
+Rafał Wilgos   1:14:20
+Publikacje to jest wyjście mają wyjście, a te które mają desktopowe lub tajne chociażby płace mamy kasę nie mają bo to niepotrzebne a będzie tylko problem.
+Jak ktoś się w łapie?
+
+Adam Koper   1:14:30
+No właśnie i to i to i to jest doskonały przykład i i właśnie przy tego typu architekturze możemy to zrealizować, bo po prostu mamy coś, co się nazywa ten sitegen możemy to zainstalować na tych fill maszynach, tam BIC, które mają tam wyjście na ten internet fill na w serwerze a zostaje sam fajerwerd fill i jesteśmy w domu, tak.
+Poza tym jeszcze jak wspomniałeś, że są różne typy tych serwerów, to po stronie naszej info system fajnie by było w tej aplikacji. Ja to przynajmniej tak widzę.
+Mieć jakiś jakąś jakiś interfejs, taki back office'owy dla was.
+Serwisantów, na którym na takim?
+Widzielibyście nie tylko jakąś taką płaską listę maszyn, na które są tam zainstalowane, ale można by było też te maszyny powiedzmy, grupować, w jaką jakąś tam grupę powiedzmy końcówki w grupę, serwery z dostępem do internetu, jakąś tam inną grupę. Jeszcze nie wiem z innymi wymaganiami i później można by było decydować dzięki takiej strukturze i możliwości takiego, powiedzmy tagowania, grupowania czy czegokolwiek można by było.
+Instalacje wypychać na na na właśnie takie grupy tudzież tagi tak.
+Czy mniej więcej to co próbuje powiedzieć?
+Jest jasne czy czy nie, a jeżeli jest jasne, to czy takie rozwiązanie jest do zaakceptowania dla was serwisantów?
+
+Rafał Wilgos   1:16:13
+Cudowne.
+Jeżeli się to uda, po prostu i cokolwiek z tego wyjdzie, to będzie cudowne.
+
+Adam Koper   1:16:29
+A a co jeśli chodzi o?
+Konfigurowanie tych aplikacji jak wy to robicie na dzień dzisiejszy.
+I czego oczekujecie od takiego nowego rozwiązania? Bo my na pewno widzimy problem taki, że w obecnych instalacjach sekrety są w tych plikach XML. Chcemy to zmienić. A jaki jest wasz punkt widzenia? Jak wy chcecie to konfigurować? Jak wy to konfigurujecie dzisiaj?
+Jak chcielibyście to konfigurować? Kto powinien mieć dostęp do takiej konfiguracji? Czy to wy robić jako serwisanci? Czy te sekrety dostarczają informatycy wewnątrz urzędu? Jak to wygląda?
+
+Rafał Wilgos   1:17:08
+A to zależy albo się znają, albo się nie znają, jak się nie znają to robimy wszystko. No jak się znają to robią wszystko, oni nawet nam nie dadzą dotknąć fajerwerk może mieć ów mówi.
+
+Michał Baum   1:17:15
+Jeżeli chodzi o tę.
+Jeżeli chodzi o te webowe aplikacje, taką obywatel lek shop i tym podobne, które teraz wdrażam to wszystko wszystkie konfigi siedzą w bazie i my sobie je dodajemy z poziomu bazy danych, aczkolwiek przy programach leżą tylko ścieżki do baz danych. No w tych właśnie XML ach x konfliktach i i tym podobnych jakimś pliczku, który po prostu odpowiada za posiadanie ścieżki do bazy.
+
+Rafał Wilgos   1:17:41
+Ścieżki to pół biedy, tam leży login i hasło.
+
+Adam Koper   1:17:47
+Tego hasła często nie znamy.
+Polityczność jakby informatycy albo nam nie podają albo sami ogarniają.
+
+Rafał Wilgos   1:17:55
+Tak.
+Więc to zależy, to nie możemy przyjąć jednej manuklatury na pewno to nie jest bezpieczne rozwiązanie, że wszystko leży na dysku, ale póki mamy tylko aplikację desktopowe to sobie tego pilnują. To jest na serwerze mają tylko użytkownicy, nikt tam nie wejdzie, nikt nie zakosi tak każdy ma dostęp, więc.
+Z punktu widzenia serwisowego to jest wejście ustawienieścieżki pisanie hasła loginu jest z tym roboty powinien być. Ja uważam od lat jeden plik konfiguracyjny dla wszystkich aplikacji podającyścieżkę do bazy lub ta baza CIO, której mówiliśmy tylko do niej się powinno odwoływać i tam powinno być wszystko i po robocie.
+
+Adam Koper   1:18:13
+A jakie?
+A w tej bazie, w której jest wszystko, to jakbyście chcieli tym zarządzać, ktoś będzie pisał z palca pytania zapytania, sequel owe, czy chcielibyście mieć do tego jakiś interfejs? Czy jak to jest obecnie zorganizowane i jakie są oczekiwania? Generalnie to my to sobie poradzimy przez ESKRLA, ale ten Facebook by na pewno lepszy, bo to daje większe możliwości zatrudnienia z pokolenia z kogoś.
+To tam musi być.
+
+Michał Baum   1:19:02
+Wybierzmy sobie radzimy, sql, ale tak naprawdę w momencie, kiedy są już jakieś bloby do edycji czy inne pola, to tego nie ogarnia i zaczynają się wtedy schody. Wiesz, rzucamy i do eksperta bokiem kasujemy i tu już są.
+Tu już ma.
+
+Adam Koper   1:19:15
+Czy interfejs? No bo to ułatwia konfigurację, nie ukrywajmy i też przede wszystkim pozwala pilnować wszystkiego, co musisz skonfigurować nie, a w sql to pamiętasz, albo nie pamiętasz, no ale to wiadomo, że tutaj już może się ktoś wyrypać i jeden będzie pamiętał, a drugi nie będzie pamiętał. A jak masz interfejs? No to jednak możesz większą kontrolę zrobić tego co co trzeba zrobić, na przykład nie, co jest konieczne, a co jest.
+No dobra, a teraz pytanko, bo jeżeli wspomnieliśmy o bazie CI to Michał chyba najbardziej się będziemy mógł powiedzieć, bo najwięcej używał jankowej aplikacji.
+Czy yy dobrze używało cię w kontekście cej?
+Tej aplikacji Janka.
+To jest ta.
+No tak.
+To instalacji.
+
+Michał Baum   1:20:04
+No ale w kontekście CI to tak naprawdę, żeby skorzystać z apki Janka, to musiał mogłem tylko zaimportować użytkowników, a potem i tak jakieś rzeczy musiałem sprawdzać ekspercie. Tak naprawdę tą bazę sobie otwierać i sprawdzać, czy tam w zależności między bazami są i te bazy są dużo podłączane, ale ogólnie założenie było spoko, żeby rzutować bazę do programu.
+Można i tak.
+
+Adam Koper   1:20:30
+Znaczy i mniej zewnętrznych narzędzi, tym lepiej o w ten sposób powiedział.
+
+Michał Baum   1:20:32
+Tak, ja bym właśnie to co mówicie, żeby zintegrować wszystko w jednej w jednej jakimś nawet jak to będzie większa aplikacja, to no to musi wiesz pozwalać na konfigurację tych niezbędnych tabel, ale Jestem za tym, żeby wszystko było w jednym, a nie teraz dodatkowe narzędzie do otwierania bazy, dodatkowe narzędzie do konfiguracji tej tego programu. Potem ten program jeszcze, który też ma konfigurację. No to jest za dużo.
+
+Adam Koper   1:20:59
+Założenie tej bazy dodatkowej cej jest jakiś problematyczny.
+
+Michał Baum   1:21:04
+Nie, to nie jest problem i tak jak Rafał też powiedział, też Jestem za tym, żeby to scentralizować, iż możemy walić wszystkim tą bazę CI.
+Ale nie będzie w fajerwerki, a nie, że teraz będziemy jakiegoś innego sql jeszcze instalować.
+
+Adam Koper   1:21:18
+Tutaj na przykład przy rozmowie z józkiem.
+Dodatkowo moglibyśmy zrobić tak, że jeżeli mamy bazę CI, zrobimy ją tak, że już wdrożyliśmy, że mamy rozwiązanie i ta baza i jest.
+Zrobiona mamy konfigurację, czyli w bazie CI siedzi informacja ten nasz XML.
+To moglibyśmy wystawić api poprzez tegoenta?
+Które by odpowiadał za autentykację, czyli moglibyśmy w naszych embarka der owych aplikacjach przepiąć się na nie czytanie bezpośrednio z XMLA tylko albo w XMLU byśmy mieli i p. Tego serwera magicznego na niego się to by wymagało oczywiście wiadomo.
+Ustawienia, gdzie ten serwer jest, czyli wpisania tego adresu, ale poza tymłączymy się restowo do tego api.
+Wpisujemy login i hasło.
+I dalej lecimy już.
+No wembergate ro po staremu bo mamyścieżki dostaliśmy teścieżki do baz.
+A pustej architekturze no to będzie inaczej, no.
+
+Michał Baum   1:22:33
+No i jak chcecie coś ruszyć to pewnie łatwiej niż pisać. No teraz programy pod nową autoryzację to właśnie zrobić to, żeby baza na przykład programu już emberka dero szły z bazy CIA pozbyć się tego oper i to już byłby jakiś chociaż kroczek.
+
+Adam Koper   1:22:49
+No właśnie i dlatego mówię jak sobie teraz gadamy, gada się z każdym indywidualnie, tutaj się zbieramy, żeby wszystko do jednej kupy wrzucić te wszystkie pomysły i to to scalić.
+Myślę, że to będzie dobra?
+Jest.
+
+Marek Królikowski   1:23:04
+Ja jeśli mogę tak dodać, to nigdy nie używajcie adresów ip, zawsze używajcie domen.
+Bo adres ip dzisiaj jest jutro nie ma, a ogólnie lepiej korzystać z z FWDNA.
+
+Jan Grabowski   1:23:24
+Na do tej bazy cei jeszcze chciałbym wrócić na sekundę.
+Że my do tej pory zakładaliśmy, że tam będą użytkownicy przekopiowani z tych starych baz, no to nadal jakby zostaje ten problem, jak to synchronizować z tymi starymi bazami?
+
+Adam Koper   1:23:42
+W Stanach jest robić.
+
+Michał Baum   1:23:46
+Żaden problem będzie zawsze, więc tak naprawdę to w tym swoim programie albo importujemy. Wiesz, wskazujemy te bazy, importujemy, tylko musi być jakiś możliwość jeszcze odświeżenie jak informatyk zapomni nam dać jakieś bazy.
+
+Jan Grabowski   1:23:57
+No no właśnie, że możesz z czasem się mogą rozjechać ci użytkownicy, no.
+
+Adam Koper   1:24:03
+Scalenie jest potrzebne samo kopiowanie nic nie załatwię.
+Kopiowanie to nic nie zmieni tak naprawdę w tej sytuacji tutaj chodzi o ten problem, że jak w PK dodasz operatora to CIO tym nie wie to jest liquid.
+Od nas zrobiłem przejść tabelę.
+Ja jeszcze bym wrzucił taki jeden temat, yy do rozważenia, bo jak będziemy kiedyś tam już poza z okresem MVP być może.
+Realizowali pomysł z SM to może być to uwierzytelnianie zrobione w ten sposób, że rozdzielamy właśnie uwierzytelnianie od autoryzacji.
+I tak jak na dzień dzisiejszy konkretnych tam bazach jest są porozrzucane te oper, jakieś tam różne rzeczy z uprawnieniami do konkretnych aplikacji.
+Mogłoby to cały czas zostać właśnie tam, bo wtedy nie ograniczamy.
+Tym rozwiązaniem SZ. Tego w jaki sposób zarządzają poszczególne aplikacje uprawnieniami, ale trzeba by było opracować jakiś algorytm kojarzenia użytkownika.
+Który się zalogował do STSAZ użytkownikiem, który jest dla którego uprawnienia są zdefiniowane w takiej aplikacji do w takiej bazie do do do poszczególnej aplikacji.
+Być może dałoby się to zrobić po mailu, być może po jakimś loginie najlepiej jakby jakby właśnie dało się w ten sposób.
+Zrobić i wtedy po prostu na takim.
+Można by było się po prostu uwierzytelnić i w momencie, kiedy z tym tokenem się dostajemy do aplikacji konkretnej, czy to będą e-uta, czy to będą auta, czy będzie to shop to w samej aplikacji już budujemy sobie ten kontekst uprawnień, a z tokena bierzemy tylko.
+Tożsamość użytkownika, dla którego musimy ten kontekst uprawnień zbudować.
+I jest też właśnie takie rozwiązanie.
+Na razie nie ma nigdzie takiej implementacji, ale chcę, żebyście mieli świadomość, że to jest możliwe do do zrobienia i można było coś takiego zrobić.
+Pytanie, jakie będą byłyby koszty tego, że tak powiem koszty serwisowe?
+To jest właśnie coś, co mogłoby spowodować, że byłaby z tym lipa nie rozwiązaniem.
+
+Rafał Wilgos   1:26:33
+Jak zrobimy teraz, to będzie dobrze. Gorzej, że niestety mamy systemy, które się nie dopasują do tych nowych rozwiązań, będą musiały zostać na starych chociażby.
+Woda, dodatki mieszkaniowe, nie wiem co jest jeszcze kilka takich aplikacji, które działają, ale zostały porzucone i nikt ich nie weźmie. Chyba że kogoś musimy, a nie zmusimy.
+Żeby to napisał albo skompilował, albo podłączył menadżera i będzie problem ciągnął, więc nie możemy tak zakładać jeden w jeden jeżeli chodzi o nowe i.
+
+Adam Koper   1:27:00
+Jakie aplikacje mają menadżera?
+
+Rafał Wilgos   1:27:01
+Tekst.
+
+Adam Koper   1:27:03
+Jakie apki nie mają menadżera?
+
+Rafał Wilgos   1:27:08
+A kto ci to przekombiluje tu nie chodzi o to, że nie mają menadżera mają.
+Chodzi o to, że zostały porzucone. Będziesz teraz szukał opłaty skarbowej. Wrócisz do niej.
+Jak wrócisz nie ma problemu jeszcze z 5 takich wymienia kto to weźmie?
+
+Adam Koper   1:27:28
+Powiem ci tam.
+Po tym, co dzisiaj w łuku zrobiłem, no to Jestem w stanie wydaje mi się.
+
+Rafał Wilgos   1:27:33
+No dobrze, za wodę też zmienić sposób i dorobić wszystko, bo ze sobą przekompilowanie menadżera to za mało trzeba dodać jeszcze na pewno w programie coś obsłużyć, jeżeli mamy przemigować operatorów to trzeba będzie zdjąć klucze na bazach albo cokolwiek zrobić, bo teraz są powiązani.
+Nie dodasz danych plus operatora w bazie.
+Są śmietniki, bo kiedyś to był warczar jest adm a teraz są integer i zostały te adm co mam z tym zrobić, posprzątać trzeba by to grubo posprzątać a wyjątek jak zapytasz czarka to sprząta drugi rok a 2 lata temu powiedział że mu to miesiąc zajmie a dzisiaj osiwiał więc sorry no to to zajmie.
+
+Adam Koper   1:28:06
+Po co ja będę?
+Woda nie ma, woda nie ma oper.
+
+Rafał Wilgos   1:28:11
+Ma o popper, a co, jeżeli nie będzie miała mieć i operatorzy będą w głównej bazie albo będą synchronizowanie zaczną się schody.
+
+Adam Koper   1:28:18
+Ja dlatego proponuję to rozwiązanie rozważyć gdzie nie przenosimy tych uprawnień, zostają one tam, gdzie są jedynie tożsamość użytkownika. Chcemy podawać z zewnątrz tak wtedy, jeżeli będziemy mieli.
+W tej głównej bazie, w tym SS ie i w tokenie, który tam powiedzmy będzie wydawany dla takiego takiej sesji uwierzytelniania, jeżeli tam będzie.
+Powiedzmy login plus mail i być może coś tam jeszcze co wy macie czego używacie do kojarzenia z tym użytkownikiem?
+Ee no to być może będziemy na tej podstawie.
+W stanie powiedzmy łatwiej z migrować na takie rozwiązanie, w sensie, że nie będziemy musieli dotykać tej bazy, być może i nic tam sprzątać. Nie wiem, to jest do ustalenia.
+A jeszcze jedna ważna rzecz, jeżeli wyniesiemy to tą funkcjonalność uwierzytelniania do tej zewnętrznej usługi, to będziemy mogli też.
+Bo prawdopodobnie wybierzemy jakieś standardowe rozwiązanie, nie będziemy go pisali sami, tylko weźmiemy dobrze znane z rynku rozwiązanie do do tego STSAI będziemy mogli tylko poprzez konfigurację, na przykład zintegrować się z kątami domenowymi będzie można.
+Po prostu być może.
+Yy.
+Powiedzmy, że nie wiem jak to jak, jak powiedzmy bezpieczne jest to logowanie, które mamy obecnie i przechowywanie haseł i tak dalej, ale być może będzie można poprawić bezpieczeństwo tych aplikacji. W ten sposób również.
+
+Rafał Wilgos   1:29:58
+Nie być może tylko na pewno, bo gorzej się nie da.
+Pani tekstem można.
+
+Jan Grabowski   1:30:14
+Mogę jeszcze zmienić temat.
+
+Adam Koper   1:30:20
+Mów mów.
+
+Jan Grabowski   1:30:21
+No yy, bo do tej pory też już porobiliśmy trochę tych rzeczy jakieś gateway api od us do uwierzytelniania właśnie Użytkownik użytkowników jakiś tam life sens in capito rozumiem, że na razie to odchodzi na boczne tory, tak?
+Czy jakoś będziemy chcieli to recyklingowa po drodze?
+
+Adam Koper   1:30:44
+Jeszcze żadne decyzje z tego co ja wiem nie zostały podjęte, więc na razie mamy to spotkanie po to, aby zebrać pomysły.
+Wymagania ograniczenia.
+I w pewnym momencie będzie podjęta decyzja, co dalej robić.
+I z której aplikacji, co można wziąć, którą aplikację można wziąć tak, jak jest tak, którą trzeba dostosować, czy którą trzeba zaorać te tych decyzji jeszcze nie ma.
+No.
+
+Jan Grabowski   1:31:11
+Spoko.
+Czyli na razie taka główna mała decyzja to jest, że endings wydaje się ok.
+I agent jako usługa.
+
+Adam Koper   1:31:30
+Bardzo centralna.
+Jeszcze jakieś pytania?
+Albo pomysły, wymagania są, co jeszcze nie padło dzisiaj, a chcielibyśmy uwzględnić.
+Przeczy do.
+
+Marek Królikowski   1:31:54
+Z tego co ja widzę to wszystko pięknie i gdyby wszystko było ustandaryzowane to nie byłoby problemu z tego co Rafał powiedział. Jeśli dobrze rozumiem, to największy problem będzie z wyjątkami i na to musimy się przygotować.
+
+Rafał Wilgos   1:32:10
+Nie przygotujemy się, my sobie z wyjątkami poradzimy i tyle, jak zawsze to nie przeskoczymy tego.
+
+Adam Koper   1:32:14
+Tak, ale państwo mam pisujemy nie możemy zrobić tak, że nas wyjątkiem.
+Pogrąża.
+
+Rafał Wilgos   1:32:20
+Nie jak mi połowę obsłużyć to będziemy zadowoleni naprawdę, bo teraz wszystko robimy ręcznie, przerzucę ruks ile z tym jest zabawy? Ile problemów porty sror ty *******, ty nie działa i tak dalej i to wszystko to jest naprawdę po kilkanaście zgłoszeń dziennie, że chociażby serwis nie startuje i ustawiamy ręcznie. Zmieniamy porty, więc do tego jesteśmy przyzwyczajeni.
+I to wszystko ogarniemy tylko.
+
+Adam Koper   1:32:43
+A właśnie jak jest no jakie są te problemy, bo my musimy to uwzględnić projektując kolejne rzeczy, jakie są problemy z portami właśnie w tym, czy CRU.
+
+Rafał Wilgos   1:32:54
+Wiesz, co, moglibyśmy wziąć czarka i się i sobie pogadać, ale generalnie antywirusy nas zjadają programy były niepodpisane, mam nadzieję, że podpis nam trochę załatwi. Not nie startuje z serwis, nam się wiesza, startuje za długo, są ciebie maszyny to akurat dzwonił znajomy, to się połączyłem i zobaczyłem co był. Serwis startował dosłownie 3 minuty. No to nie przeskoczymy tego niestety będą takie sytuacje i nie będzie normalnego sprzętu, normalnie to postawione ja cały czas bym chciał bardzo żeby ten kse w tych większych działaków.
+Usługa i w końcu się za to zajmiemy, ale weźmiemy i zrobimy to, żeby to chodziło na serwerze 24 i problemy się skończą tak i żeby się łączyły wszystkie te.
+I to było dobre rozwiązanie. Usługi powinno chodzić jako usługi. Aplikacja jako aplikacja było Święty spokój.
+A tak to na każdej maszynie jest inaczej. Zabezpieczenia mają kosmiczne Microsoft zabija jeżeli chodzi o te programy.
+Jak to ładnie jesteś delfi owe tak emberka więc to wszystko niestety nie do przeskoczenia.
+Podpisaliśmy cyfrowo z tym też jest problem, bo na razie czarek ma tylko palucha i podpisał wszystko swoje, reszta nie musimy to chmurowo jakoś podpisywanie wdrożyć na gicie od razu i to wszystko pobierać, więc tu jeszcze problemy organizacyjne.
+Wszystko jest do rozwiązania.
+
+Adam Koper   1:34:12
+A jeszcze to pada tu uwaga staniem się, czy słyszeliście, że będzie musiał być tak podpisany w związku z tym na pewno, bo to będzie.
+
+Rafał Wilgos   1:34:20
+Oczywiście.
+Jeżeli będziemy mieli podpis na wszystko będzie podpisane i może połowa problemów się skończy z tym, że Windows nam blokuje, że nie dopuszcza do drukarek i inne rzeczy.
+
+Adam Koper   1:34:28
+A Rafał typu?
+
+Rafał Wilgos   1:34:28
+Tylko trzeba to na stałe, bo czarek już zapomniał ze 2 razy podpisać. To nie zablokowali program.
+
+Adam Koper   1:34:33
+Rafał, ty podpisałeś ten tego tego datera pod prawda.
+
+Rafał Wilgos   1:34:38
+Tak, moja data to jest egzek który odpala aplikacja i sprawdzasz z wersją i sprawdza czy jest wersja pobiera zmienia pliki w katalogu prosta piłka.
+Jeżeli będziemy mieli sobie agenta czy coś poza tym, to też nie możemy tego robić automatycznie. Ja też bym chciał, żeby instalacja teraz sobie radzimy, ale to jeszcze parę lat przyjdzie młodzież, oni już albo w clouda wpiszą im odpowie albo im nie odpowie, a z liczeniem będzie kiepsko, więc muszą mieć ptaszki albo nawet informatycy muszą mieć stronę tak jak Dominik pokazywał to nie było głupie i sobie klikną jakie chcą programy, a te programy się po prostu zainstalują. No nie oszukujmy się i klucze się wygenerują przyjdzie fakturka dziękuję.
+Z robota głupiego, czy te klucze teraz, które są generowane jest taka robota dla roboty? Po prostu to wszystko można było zautomatyzować już parę lat temu.
+
+Adam Koper   1:35:20
+Dobra, a jeśli już właśnie ruszyliśmy temat tej tego bc Office dla jak rozumiem jakiegoś tam said administratora, tak on, żeby sobie decydował co tam się instaluje tak, bo mówisz o tym tak o takim rozwiązaniu.
+
+Rafał Wilgos   1:35:33
+Tak, bo z tego co pamiętam, pomysły były 2 albo wrzucamy całą paczkę, czyli mamy wszystkie aplikacje wrzucamy z te aplikacji i robimy aktywacji. Aktywuj dezaktywuj moim zdaniem to głupi pomysł, ponieważ z tych paczek nie wrzucimy u klientów, którzy niestety mają stare sprzęty. Fajnie by było jakby był administrator, w którym ja jak coś kupiłem po prostu jeżeli wpiszemy klucz albo damy licencję, to w momencie będzie do aktywacji pobierze się, zainstaluję. Dziękuję.
+I mamy problem rozwiązany Zero naszych.
+Ingerencji piękna sprawa, wybieram program pokazuje mi się zainstaluj albo Dodaj program dzięki.
+
+Adam Koper   1:36:06
+A jeszcze jedno pytanie czy jeżeli byśmy robili powiedzmy możliwość też aktualizacji?
+Aplikacji tych dotletowych przez takiego side agenta.
+To czy potrzebne by były jakieś zgody takie wyrażone przez właśnie takiego powiedzmy informatyka z danego sala? Czy my możemy takie aktualizacje?
+Jednostronnie po prostu zdecydować, że podbijamy i i to jest okej.
+
+Rafał Wilgos   1:36:34
+Absolutnie Nie możesz, ponieważ ludzie pracują po godzinach, ludzie pracują w domu. Ta usługa musi działać w większych urzędach. Jak są te nasze umowy fał to nie wiem. W dzielnicy warszawskiej tam pracuje 120 osób na tym, bo każde umowy faktury wprowadza. Robią to po godzinach robią to w sobotę. Robią to w niedzielę. Mają u nas taki program admin przeglądarkowy, w którym sobie ściągają tą wersję wgrywają ręcznie lub instalują i to jest dobre rozwiązanie, kupię bazy się robi wszystko więc dla.
+Użytkownika końcówkowego.
+Pani w Ośrodku Kultury potrzebujemy w aplikacji aktualizuj tak, dziękuję, wersja się pobiera, pani przerywa robotę.
+Dla administratora, który nie dopuszcza nas i chce sam to robić, albo musi potrzebujemy aplikację, w której będzie zaznaczał, co ma się aktualizować, sprawdzał, czy ktoś siedzi na bazie. To proste, proste schematy to wszystko mamy i robił aktualizuj.
+Jak mu tam podpasuje i kiedy mu podpasuje jak będzie coś bardzo źle to cofa bazę oczywiście.
+
+Adam Koper   1:37:29
+Co to znaczy, że cofa bazę?
+
+Rafał Wilgos   1:37:31
+Widzisz tutaj jednym z problemów, które mamy jest testowanie. My przyjęliśmy model, ja go bardzo lubię nazywać testowanie na produkcji, więc puszczamy do 3 klientów i oni sobie to wgrywają i testują, ale testowanie jest na tak zerowym żenującym poziomie, czasami że.
+Teraz dostałem asystenta ceruje odpalam akurat zanim wgram, więc odpaliłem go i na początku był błąd, nawet się nie uruchamiał, ale ile razy poszły egzekucję krzob czy na aplikacje, które nawet się nie uruchamiały to jest po prostu komedia, więc wysyłasz takie do ta gmina on to wgrywa rano witka sobie wchodzi a tam na początku błąd biblioteki i program się zamyka. Urząd ogromny stoi i wtedy jest potrzebna szybka poprawka albo cofanie wersji.
+
+Adam Koper   1:38:12
+Tylko fanie wersji to jest cofanie samej binarki czy mówisz też o możliwości cofnięcia bazy?
+
+Rafał Wilgos   1:38:17
+Nie cofam bazy, cofam całą bi marketrzadko zdarzają się na tyle grube skrypty, że trzeba cofnąć bazę, ponieważ na tyle się zmieniła struktura.
+To fame egze kaitle.
+Tu nie będzie tego problemu, ponieważ zakładam, że błędy będą bardziej merytoryczne, ponieważ no testy jakieś jednostkowe będziemy robić tak, no założenia też tam jakieś bardziej miał, żeby to robić i żeby ten.
+
+Adam Koper   1:38:33
+O k.
+
+Rafał Wilgos   1:38:44
+Mi tam.
+Testuje aplikacje, jednak teraz już.
+Ola ma więc doszedłem do tego mamłebu i klika po prostu jak coś dostanę, bo mi się nawet nie chce, więc.
+Józef daje opis zmian, poprosiłem go taki specjalny, nie z clauda, tylko taki dodatkowy jeszcze co przetestować i on sobie tam klika.
+Chodzi ten Google oby ten.
+Żeby tokenów nie marnować i sobie klikam jak coś tam wyklika gęba gemma 26.
+I mi klika na laptopie jak z wami gadam ładnie w tle.
+Sobie w drugim oknie.
+Na część tych amberka delon niestety nie do testować, ale jak dojdziemy już do czegoś nowego to.
+Pop.
+Jak przejdziemy do gita w pełni, to może połowa problemu się skończył. Tutaj wiecznie gubimy biblioteki, inne rzeczy. No to musimy skończyć z partyzantką i dopóki tego nie nie skończymy, to te te wszystkie ustalenia. Ja Jestem pewny, że co nie ustalimy, to się nie uda. Chociażby dialekt 3, o który proszę o 15 lat, a nie możemy przejść, bo podatki leżą i kwiczą.
+
+Michał Baum   1:39:49
+Od 6 lat prosimy, bo na to, żeby coś dorzuciło.
+
+Rafał Wilgos   1:39:52
+Od 10. Prosimy od 6 już tylko prezes prosi.
+Awanturki nawet, ale cały czas.
+Tak i to wiś.
+I stoimy i niestety mielibyśmy wiadomo, że byłoby szybciej mielibyśmy same te, a tak to.
+Mam.
+
+Adam Koper   1:40:15
+Czy jeszcze jakieś wymagania powiedzmy właśnie takie ze strony?
+Tego admina jakiegoś tego z gminy, tego informatyka czy jeszcze coś jest, co nie powiedzieliśmy dzisiaj, a trzeba by było uwzględnić. No wiemy już, że nie możemy.
+Być może najczęściej albo zawsze nie możemy aktualizować tylko jednostronnie z naszej decyzji, więc tutaj trzeba będzie coś tam do tego rozwiązania wymyślić, żeby można było to bramkować takie aktualizacje i żeby ten ostateczny akcent był.
+Tak ze strony tego administratora informatyka czy coś jeszcze jest takiego, jakie o czym nie wiemy.
+Coś, co może utrudnić wam serwisowi pracę?
+Przy instalacji.
+
+Rafał Wilgos   1:41:04
+Czyli no jak informatyk sobie robi sam to robi sobie sam jak robimy my to robimy, my sobie poradzimy, on sobie nie poradzi to dzwoni i mu się pomaga. No to czasami jest dumę, nie no wyskoczą problemy, to będziemy naprawiać, no co innego.
+Cholera wie co będzie.
+
+Adam Koper   1:41:16
+A a czy jeżeli są te aplikacje typu takie, że instalowane na końcówkach te embarcadero?
+I powiedzmy, że jest jakaś wersja, która właśnie.
+No podbicie skutkuje, że że nie może być w danym środowisku inna jakaś aplikacja uruchomiona w tej starej wersji tak, to jeżeli macie wielu pracowników i każdy musi na swojej końcówce podbić.
+Taką wersję to jak wy to jaki jest proces aktualizacji wtedy?
+
+Rafał Wilgos   1:41:48
+Każdy przy uruchamianiu jest sprawdzana wersja na serwerze jest popierana i tyle.
+Pobiera pierwszy, pobiera, drugie, pobiera trzeci nawet semafora nie mam więc aktualizacji bazy nie Jestem w stanie nawet przewidzieć. Mamy z tego problemy, ale rzadko czyli wchodzi pierwsza pani pobiera, wchodzi, druga pani, pobiera 90% klientów większych, ma programy na serwerze mapowany dysk i aktualizuje informatyk. Te małe nie ma problemu albo jedna kobitka albo 2 to się dogadają. Jedna ściąga, druga czeka albo obie ściągają.
+
+Adam Koper   1:42:14
+Czyli to jest tak, że jak jedna osoba może inaczej, czyli to jest tak, że.
+Te osoby, które na końcówkach pracują to one nie mają wpływu na to, czy ta aktualizacje zaakceptować czy nie. Po prostu jeżeli jest nowa wersja, to dla nich się ona pobiera i tyle.
+
+Rafał Wilgos   1:42:30
+Mają wpływ oczywiście opis zmian jest, są, nie chcą odgrywać. Teraz mamy taki okres, że jest sprawozdanie z podatków. Mieliśmy wiele rzeczy w Weekend robić i w ten wstrzymane, ponieważ oni chcą najpierw skończyć sprawozdania. Boją się, że coś się popsuje i to wybór użytkownika klika tak albo klikanie.
+Tylko jeżeli ja kliknę tak, a ty klikniesz nie to jak ja zaktualizuję aplikację to ciebie nie wpuści, bo pokażę, że jest inna wersja bazy. Co ważne nie aplikacji, czyli jeżeli zmieniła się baza danych, struktura nie wpuszczamy. Oczywiście nie wszyscy, bo niektórzy mają to gdzieś.
+
+Adam Koper   1:42:47
+O k ale.
+O.
+No właśnie.
+Jas.
+Czyli.
+Czyli krótko mówiąc, jeżeli przynajmniej jeden operator na danej placówce zaktualizuje, to może być tak, że pozostali się nie dostaną do aplikacji.
+
+Rafał Wilgos   1:43:09
+Dokładnie tak będzie, tak.
+
+Adam Koper   1:43:10
+O k.
+I to jest akceptowane i to jest i to jest akceptowalne, tak?
+
+Rafał Wilgos   1:43:12
+O ważnych przypadkach są tacy tak, oczywiście to im wyskoczy, że aktualizacja kliknął mnie, jest niezgodna wersja. Proszę pobrać aktualizację i może tak klikać godzinami, póki nie pobierze i się tym egzekw nie rozpakuje.
+To działa, ludzie też się uczą, no już nie te czasy, więc to tutaj to tenrzadko mają jakieś problemy czy czy coś rzeczywiście siedzi ci 5 osób w programie jedna to nie i tak tam wszystkich wyrzucam, no ale zdarzają się wyjątki estet dłużej czy ta są takie te czarek jest może poopowiadać na temat tego jak się mija teoria spraktykowa ponieść świetne w tym, że sobie proces zabija, że sobie proces zabija, a nagle proces się nie zabija przez 5 minut i dlaczego? No założenie time auta 30 sekund, że robisz close albo kill nawet jest za mało, bo jeszcze
+przeskanuje czy go nie jesteśmy w stanie wykryć jest 1000 problemów.
+Których nie przewidzimy i po prostu nie wymyślimy, jak przemyślimy seta będziemy się odpytywać po 50 razy czy zamknięty to znowu w pętle padnie, bo już kiedyś też tak zrobiłem, a ten ss będzie skanował w kółko co ja się odpytuję, bo akurat mnie nie lubił i tak się odpytywaliśmy we 2 3 godziny, więc to.
+Nie ma co szukać idealnego rozwiązania. Teraz jest fatalnie, jeżeli będzie chociaż trochę lepiej, naprawdę sobie poradzimy to do serwisu.
+
+Adam Koper   1:44:21
+A czy?
+
+Rafał Wilgos   1:44:26
+I ładnie o to.
+Posprzątam.
+
+Adam Koper   1:44:29
+A czy jest także w serwisie? Chcecie mieć jakąś kontrolę nad tym, która wersja jest zainstalowana na danym slacie?
+Są są.
+
+Rafał Wilgos   1:44:37
+Nie, kompletnie mnie to nie interesuje, nie zbieram też takich danych. Ja zbieram tylko wersję dla całego, dla całej jednostki aplikacji plus wersję fire berda plus wersję bazy to wszystko, czyli przy starcie programu jest do mnie wysłane takie informacje na serwer jest to zapisuje mamy bazę.
+
+Adam Koper   1:44:39
+Trzeba być tankowaniem.
+Rafał, ale przecież ty chcesz zdecydować, jaki update do kogo idą?
+Masz jakiś beta update? Chcesz to do 10?
+
+Rafał Wilgos   1:45:03
+Wyobrażasz sobie programowo, że będę decydował 100 lat? Na tym myślałem, że co wyślę do Warszawy, albo nie wyślę absolutnie nie to, jeżeli będziemy mieli wersję beta testową, tak jak teraz będziemy robić Marki, musimy zrobić kopię wgrywamy tą specjalną wersję, bo ona powoduje usunięcie doręczeń, musi mieć kopię wszystkich baz. Sam to muszę zrobić, nie zaufa informatykowi. Potem Rafał z nimi siada, pokazuje, jak to będzie wyglądało. Dopiero one testują 3 dni dopiero po tych 3 dniach możemy uznać, że to przeszło. Bierzemy drugiego klienta, testujemy.
+Są tak grube zmiany tak jak teraz z tymi doręczeniami, że one są zapisywane.
+W innej bazie pobierane to wszystko uciekamy od skrzynki Poczty Polskiej, że tego nie puścimy, tak sobie po prostu tam będą ustawienia. Chłopaki też się nie zmienią przyzwyczajeń będzie wpisz parametr w bazie, a nie włączysz sobie na serwerze. Ja bardzo bym chciał temu klientowi włączam, wyłączam, robię w syropie, ale dla niektórych to wpisz w inni wersja debat równa się jeden albo uczarka w Łodzi loga musisz wejść w u SBSD konflikt pisać log z dużej litery true e log zamknąć dopiero się log zrobi, potem to wyłączyć, potem wpisać datę.
+Jeszcze się po ***** podrapać jak to Paweł.
+Żeby cokolwiek zrobić, no tak jest.
+
+Adam Koper   1:46:04
+Tylko Rafała w aplikacji, że się do tego odrabiać.
+Dobra.
+
+Rafał Wilgos   1:46:09
+Możemy zrobić osobną aplikację, ale jak mi zbierzecie od wszystkich, ja 15 lat, proszę, że mi wszyscy wypisali generatory w bazie to sobie poprawię w jakiej tabeli są, że ten generator dotyczy tutaj kolumna ten generator tej kolumny. Teraz jest skrypt, zrobię, którymi to będzie ustawiał przy wejściu do programu, jeśli to prosić nie mogę.
+Nie ma szans.
+
+Adam Koper   1:46:28
+Ale z tego co co powiedziałeś, to wynika, że ty chcesz mieć kontrolę, bo na przykład chcesz móc sobie zrobić kanary deployment na jedną placówkę, z którą tam pracujesz i testujesz daną wersję.
+Proszę, wiesz co on chce to?
+
+Rafał Wilgos   1:46:40
+Tylko ja tego nie zrobię. Automatycznie to jest 100, są zbyt grube zmiany, normalne zmiany to ja mogę puścić, zepsuje się to tam czarek poprawia.
+
+Adam Koper   1:46:44
+Ale nie chodzi o automat, nie chodzi, nie chodzi o automat, bo ja zrozumiałem to w ten sposób.
+Ty chciałbyś móc, powiedzmy udostępnić nową wersję dla Warszawy. Nie także instalujesz ją tylko po prostu chcesz oznaczyć, że ta nowa wersja jest dostępna? Dajmy na to dla tej Warszawy, tak dla wszystkich innych placówek. One tej wersji nie widzą, ale to nie oznacza, że ona, że ta placówka od razu to instaluje. Ty w tym momencie możesz współpracować z tym informatykiem, czy kimś, żeby tą wersję sobie przetestować i tylko ona jest dostępna dla tej jednej placówki.
+
+Rafał Wilgos   1:47:11
+Tak.
+
+Adam Koper   1:47:19
+Więc pierwszym gaitem jest to, że ty w ogóle wystawiasz taką wersję, że ona jest dostępna dla placówki. Drugim gazetem jest to, że tam informatyk w porozumieniu z tobą akceptuje, że to się zainstaluje i testujecie sobie tak tylko jedna rzecz.
+On chce jeść, żeby ta wersja stara.
+Działała równolegle.
+A drugą sobie odpala i testuje czy to działa?
+
+Rafał Wilgos   1:47:46
+Na przykład.
+
+Adam Koper   1:47:47
+Czyli stoi obok, czyli tak jakbyś miał tej.
+
+Rafał Wilgos   1:47:49
+Bo mówimy jasno bokiem, ja bym sobie dawno zrobił, że na przykład do samej Warszawy to sobie wybieram klientów 5 Warszawa, szkoda roboty. My to szybciej do Warszawy wyślemy.
+Oni sobie wgrają my i tak tego nie robimy, informatyk sobie wypakuje ja mam stronę gdzie mogą sobie ściągnąć wersję jakieś jak są udostępniane to wszystko jest informatyk sobie ściągnie, umie już przez te lata się nauczył, tutaj też się nauczą jeżeli to trzeba będzie zainstalować lub jakąś wytęto im wyślemy nawet w binarkę czyli zipa czy jakieś tam no nie sobie wypakują to nie jest jakiś większy problem.
+Nie jest tak, że Michał siedzi i za nich robi, wysyła im zipa i po sprawie, jeżeli będzie to też się włączy.
+
+Adam Koper   1:48:15
+Ale.
+Mam.
+
+Rafał Wilgos   1:48:20
+Bo nie wyłączy po prostu, albo im się powie pobierzcie nie pobierzcie.
+To nie jest jakiś większy problem.
+
+Adam Koper   1:48:23
+Dobra i teraz.
+Teraz ja mam jedno pytanie co do tego tej procedury z Warszawą, że wy sobie tam na bok instalujecie tam tam testujecie i jak to po 3 dniach czy innej magicznej liczbie dni działa to to wtedy się okazuje, że można to wdrożyć, bo dla mnie to brzmi jak po prostu środowisko testowe. Czy to jest tak, że można by było, powiedzmy uznać, że na niektórych placówkach będziemy mieli środowisko testowe i po prostu.
+Fajnie by było na przykład móc wdrażać właśnie na takie środowisko testowe, a później.
+Yy, powiedzmy traktować to jako jakiś taki gate.
+Do tego, żeby na produkcję to później wdrożyć.
+
+Rafał Wilgos   1:49:04
+Dobra, tylko nie, nie, nie musimy rozróżnić środowiska testowe testują u nas klienci do testowania, potrzebna jest kopia bazy, podłączenie do tej bazy, czyli w tym momencie stawiamy cały drugi.
+Yy serwis i wszystko od początku do końca i tu byłby problem, dlatego my musimy to robić ręcznie, podłączymy się jakoś bezpośrednio, albo postawimy tą bazę gdzieś oni sobie popatrzą. Czasami jest tak, że oni dadzą bazę. My oddajemy tą bazę, bo coś przynosiliśmy, migrowałem czy coś i podłączamy to jako drugą bazę, oni sobie to oglądają dopiero po tygodniu mi powiedzą, że jest o k. Nigdy nie stwierdzę, że jest o k. Bez analizy klienta tak, bo bo nie jesteśmy w stanie, więc tu mogą się różne dziwne cuda wydarzyć. Teraz dodajemy ścieżkę do XMLA stawiamy bazę i po sprawie tutaj musimy mieć możliwość podłączenia bazy, któ.
+Gdzie na przykład produkcyjna?
+Klienci to wiedzą, bo wybierają bazę, a bazę b bazę.
+
+Adam Koper   1:49:50
+No ale tam.
+Dla mnie to brzmi jak po prostu środowisko testowe.
+
+Rafał Wilgos   1:49:55
+Dobrze, tylko pamiętaj, że testować możemy aplikację i bazę danych.
+
+Adam Koper   1:49:57
+Może stan?
+
+Rafał Wilgos   1:49:59
+O to mi chodziło, możemy wyrazie, więc to może być aplikacja jedna bazy 2 testowa może być testowa baza baza produkcyjna adriap testowa aplikacja albo mecz.
+
+Adam Koper   1:49:59
+Jasne, jasne.
+I czy to jest tak, że wy testujecie po prostu na tym samym serwerze tylko tak jakby stawiacie obok drugą bazę tak i obok drugą instancję tej samej aplikacji.
+
+Rafał Wilgos   1:50:16
+99 procentach, tak.
+Robi się kopię bazy albo o inną bazę, bo coś zostało przerobione.
+I stawia obok na tym sam.
+
+Adam Koper   1:50:30
+O k.
+
+Rafał Wilgos   1:50:32
+Jeszcze jednego nie widzieliśmy trochę pod uwagę. Pamiętajcie, że klienci lubią pracować z domu, a też myślę, że większość 90% informatyków ustawia w i PNY, albo virtual Ki, czyli pozwala się rodować na RDP po prostu i stamtąd pracować i wtedy wszyscy pracują na serwerze, mają wyodrębnione te, żeby nie było problemu, żeby serwis był dostępny dla każdego zalogowanego na serwerze operatora.
+Ale to myślę, że większego problemu z tym nie będzie.
+Też się zmienia środowisko, bo pani krysia do tej pory pracowała na komputerze, a nagle w domu ma laptopa sprzed 5 lat i x nie pójdzie.
+Jak sięściągnie na przykład po sieci, więc tu cuda się mogą wydarzyć.
+Jakby wszyscy mieli terminale albo rdp to powali się dostaje standardem, żeby nawet jak przychodzą na swój komputer w urzędzie to się łączy na serwer.
+Dopiero sobie stamtąd pracuje.
+Ale to powoli to jeszcze lata całe.
+Za bezpieczeństwo trochę wy Łódź.
+
+Adam Koper   1:51:39
+Jeszcze ktoś ma jakiś pomysł eczkę jest tam.
+
+Rafał Wilgos   1:51:42
+Tak, to ja wam powiem Jeszcze raz te wszystkie pomysły są super i już nie pierwszy raz. Ja naprawdę popieram wspaniale dopóki nie posprzątamy i dalej będzie partyzantka nic z tego nie będzie.
+Bo wszystkie kiwania codziennie brakuje bibliotek. Codziennie brakuje tego pierwszego, powinna być migracja na gita, drugie musimy wszystko podpisać. To są nasze priorytety i pomyślę co zrobić z tą cholerną bazą danych i z tymi, żeby zrobić z bazą, to trzeba coś zrobić z tym DBX em i z tymi starymi aplikacjami, jeżeli które są niepotrzebne, to je wycofać, ale wycofanie to też nie jest takie proste tutaj, bo nagle do Wojtka ktoś zadzwoni, że chce kupić za 2000, to przyjdzie i nam zrobi awanturę, że ma natychmiast działać, bo od 2000 co robię?
+To tak.
+
+Adam Koper   1:52:20
+Oraz po tego gita jak postury.
+
+Rafał Wilgos   1:52:22
+No dobrze.
+
+Adam Koper   1:52:24
+Ilem barkę do owców te projekty poprawy a ja po prostu ja bazę na przykład.
+
+Rafał Wilgos   1:52:29
+U was też taka burza jak u mnie.
+
+Adam Koper   1:52:31
+No widzę, że coś się dzieje.
+
+Jan Grabowski   1:52:33
+Tak.
+
+Adam Koper   1:52:40
+Kurtka nieprzemakalna jest.
+No więc to się śmieje natomiast te działania.
+Zrobienie prototypu, żeby zobaczyć jak to działa, no musimy to zrobić.
+Musimy zrobić ten bip. Nie możemy teraz poczekać na to, że wyprostowany będzie nie ma.
+Ten temat.
+
+Rafał Wilgos   1:53:04
+To, że Marcin tylko żebyśmy znowu nie wylądowali z ręką w nocniku po 2 latach, że że coś nie zadziała, że coś nie ten.
+Może przemyślimy to jeszcze i zobaczymy czy jakąś decyzję podjąć to się zgadzam, no trzeba to puścić, bo.
+
+Adam Koper   1:53:15
+Ale my nie my teraz nie podejmujemy decyzji. My spieramy informacje i wszystkie jakieś hardcorowe eczka jest.
+
+Rafał Wilgos   1:53:29
+To ja powtórzę od strony serwisowej, dla nas wszystko będzie lepsze niż jest teraz, jeżeli będzie ułożone wszystko, bo my teraz musimy się z każdym łączyć wszystko instalować serwisy nie chodzą, nic nie działa, ścieżki ręcznie wpisywać, wszystko zrobić od początku do końca, moim zdaniem i tak tego nie unikniemy, bo połowa informatyków sobie nie poradzi. Druga sobie poradzi, kiedy do mnie ich syn, która mówi, że on się łączy na serwery i wszystko robi klientom po godzinach i codziennie spędza, ale może to robić, jak mam 20 klientów, a nie tak jak my, jak mamy 3000.
+
+Adam Koper   1:53:42
+Po.
+Rafał to nie do końca jest prawdą, jeżeli chodzi o to, że wszystko będzie lepsze, bo zrobiliśmy, wiem kę na wiem, leżę, gdzie mówiono, że minimalnie musi być ten mido serwer 2016 robiliśmy w janke, nagle się okazuje, że z 60 klientów tylko 2 ras update 4 ma zainstalowaną tą gierkę, bo są opory z instalacją, więc.
+Sam widzisz, to nie jest do końca, tak.
+
+Rafał Wilgos   1:54:24
+No zgadzam się.
+
+Adam Koper   1:54:25
+Powiem nie możemy zrobić cokolwiek, bo zrobimy cokolwiek i znowu będzie główną.
+Nie możemy przypalać czasu na taki, dlatego jest to spotkanie za tydzień, będzie następne będzie kolejna iteracja kolejne przybliżenie. Kolejna propozycja zapraszamy do za do sabotowania ewentualnego i jak się dogadamy i wszyscy przytakniemy i zrobimy jakiś test ran, czy to działa, czy to ma sens?
+
+Rafał Wilgos   1:54:33
+Dobra.
+Bo.
+
+Adam Koper   1:54:53
+Bo ja uważam, że powinniśmy wstawić.
+Taką.
+
+Rafał Wilgos   1:54:58
+Dobra mi się ten pomysł n xm podoba. Ogólnie może zapytamy klientów?
+Co oni na to? Co na to Warszawa? Czy pozwolą zainstalować co na to Otwock? Co na to Złotoryja, którą zdamy co oni o tym myślą, że to byłby dobry pomysł?
+Bo do tej pory co im damy to instalowali i mieli to gdzieś tak, bo bi darka bo temu pan zainstaluje twoją dziewczynę instalują, ale to ludzie nie wiedzą co robią. No mamy CBARCB dzwonimy do takich jednostek, że program trzeba zainstalować albo operatorowy no wpuszczają i tyle to jest kwestia zaufania, tak.
+
+Adam Koper   1:55:11
+*********.
+
+Rafał Wilgos   1:55:25
+Jakbyś jakiś ruski agent pod pod nas zadzwonił do cb a to by wpuścili na serwery, więc no też.
+To nie do końca tak działa, że że że wszyscy są restrykcyjni, ale niektórzy będą i tych restrykcyjnych się zapytać tych co mają to gdzieś to zainstalujemy, co tam będziemy chcieli, ale tych mądrzejszych trzeba złapać.
+
+Adam Koper   1:55:43
+Dostosowywać się ze wszystkimi, bo.
+Podłącz, ale to ktoś jeszcze ma jakieś uwagi.
+I do tego.
+Pomysły pytania.
+Ja uważam, że to jest dość konstruktywne spotkanie.
+Nie pozabijaliśmy się, a wyciągnęliśmy sporo informacji.
+
+Rafał Wilgos   1:56:19
+Bo Jestem zdalnie i dlatego.
+Tak, to już by tam nie wyszło.
+
+Adam Koper   1:56:26
+Piwo podbijasz już jest.
+
+Rafał Wilgos   1:56:29
+Nie nie wynosi na siłownię, a nie ten.
+Już po szesnastej no można te.
+
+Adam Koper   1:56:33
+Lepiej gracze, które być do spotkania.
+Jeszcze trzyma jak na siłownię to koks.
+Dobra.
+To co pewnie w przyszłym tygodniu będziemy się znowu, że tak mówimy łapać.
+A do tego czasu śmiało piszcie na fundamentach. Jeżeli macie jeszcze jakieś.
+Pomysły lub.
+Pomysły, pytania, uwagi, zauważone rzeczy, które nie zauważyliśmy dzisiaj, a będą istotne.
+Tak.
+Tak.
+No dobra, dzięki wszystkim.
+Za udział tak dzięki drugi.
+
+Marek Królikowski   1:57:21
+Dzięki bardzo.
+
+Jan Grabowski   1:57:22
+Dzięki.
+
+Marek Królikowski   1:57:23
+Miłego dnia, trzymajcie się.
+
+Jan Grabowski   1:57:25
+Szopa.
+
+Zbigniew Dzido   1:57:27
+Cześć.
+
+Marcin Grzybowski zatrzymano transkrypcję

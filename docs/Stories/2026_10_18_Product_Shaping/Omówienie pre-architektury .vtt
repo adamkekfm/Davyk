@@ -1,0 +1,4410 @@
+WEBVTT
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5101-0
+00:00:11.467 --> 00:00:14.402
+<v Adam Koper>I również byłby odpowiedzialny za
+zbieranie telemetrii,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5101-1
+00:00:14.402 --> 00:00:18.385
+<v Adam Koper>którą można by było przesyłać na do
+naszej platformy gdzieś tam centralnej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5101-2
+00:00:18.385 --> 00:00:19.067
+<v Adam Koper>żeby te logi.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5105-0
+00:00:20.787 --> 00:00:22.307
+<v Adam Koper>Albo samą telemetrię.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5107-0
+00:00:22.817 --> 00:00:23.457
+<v Adam Koper>Zbierać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5121-0
+00:00:25.027 --> 00:00:30.380
+<v Adam Koper>Telemetria to żeby to mniej więcej było
+wiadomo o czym mówię, to jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5121-1
+00:00:30.380 --> 00:00:31.587
+<v Adam Koper>To są dane typu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5126-0
+00:00:33.667 --> 00:00:35.027
+<v Adam Koper>Czy i na której placówce?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5135-0
+00:00:36.787 --> 00:00:40.547
+<v Adam Koper>Te moduły typu właśnie ten podatki
+płatności nie wiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5161-0
+00:00:42.307 --> 00:00:45.515
+<v Adam Koper>Krzybek cefy i inne m obywatele czy one
+po prostu działają?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5161-1
+00:00:45.515 --> 00:00:49.311
+<v Adam Koper>Na chwilę obecną można było z takiej
+telemetrii przygotować dashboard,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5161-2
+00:00:49.311 --> 00:00:53.107
+<v Adam Koper>gdzie każdy mógłby sobie powiedzmy
+kliknąć gmina. Nie wiem, Legionowo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-0
+00:00:53.337 --> 00:00:58.304
+<v Adam Koper>To tam się otwiera jakieś okienko i widać,
+że podatki zielone coś tam zielone nie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-1
+00:00:58.304 --> 00:01:01.212
+<v Adam Koper>wiem,
+jedna aplikacja nie działa na czerwono na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-2
+00:01:01.212 --> 00:01:03.938
+<v Adam Koper>przykład tak,
+czyli te te metra to jest raz,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-3
+00:01:03.938 --> 00:01:07.452
+<v Adam Koper>że taki help check 2,
+że można było zbierać dane typu jak</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-4
+00:01:07.452 --> 00:01:11.693
+<v Adam Koper>intensywnie jest to używane,
+a taka aplikacja ile użytkowników na ten</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5215-5
+00:01:11.693 --> 00:01:16.297
+<v Adam Koper>moment działa jest zalogowanych do
+systemu. Jak wiele nie wiem na przykład.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5230-0
+00:01:17.907 --> 00:01:22.227
+<v Adam Koper>Eventów czeka na wypchnięcie gdzieś tam
+na nasz na naszą platformę.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5242-0
+00:01:22.457 --> 00:01:26.586
+<v Adam Koper>Tą centralną,
+o której za chwilę będziemy opowiadali po</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5242-1
+00:01:26.586 --> 00:01:28.577
+<v Adam Koper>prostu taki status systemu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5249-0
+00:01:30.267 --> 00:01:32.227
+<v Adam Koper>Poza tym ten sight agent.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-0
+00:01:34.497 --> 00:01:40.313
+<v Adam Koper>Inicjowałby, a i właśnie istotne jest to,
+że ten side agen jest potrzebny dlatego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-1
+00:01:40.313 --> 00:01:44.448
+<v Adam Koper>że fill ja tutaj oceniłem,
+że niemożliwe jest utrzymywanie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-2
+00:01:44.448 --> 00:01:49.003
+<v Adam Koper>dziesiątek 1000 tuneli VPN,
+żeby była komunikacja pomiędzy naszą</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-3
+00:01:49.003 --> 00:01:53.067
+<v Adam Koper>platformą a tymi gminami,
+więc ten to rozwiązanie w ogóle</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-4
+00:01:53.067 --> 00:01:56.011
+<v Adam Koper>odrzuciłem.
+Jedynym chyba sensownym takim</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5324-5
+00:01:56.011 --> 00:02:01.617
+<v Adam Koper>rozwiązaniem, które moglibyśmy ogarnąć.
+Jest to, że po prostu z takiego agenta.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5330-0
+00:02:02.387 --> 00:02:04.227
+<v Adam Koper>Na serwerze gminy zainstalowanego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-0
+00:02:05.257 --> 00:02:10.287
+<v Adam Koper>Idzie komunikacja do naszej platformy
+centralnej. W tą stronę idzie komunikacja,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-1
+00:02:10.287 --> 00:02:14.510
+<v Adam Koper>czyli oni wysyłają do nas telemetria.
+Jeżeli mówimy o aktualizacji,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-2
+00:02:14.510 --> 00:02:18.174
+<v Adam Koper>to oni zaglądają na nasz serwer,
+żeby ściągać nowe wersje.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-3
+00:02:18.174 --> 00:02:22.211
+<v Adam Koper>To jest ten pól właśnie artefaktów,
+czyli artefakty artefaktami,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-4
+00:02:22.211 --> 00:02:26.806
+<v Adam Koper>są nasze nowe. Tam nie wiem wersje,
+czy tam każde wersje tych estesów SPI</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5386-5
+00:02:26.806 --> 00:02:28.297
+<v Adam Koper>każdego z modułów, więc.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5391-0
+00:02:29.297 --> 00:02:31.137
+<v Adam Koper>Oniściągają tutaj te informacje.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5395-0
+00:02:34.027 --> 00:02:34.867
+<v Adam Koper>I jest tutaj jeszcze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5430-0
+00:02:36.627 --> 00:02:42.465
+<v Adam Koper>Flirt serwer to jest z kolei taki serwer
+po naszej stronie i to można było już w</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5430-1
+00:02:42.465 --> 00:02:47.150
+<v Adam Koper>tierze właśnie s zastosować,
+że tutaj mamy taki serwer powiedzmy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5430-2
+00:02:47.150 --> 00:02:51.907
+<v Adam Koper>licencji tutaj byśmy przechowywali
+informacje, kto jaką licencję.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5439-0
+00:02:54.227 --> 00:02:58.016
+<v Adam Koper>Powiedzmy ma,
+wykupił na tej podstawie side agent</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5439-1
+00:02:58.016 --> 00:02:58.547
+<v Adam Koper>mógłby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5446-0
+00:02:59.017 --> 00:03:01.337
+<v Adam Koper>Uzyskiwać dostęp do tych artefaktów.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5457-0
+00:03:02.867 --> 00:03:06.547
+<v Adam Koper>Tu mogłaby być sprawdzana licencja,
+jakieś tego typu rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5460-0
+00:03:08.577 --> 00:03:09.817
+<v Adam Koper>Yy i teraz.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5467-0
+00:03:10.947 --> 00:03:12.827
+<v Marcin Grzybowski>Ja mogę teraz zapoznawać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5469-0
+00:03:12.597 --> 00:03:12.877
+<v Adam Koper>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5473-0
+00:03:14.167 --> 00:03:15.047
+<v Marcin Grzybowski>I teraz tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5479-0
+00:03:16.817 --> 00:03:18.977
+<v Marcin Grzybowski>Bolek wsłuchuj się mocno.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5484-0
+00:03:21.177 --> 00:03:22.617
+<v Marcin Grzybowski>Część z tych rzeczy mamy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5493-0
+00:03:25.817 --> 00:03:28.337
+<v Marcin Grzybowski>Jeżeli chodzi o embarka dero, no to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5499-0
+00:03:29.907 --> 00:03:31.467
+<v Marcin Grzybowski>Serwer licencyjny jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5511-0
+00:03:33.627 --> 00:03:38.267
+<v Marcin Grzybowski>Jeżeli chodzi o wyciąganie tych
+artefaktów też jest do marca dero.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5529-0
+00:03:39.057 --> 00:03:43.937
+<v Marcin Grzybowski>No i ten obserwowali,
+nie umiem tego powiedzieć po angielsku</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5524-0
+00:03:43.667 --> 00:03:44.507
+<v Adam Koper>Observa elity.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5529-1
+00:03:43.937 --> 00:03:46.497
+<v Marcin Grzybowski>też jest obserwability też jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5531-0
+00:03:47.257 --> 00:03:47.937
+<v Marcin Grzybowski>I.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5541-0
+00:03:49.747 --> 00:03:53.107
+<v Marcin Grzybowski>Ten sight agent to jest, powiedzmy,
+że biblioteka.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5545-0
+00:03:54.017 --> 00:03:55.337
+<v Marcin Grzybowski>W naszym rozwiązaniu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5553-0
+00:03:56.617 --> 00:03:59.457
+<v Marcin Grzybowski>W naszym rozwiązaniu tym na wiem ce.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5555-0
+00:04:00.777 --> 00:04:00.937
+<v Marcin Grzybowski>Yy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5568-0
+00:04:01.737 --> 00:04:08.137
+<v Marcin Grzybowski>Jest to tak zrobione niestety,
+że jest aplikacja Janka egzekowa.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5588-0
+00:04:09.217 --> 00:04:14.435
+<v Marcin Grzybowski>Ja prosiłem, żeby on robił api,
+ale no on się nie robił jednak tego api</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5588-1
+00:04:14.435 --> 00:04:16.537
+<v Marcin Grzybowski>tylko egzekwował i teraz tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5603-0
+00:04:16.937 --> 00:04:21.898
+<v Marcin Grzybowski>Nie mamy telemetrii telemetrii chciałem i
+dobrze i fajnie i na to się też zgadzam,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5603-1
+00:04:21.898 --> 00:04:22.257
+<v Marcin Grzybowski>jasne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5643-0
+00:04:24.307 --> 00:04:30.856
+<v Marcin Grzybowski>Architect Store mamy w sensie te
+kontenery ściągania tych kontenerów i on</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5643-1
+00:04:30.856 --> 00:04:35.636
+<v Marcin Grzybowski>jest powiedzmy,
+że powiązany z tym tym flip serwerem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5643-2
+00:04:35.636 --> 00:04:39.707
+<v Marcin Grzybowski>bo mamy ten nowy sposób sprawdzania
+licencji.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5652-0
+00:04:40.377 --> 00:04:44.817
+<v Marcin Grzybowski>I wystawiania licencji, bo powiedzmy,
+że Ki groszek pls.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5664-0
+00:04:45.737 --> 00:04:49.977
+<v Marcin Grzybowski>Daje nam te 2 punkty archiwax story i
+flix serwer.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5667-0
+00:04:50.977 --> 00:04:51.857
+<v Marcin Grzybowski>Jakby coś adam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5670-0
+00:04:53.957 --> 00:04:55.637
+<v Marcin Grzybowski>I oczywiście.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5678-0
+00:04:56.777 --> 00:04:59.977
+<v Marcin Grzybowski>Będzie on pewnie wymagał trochę zmian.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5689-0
+00:05:00.817 --> 00:05:06.139
+<v Marcin Grzybowski>Na 100%,
+bo nie będziemy kontenerów dawać w tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5689-1
+00:05:06.139 --> 00:05:07.137
+<v Marcin Grzybowski>momencie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5694-0
+00:05:08.927 --> 00:05:10.607
+<v Marcin Grzybowski>Raczej to będzie niemożliwe.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5699-0
+00:05:12.247 --> 00:05:14.047
+<v Marcin Grzybowski>Yy, no ale ale tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5701-0
+00:05:22.307 --> 00:05:22.547
+<v Adam Koper>Tyle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5709-0
+00:05:22.667 --> 00:05:24.107
+<v Marcin Grzybowski>Tyle w tym momencie tyle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5708-0
+00:05:24.027 --> 00:05:24.467
+<v Adam Koper>Dobra.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5736-0
+00:05:25.697 --> 00:05:32.516
+<v Adam Koper>Czyli część z tych rzeczy mamy być może
+to jest tak, być może jest do przeróbki,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5720-0
+00:05:29.957 --> 00:05:30.877
+<v Marcin Grzybowski>Do przeróbki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5736-1
+00:05:32.516 --> 00:05:36.977
+<v Adam Koper>ale skoro już mamy,
+to też w sumie to potwierdza to,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5736-2
+00:05:36.977 --> 00:05:38.577
+<v Adam Koper>że że raz że dobrą.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5758-0
+00:05:40.867 --> 00:05:44.093
+<v Adam Koper>Raz, że to działa po prostu,
+no bo używacie mniej więcej w taki sposób</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5758-1
+00:05:44.093 --> 00:05:47.274
+<v Adam Koper>być może brakuje niektórych
+funkcjonalności albo coś trzeba poprawić,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5766-0
+00:05:47.137 --> 00:05:50.337
+<v Marcin Grzybowski>Telemetrii brakuje telemetrii,
+brakuje przede wszystkim.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5758-2
+00:05:47.274 --> 00:05:47.547
+<v Adam Koper>a dru?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5788-0
+00:05:50.057 --> 00:05:53.812
+<v Adam Koper>Tak, a druga rzecz jest taka,
+że to jest taka architektura,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5788-1
+00:05:53.812 --> 00:05:57.192
+<v Adam Koper>którą możemy wdrożyć,
+bo tak to już działa u was i że</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5788-2
+00:05:57.192 --> 00:05:59.257
+<v Adam Koper>prawdopodobnie jest to po prostu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5836-0
+00:06:00.297 --> 00:06:05.282
+<v Adam Koper>Jakaś, powiedzmy, akceptowalna droga, tak,
+jeżeli będziemy mieli nawet później te</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5836-1
+00:06:05.282 --> 00:06:08.504
+<v Adam Koper>kontenery,
+no to ten side agent może być rozbudowany</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5836-2
+00:06:08.504 --> 00:06:10.997
+<v Adam Koper>o to,
+żeby on umiał właśnie te kontenery</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5836-3
+00:06:10.997 --> 00:06:15.252
+<v Adam Koper>instalować. Być może to będzie ta wiem,
+k być może jakoś tam inaczej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5836-4
+00:06:15.252 --> 00:06:17.137
+<v Adam Koper>bo to nie musi być wiemka, ale.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5838-0
+00:06:19.617 --> 00:06:20.337
+<v Adam Koper>Po prostu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5850-0
+00:06:22.297 --> 00:06:24.055
+<v Adam Koper>Tak,
+to to jest na razie na na wysokim</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5850-1
+00:06:24.055 --> 00:06:25.497
+<v Adam Koper>poziomie architektura tak tylko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5864-0
+00:06:26.387 --> 00:06:30.715
+<v Marcin Grzybowski>Ja ja się tylko cieszę,
+że podobnie myślimy jeżeli chodzi o w ten</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5864-1
+00:06:30.715 --> 00:06:32.027
+<v Marcin Grzybowski>sposób architektury.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5883-0
+00:06:32.577 --> 00:06:36.226
+<v Marcin Grzybowski>Mniej więcej, podobnie w tym szliśmy,
+tylko mówię,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5883-1
+00:06:36.226 --> 00:06:40.377
+<v Marcin Grzybowski>no problem tu jest dokera kontenerów i
+instalowania tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5892-0
+00:06:41.777 --> 00:06:43.697
+<v Marcin Grzybowski>Ale koncepcja architektury jest podobnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5904-0
+00:06:45.307 --> 00:06:47.287
+<v Adam Koper>No dobra i teraz jeszcze przechodzimy do
+tej części,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5904-1
+00:06:47.287 --> 00:06:48.707
+<v Adam Koper>której po prostu nie ma w info system.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5918-0
+00:06:48.937 --> 00:06:51.595
+<v Adam Koper>A która moim zdaniem musiałaby być
+stworzona,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5918-1
+00:06:51.595 --> 00:06:54.137
+<v Adam Koper>żeby wystawić te aplikacje dla
+mieszkańców?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5927-0
+00:06:55.587 --> 00:06:59.267
+<v Adam Koper>I to jest ta część,
+że po naszej stronie jeszcze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5953-0
+00:07:00.897 --> 00:07:02.933
+<v Adam Koper>Nie,
+nie piszę jeszcze czy to będzie jakiś</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5953-1
+00:07:02.933 --> 00:07:06.389
+<v Adam Koper>hosting, tak jak mówił Marek,
+czy to będzie nasz jakiś serwer? Nie wiem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5953-2
+00:07:06.389 --> 00:07:07.857
+<v Adam Koper>który będzie stał pod biurkiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5975-0
+00:07:09.427 --> 00:07:11.972
+<v Adam Koper>Pewnie nie,
+ale generalnie coś po naszej stronie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5975-1
+00:07:11.972 --> 00:07:16.045
+<v Adam Koper>nad czym my mamy pełną kontrolę i możemy
+skalować i coś z tym robić i nie ma do</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5975-2
+00:07:16.045 --> 00:07:16.707
+<v Adam Koper>tego dostępu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5978-0
+00:07:18.387 --> 00:07:19.747
+<v Adam Koper>Powiedzmy firma trzecia.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5983-0
+00:07:22.377 --> 00:07:23.737
+<v Adam Koper>Dostępu w sensie do samych.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/5992-0
+00:07:25.677 --> 00:07:29.397
+<v Adam Koper>Aplikacji do samego serwera może tak i
+teraz tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6008-0
+00:07:31.507 --> 00:07:37.573
+<v Adam Koper>Ja tutaj widzę, że musiał,
+jeżeli byśmy wystawiali aplikację dla</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6008-1
+00:07:37.573 --> 00:07:41.307
+<v Adam Koper>mieszkańców, to musimy mieć bazę danych.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6058-0
+00:07:42.787 --> 00:07:45.665
+<v Adam Koper>W której,
+która będzie tylko do odczytu i będzie to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6058-1
+00:07:45.665 --> 00:07:49.483
+<v Adam Koper>inna baza danych niż tam,
+na której bezpośrednio działają aplikacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6058-2
+00:07:49.483 --> 00:07:52.804
+<v Adam Koper>na których na których pracują operatorzy,
+musi to być inna,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6058-3
+00:07:52.804 --> 00:07:56.401
+<v Adam Koper>dedykowana baza do odczytu.
+Ona prawdopodobnie będzie miała inną</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6058-4
+00:07:56.401 --> 00:07:59.667
+<v Adam Koper>strukturę niż ta,
+którą mamy tutaj w tych obecnych bazach.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-0
+00:08:00.057 --> 00:08:05.290
+<v Adam Koper>Będzie to struktura zoptymalizowana pod
+odczyt danych przez mieszkańców, dlatego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-1
+00:08:05.290 --> 00:08:09.248
+<v Adam Koper>że musimy wystawiając taką aplikację,
+żeby ono się nie stało.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-2
+00:08:09.248 --> 00:08:13.843
+<v Adam Koper>Ofiarą swojego sukcesu, czyli,
+że dużo ludzi zaczyna używać i przestaje</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-3
+00:08:13.843 --> 00:08:18.183
+<v Adam Koper>nam działać wszystko to musi być właśnie
+to oddzielna baza musi być</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-4
+00:08:18.183 --> 00:08:21.055
+<v Adam Koper>zoptymalizowana pod jakieś tam duże
+odczyty,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6108-5
+00:08:21.055 --> 00:08:23.417
+<v Adam Koper>czyli po prostu de normalizacja bazy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6124-0
+00:08:25.027 --> 00:08:30.387
+<v Adam Koper>I jeżeli ona będzie sobie leżała
+centralnie, no to w takiej bazie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6124-1
+00:08:30.387 --> 00:08:31.667
+<v Adam Koper>bez dodatkowego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6128-0
+00:08:32.057 --> 00:08:32.857
+<v Adam Koper>Bo jakiegoś tam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-0
+00:08:34.627 --> 00:08:38.958
+<v Adam Koper>Trud bez trudnej i dodatkowej
+implementacji mamy możliwość dla takiego</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-1
+00:08:38.958 --> 00:08:42.130
+<v Adam Koper>obywatela,
+który właśnie też to padło gdzieś tam na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-2
+00:08:42.130 --> 00:08:46.217
+<v Adam Koper>na na rozmowie obywatel,
+który ma jakieś tam nie wiem interesy czy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-3
+00:08:46.217 --> 00:08:51.036
+<v Adam Koper>tam nie wiem posiadłości czy czy coś tam
+w kilku gminach on po prostu w takiej</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-4
+00:08:51.036 --> 00:08:54.696
+<v Adam Koper>bazie centralnej ma dostęp do do do
+swoich danych nieważne,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6198-5
+00:08:54.696 --> 00:08:59.027
+<v Adam Koper>czy to jest w gminie Legionowo,
+czy czy jabłonna czy czy Warszawa tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6205-0
+00:09:00.267 --> 00:09:02.307
+<v Adam Koper>Tutaj mamy zebrane wszystkie dane ze
+wszystkich gmin.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6216-0
+00:09:03.497 --> 00:09:06.777
+<v Adam Koper>Te dane mogły być replikowane na takiej
+zasadzie, że mamy tutaj.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6262-0
+00:09:08.347 --> 00:09:14.092
+<v Adam Koper>Po stronie gminy tej, która podpisała,
+że oni chcą w ogóle na coś takiego się</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6262-1
+00:09:14.092 --> 00:09:17.333
+<v Adam Koper>pisać,
+że chcą takie aplikacje i tak dalej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6262-2
+00:09:17.333 --> 00:09:22.489
+<v Adam Koper>to oni wtedy mają taką opt in opcję wtedy
+dodatkowy element na na ich</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6262-3
+00:09:22.489 --> 00:09:26.467
+<v Adam Koper>infrastrukturę się się instaluje.
+Jest to ten broker.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6270-0
+00:09:28.227 --> 00:09:30.707
+<v Adam Koper>To może być być może kolejka na przykład.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6274-0
+00:09:32.347 --> 00:09:32.987
+<v Adam Koper>Być może coś innego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6288-0
+00:09:33.457 --> 00:09:36.635
+<v Adam Koper>Yy,
+generalnie coś co jest w stanie te eventy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6288-1
+00:09:36.635 --> 00:09:39.537
+<v Adam Koper>razem z danymi wysyłać do naszego brokera.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-0
+00:09:41.067 --> 00:09:44.492
+<v Adam Koper>Który zapisuje w bazie danych te dane w
+odpowiedni sposób,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-1
+00:09:44.492 --> 00:09:48.265
+<v Adam Koper>żeby to było do odczytu.
+My tutaj wystawiamy przed tą bazą tylko</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-2
+00:09:48.265 --> 00:09:51.515
+<v Adam Koper>do do odczytu. Pewne api to api,
+które tutaj wystawimy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-3
+00:09:51.515 --> 00:09:54.534
+<v Adam Koper>Możemy je wystawiać dla naszych własnych
+aplikacji,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-4
+00:09:54.534 --> 00:09:59.410
+<v Adam Koper>ale też dla podmiotów trzecich gminy mogą
+cisnąć nas o to w pewnym momencie i coraz</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-5
+00:09:59.410 --> 00:10:01.906
+<v Adam Koper>bardziej,
+że chcą właśnie te aplikacje dla</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6352-6
+00:10:01.906 --> 00:10:03.067
+<v Adam Koper>obywateli, bo wtedy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6363-0
+00:10:03.537 --> 00:10:06.858
+<v Adam Koper>Bo nie wiem,
+idą wybory i chcą przepustować i mogą</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6363-1
+00:10:06.858 --> 00:10:08.617
+<v Adam Koper>chcieć takie aplikacje dla.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6389-0
+00:10:10.457 --> 00:10:14.052
+<v Adam Koper>Obywateli wystawiać wtedy,
+czy to będą nasze aplikacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6389-1
+00:10:14.052 --> 00:10:17.004
+<v Adam Koper>czy aplikacje Dominika,
+my mamy wtedy to api,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6389-2
+00:10:17.004 --> 00:10:21.177
+<v Adam Koper>które możemy wystawić ono na mnie,
+zniszczy nas naszego systemu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6420-0
+00:10:22.667 --> 00:10:27.269
+<v Adam Koper>Tego, na którym pracują operatorzy,
+nie spowoduje tu jakichś problemów,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6420-1
+00:10:27.269 --> 00:10:32.447
+<v Adam Koper>po prostu będzie odczytywało z tej bazy,
+ponieważ takie dane wtedy musimy dobrze</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6420-2
+00:10:32.447 --> 00:10:36.027
+<v Adam Koper>zabezpieczyć. Ja proponuję,
+żeby tutaj wtedy uruchomić.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6423-0
+00:10:37.747 --> 00:10:38.627
+<v Adam Koper>Jakiegoś STSA.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-0
+00:10:38.857 --> 00:10:42.949
+<v Adam Koper>Ale to musi być większe stres niż ten,
+co tutaj, bo tutaj tego estesa,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-1
+00:10:42.949 --> 00:10:46.466
+<v Adam Koper>którego będziemy mieli do
+uwierzytelniania po stronie gminy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-2
+00:10:46.466 --> 00:10:49.866
+<v Adam Koper>To można zrobić na jakimś darmowym,
+mniejszym rozwiązaniu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-3
+00:10:49.866 --> 00:10:54.074
+<v Adam Koper>nawet hostowanym z takiej aplikacji
+dotnetowej nie musi to być kick lok,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-4
+00:10:54.074 --> 00:10:58.397
+<v Adam Koper>wtedy byłoby to łatwiejsze fill do
+ogarnięcia fill prawdopodobnie i fill i</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-5
+00:10:58.397 --> 00:11:01.510
+<v Adam Koper>nie wymagałoby jakiegoś mocnego serwera
+fill do tego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6492-6
+00:11:01.510 --> 00:11:05.257
+<v Adam Koper>żeby to hostować Ki krok jest trochę
+cięższym rozwiązaniem, ale.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6504-0
+00:11:05.987 --> 00:11:09.107
+<v Adam Koper>Za to rozwiązaniem, które mogłoby ogarnąć,
+ogarnąć uwierzytelnianie od.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6511-0
+00:11:10.017 --> 00:11:12.377
+<v Adam Koper>Po prostu takiego dużego ruchu jak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6513-0
+00:11:13.907 --> 00:11:14.467
+<v Adam Koper>Dostęp.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6543-0
+00:11:15.737 --> 00:11:21.461
+<v Adam Koper>Dostęp dla dla obywateli wszystkich można
+by było na takim roku się zintegrować,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6543-1
+00:11:21.461 --> 00:11:26.974
+<v Adam Koper>jeśli chodzi o uwierzytelnianie z m
+obywatelem z jakimś tam epuapem tego typu</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6543-2
+00:11:26.974 --> 00:11:29.377
+<v Adam Koper>rzeczami i na podstawie powiedzmy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6561-0
+00:11:30.907 --> 00:11:34.801
+<v Adam Koper>Peselu nipu czy regonu dawać dostęp do
+pewnych danych,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6561-1
+00:11:34.801 --> 00:11:38.907
+<v Adam Koper>które są tutaj ściśle przygotowane tylko
+do wyświetlenia.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6568-0
+00:11:41.417 --> 00:11:43.457
+<v Adam Koper>I tylko te dane, które chcemy udostępnić.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6569-0
+00:11:45.137 --> 00:11:45.337
+<v Adam Koper>Ee.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6590-0
+00:11:46.297 --> 00:11:49.817
+<v Adam Koper>No i tak taka jest,
+powiedzmy pełna architektura i to do</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6590-1
+00:11:49.817 --> 00:11:54.017
+<v Adam Koper>czego możemy w ogóle dążyć,
+czy czy jeszcze do tej ostatniej części</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6590-2
+00:11:54.017 --> 00:11:54.697
+<v Adam Koper>są pytania?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6592-0
+00:11:56.087 --> 00:11:56.387
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6599-0
+00:11:59.817 --> 00:12:01.937
+<v Marcin Grzybowski>Albo mi tutaj czegoś brakuje.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6601-0
+00:12:03.577 --> 00:12:03.897
+<v Marcin Grzybowski>Bo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6611-0
+00:12:05.137 --> 00:12:08.057
+<v Marcin Grzybowski>Nie do końca też jest takich tutaj
+namalowałeś.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6625-0
+00:12:09.587 --> 00:12:13.667
+<v Marcin Grzybowski>Ta architektura jest spoko,
+tylko jest jeszcze jedna rzecz pośrednia.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6641-0
+00:12:14.697 --> 00:12:19.939
+<v Marcin Grzybowski>Może być taka sytuacja,
+być może tą architekturą się to załatwia,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6641-1
+00:12:19.939 --> 00:12:20.257
+<v Marcin Grzybowski>ale.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6651-0
+00:12:21.617 --> 00:12:28.177
+<v Marcin Grzybowski>Jeżeli gmina na przykład załóżmy,
+że Legionowo niech będzie Legionowo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6656-0
+00:12:29.097 --> 00:12:31.297
+<v Marcin Grzybowski>Ma swoje jeszcze jednostki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6659-0
+00:12:33.147 --> 00:12:33.627
+<v Marcin Grzybowski>Które?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6666-0
+00:12:35.097 --> 00:12:37.177
+<v Marcin Grzybowski>Że tak powiem, są z nią połączone.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6673-0
+00:12:38.417 --> 00:12:41.937
+<v Marcin Grzybowski>Kopa gmina chciałaby też widzieć te
+jednostki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6683-0
+00:12:43.317 --> 00:12:47.097
+<v Marcin Grzybowski>Czyli szkoła,
+przedszkole i jeszcze jakieś inne różne</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6683-1
+00:12:47.097 --> 00:12:48.637
+<v Marcin Grzybowski>straże miejskie pewne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6692-0
+00:12:50.807 --> 00:12:53.627
+<v Marcin Grzybowski>I wydaje mi się,
+że tutaj w tej architekturze tego brakuje.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6699-0
+00:12:54.777 --> 00:12:56.737
+<v Marcin Grzybowski>Bo raczej nie załatwimy tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6701-0
+00:12:57.617 --> 00:12:58.257
+<v Marcin Grzybowski>Tematu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6706-0
+00:13:00.057 --> 00:13:01.777
+<v Marcin Grzybowski>Yy tą platformą centralną.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6713-0
+00:13:02.867 --> 00:13:04.587
+<v Adam Koper>Tą tą no nie, nie, nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6719-0
+00:13:03.237 --> 00:13:07.037
+<v Marcin Grzybowski>No a przynajmniej przynajmniej dokładnie
+dokładnie i.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6762-0
+00:13:06.607 --> 00:13:10.068
+<v Adam Koper>Tego nie załatwimy,
+ale ja ja mam z kolei pytanie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6762-1
+00:13:10.068 --> 00:13:15.430
+<v Adam Koper>bo ja zrozumiałem na tych rozmowach,
+że już obecnie jest to obsługiwane i jest</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6762-2
+00:13:15.430 --> 00:13:18.688
+<v Adam Koper>to obsługiwane.
+Tak mi się wydaje w ten sposób,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6762-3
+00:13:18.688 --> 00:13:21.742
+<v Adam Koper>że jest właśnie taki serwer w takiej
+gminie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6762-4
+00:13:21.742 --> 00:13:25.407
+<v Adam Koper>do którego dostęp ma na przykład właśnie
+taka szkoła.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6772-0
+00:13:27.417 --> 00:13:30.537
+<v Adam Koper>I to jest ten sam serwis,
+z którego korzysta gmina.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6775-0
+00:13:31.377 --> 00:13:32.577
+<v Adam Koper>Czy nie, czy tak nie jest?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6783-0
+00:13:31.777 --> 00:13:35.937
+<v Marcin Grzybowski>Wiesz co wiesz co to jest raczej różnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6824-0
+00:13:38.837 --> 00:13:43.859
+<v Marcin Grzybowski>To jest raczej różnie i to jest raczej
+problemem. To jest jakiś taki temat,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6824-1
+00:13:43.859 --> 00:13:49.211
+<v Marcin Grzybowski>który nie jest rozwiązany i dlatego o tym
+wspominam, bo to jest schemat całości,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6824-2
+00:13:49.211 --> 00:13:52.846
+<v Marcin Grzybowski>czyli tego szerokiego rozwiązania,
+więc wydaje mi się,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6811-0
+00:13:49.667 --> 00:13:49.987
+<v Adam Koper>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6824-3
+00:13:52.846 --> 00:13:55.357
+<v Marcin Grzybowski>że ten temat jest tu trzeba przegadać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6837-0
+00:13:56.097 --> 00:13:59.577
+<v Marcin Grzybowski>I na pewno trzeba przegadać tylko
+koniecznie z wilgosem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6842-0
+00:14:00.897 --> 00:14:03.457
+<v Marcin Grzybowski>Wilgos Paweł Wiśniewski.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6843-0
+00:14:03.577 --> 00:14:03.657
+<v Marcin Grzybowski>I.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6869-0
+00:14:05.057 --> 00:14:11.067
+<v Marcin Grzybowski>Nie wiem kto tam jeszcze może józek bedra,
+bo oni mają głównie takie jazdy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6869-1
+00:14:11.067 --> 00:14:15.337
+<v Marcin Grzybowski>że mają potrzebę,
+że tak powiem zaglądania do podbaw.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6899-0
+00:14:17.017 --> 00:14:23.192
+<v Marcin Grzybowski>Mają te jednostki JST jednostki samorządu
+terytorialnego i tam jest taki case i to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6882-0
+00:14:21.957 --> 00:14:22.077
+<v Adam Koper>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6899-1
+00:14:23.192 --> 00:14:28.697
+<v Marcin Grzybowski>nie jest case obywatela tylko to jest
+urząd zagląda do tych podjednostek.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6908-0
+00:14:30.367 --> 00:14:33.287
+<v Adam Koper>I oni to już jakoś ogarniają na dzień
+dzisiejszy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6916-0
+00:14:34.477 --> 00:14:36.997
+<v Marcin Grzybowski>W jakieś różne dziwne sposoby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6940-0
+00:14:37.737 --> 00:14:42.394
+<v Marcin Grzybowski>My tego nie ogarniamy webowych,
+a oni to robią różne sposoby,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6940-1
+00:14:42.394 --> 00:14:47.577
+<v Marcin Grzybowski>które niekoniecznie są okej,
+ale na pewno robią to na żywca jak już.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6955-0
+00:14:49.247 --> 00:14:53.239
+<v Adam Koper>No dobra, to to to jest temat,
+który tam w transkrypcji będzie do</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6955-1
+00:14:53.239 --> 00:14:54.207
+<v Adam Koper>jeszcze rozmowy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6954-0
+00:14:54.937 --> 00:14:55.257
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6980-0
+00:14:55.947 --> 00:15:00.306
+<v Adam Koper>Po tej stronie prawdopodobnie będzie info
+system chciało, żeby te dane były tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6980-1
+00:15:00.306 --> 00:15:04.234
+<v Adam Koper>czyli że dane zostają w lokalizacji,
+czyli tam w szkole czy w czymś tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/6980-2
+00:15:04.234 --> 00:15:06.387
+<v Adam Koper>żeby nie mieć odpowiedzialności za dane.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-0
+00:15:08.057 --> 00:15:11.777
+<v Adam Koper>Ee, ale to jeszcze jest do rozmowy,
+bo być może właśnie przez jeśli to mają</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-1
+00:15:11.777 --> 00:15:15.057
+<v Adam Koper>być tylko odczyty, bo mówisz,
+że zaglądają do tych baz to możliwe,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-2
+00:15:15.057 --> 00:15:17.798
+<v Adam Koper>że dałoby się przez taką platformę
+centralną to zrobić.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-3
+00:15:17.798 --> 00:15:21.763
+<v Adam Koper>No ale to jest dopiero takie decyzje.
+Możemy, ja dopiero mogę coś podpowiedzieć,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-4
+00:15:21.763 --> 00:15:24.406
+<v Adam Koper>jak będę wiedział,
+jak to działa i jakie są dokładnie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7029-5
+00:15:24.406 --> 00:15:25.777
+<v Adam Koper>wymagania, bo tego nie znam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7039-0
+00:15:26.667 --> 00:15:29.387
+<v Marcin Grzybowski>No dokładnie to jest do przegadania
+jeszcze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7052-0
+00:15:30.347 --> 00:15:34.787
+<v Adam Koper>I teraz tak tu są jakieś kluczowe decyzje,
+to może to później do przeczytania.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7059-0
+00:15:37.697 --> 00:15:40.457
+<v Adam Koper>Tutaj starałem się opisać stan obecny.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7068-0
+00:15:45.387 --> 00:15:48.587
+<v Adam Koper>Może tak,
+bo można było na tym etapie powiedzmy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7081-0
+00:15:51.747 --> 00:15:54.162
+<v Adam Koper>Podjąć jak skończyliśmy omawiać ten
+rysunek,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7081-1
+00:15:54.162 --> 00:15:55.987
+<v Adam Koper>to można było podjąć może decyzję.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7109-0
+00:15:57.787 --> 00:16:00.295
+<v Adam Koper>Już taką,
+którą ja chciałem podjąć właśnie jako</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7109-1
+00:16:00.295 --> 00:16:02.909
+<v Adam Koper>wynik tego spotkania,
+o czym będziemy rozmawiali?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7109-2
+00:16:02.909 --> 00:16:06.829
+<v Adam Koper>O jakim zakresie z tego wszystkiego
+będziemy rozmawiali na tym najbliższym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7109-3
+00:16:06.829 --> 00:16:08.867
+<v Adam Koper>spotkaniu właśnie z Pawłem i tak dalej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7135-0
+00:16:10.627 --> 00:16:13.971
+<v Adam Koper>Z Pawłem z wilgosem.
+Czy ktokolwiek będzie na tym spotkaniu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7135-1
+00:16:13.971 --> 00:16:16.383
+<v Adam Koper>bo cały ten zakres jak będziemy
+rozmawiali,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7135-2
+00:16:16.383 --> 00:16:19.947
+<v Adam Koper>bo tam jest bardziej szczegółowo.
+Później rozpisany ten rysunek.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7142-0
+00:16:21.017 --> 00:16:22.977
+<v Adam Koper>Po kolei tutaj poszczególne rzeczy są.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7170-0
+00:16:23.257 --> 00:16:26.482
+<v Adam Koper>Omawiane,
+ale to jest po prostu za dużo z tego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7170-1
+00:16:26.482 --> 00:16:30.782
+<v Adam Koper>co rozmawiałem z Marcinem,
+żeby na dzień dobry o tym rozmawiać,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7170-2
+00:16:30.782 --> 00:16:33.806
+<v Adam Koper>więc Marcin o jakim zakresie Marcin i
+Bolek?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7170-3
+00:16:33.806 --> 00:16:36.897
+<v Adam Koper>O jakim zakresie w ogóle teraz możemy
+myśleć?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7189-0
+00:16:42.297 --> 00:16:47.287
+<v Bolesław Groszek>No ja jak z tym nie rozmawiałem z Markiem,
+to Marek też był sceptyczny,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7189-1
+00:16:47.287 --> 00:16:49.297
+<v Bolesław Groszek>tą jakby takich dużych zmian.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7191-0
+00:16:50.827 --> 00:16:51.147
+<v Bolesław Groszek>W ogóle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7222-0
+00:16:53.027 --> 00:16:56.504
+<v Bolesław Groszek>Jak rozumiem,
+to były takie rozmowy o tym raczej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7222-1
+00:16:56.504 --> 00:17:00.885
+<v Bolesław Groszek>żeby właśnie nie myśleć tak
+przyszłościowo, o czym ty mówiłeś,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7222-2
+00:17:00.885 --> 00:17:05.267
+<v Bolesław Groszek>jakby tu całościowo,
+tylko żeby raczej tak doraźnie załatwiać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7235-0
+00:17:07.027 --> 00:17:09.945
+<v Bolesław Groszek>Załatwiać sprawy,
+więc ciężko odpowiedzieć na takie pytanie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7235-1
+00:17:09.945 --> 00:17:11.667
+<v Bolesław Groszek>w jakim zakresie możemy tu wymyśleć?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7240-0
+00:17:12.717 --> 00:17:13.357
+<v Adam Koper>No właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7241-0
+00:17:12.717 --> 00:17:13.037
+<v Bolesław Groszek>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7249-0
+00:17:13.297 --> 00:17:17.217
+<v Marcin Grzybowski>Wiesz co Bolek to ja to ja za ciebie to
+powiem ja.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7280-0
+00:17:16.537 --> 00:17:19.660
+<v Bolesław Groszek>Znaczy,
+a to jeszcze to tylko jeszcze dokończę,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7280-1
+00:17:19.660 --> 00:17:23.109
+<v Bolesław Groszek>bo wtedy miałem to słuchawki i problem z
+mikrofonem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7280-2
+00:17:23.109 --> 00:17:28.185
+<v Bolesław Groszek>ale na przykład fajnie by było jakby na
+tym spotkaniu z chłopakami z serwisu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7280-3
+00:17:28.185 --> 00:17:30.137
+<v Bolesław Groszek>Jakbyś opowiedział szerzej tą.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7300-0
+00:17:31.667 --> 00:17:34.977
+<v Bolesław Groszek>Anegdotę,
+czy tam właśnie sytuację w sprawie tych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7300-1
+00:17:34.977 --> 00:17:39.347
+<v Bolesław Groszek>ticketów, które miałeś w Danii,
+bo to myślę, że to mogłoby sporo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7322-0
+00:17:40.457 --> 00:17:45.180
+<v Bolesław Groszek>Przyspieszyć tu i pracę serwisu i zrzucić
+z nich no jakby, bo ja myślę,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7322-1
+00:17:45.180 --> 00:17:48.657
+<v Bolesław Groszek>że jest bardzo dużo,
+na przykład powtarzających się.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7346-0
+00:17:50.387 --> 00:17:55.202
+<v Bolesław Groszek>Takich tu wspominałeś o jakichś tam
+niewłaściwych, ale myślę,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7346-1
+00:17:55.202 --> 00:18:01.027
+<v Bolesław Groszek>że są powtarzające się i też by spokojnie
+je można było o połowę o obciąć.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7356-0
+00:18:03.477 --> 00:18:06.597
+<v Marcin Grzybowski>Tylko Bolek to nie rozwiąże tego tematu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7362-0
+00:18:07.437 --> 00:18:08.517
+<v Marcin Grzybowski>To.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7379-0
+00:18:07.947 --> 00:18:12.059
+<v Bolesław Groszek>Tak, nie, nie,
+to akurat mówię jego tam spostrzeżenie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7379-1
+00:18:12.059 --> 00:18:16.994
+<v Bolesław Groszek>że teraz tak się wciąłem i tam.
+A propos spotkania z chłopakami z</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7379-2
+00:18:16.994 --> 00:18:17.667
+<v Bolesław Groszek>serwisem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-0
+00:18:19.447 --> 00:18:22.774
+<v Adam Koper>Ja mogę jeszcze krótko dodać,
+jak to się wydarzyło,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-1
+00:18:22.774 --> 00:18:25.717
+<v Adam Koper>że że ta liczba ticketów tak się
+zmniejszyła,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-2
+00:18:25.717 --> 00:18:30.324
+<v Adam Koper>a wydarzyło się to w ten sposób,
+że po pierwsze z takiego właśnie kodu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-3
+00:18:30.324 --> 00:18:33.139
+<v Adam Koper>podobnego jak tutaj w info system
+powstaje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-4
+00:18:33.139 --> 00:18:38.066
+<v Adam Koper>czyli takiego w exce pisanego od góry do
+dołu i nie obsługującego wszystkich</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-5
+00:18:38.066 --> 00:18:41.905
+<v Adam Koper>przypadków brzegowych,
+bez dokumentacji i takiego po prostu</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-6
+00:18:41.905 --> 00:18:44.976
+<v Adam Koper>pisanego,
+czasem na pałę i on zawsze działał od</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7446-7
+00:18:44.976 --> 00:18:48.047
+<v Adam Koper>iluś tam lat,
+tylko że właśnie te tickety były.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-0
+00:18:48.217 --> 00:18:51.353
+<v Adam Koper>Przeszliśmy na podejście,
+gdzie te procesy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-1
+00:18:51.353 --> 00:18:54.917
+<v Adam Koper>które tam powodowały problemy,
+zostały rozpisane,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-2
+00:18:54.917 --> 00:19:00.405
+<v Adam Koper>została spisana do tego dokumentacja
+powstały właśnie rysunki takiej maszyny</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-3
+00:19:00.405 --> 00:19:03.541
+<v Adam Koper>Stanów,
+którą rozrysował na przypadku ceru.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-4
+00:19:03.541 --> 00:19:09.529
+<v Adam Koper>Omówiliśmy wszystkie przejścia na takiej
+maszynie, wszystkie te przypadki brzegowe,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7503-5
+00:19:09.529 --> 00:19:15.017
+<v Adam Koper>które mogą istnieć i został ten kod
+przepisany do takiego podejścia właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7512-0
+00:19:15.787 --> 00:19:19.867
+<v Adam Koper>Z maszyną Stanów i z ze zdarzeniami
+domenowymi.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7530-0
+00:19:20.737 --> 00:19:26.954
+<v Adam Koper>Ee i te zostały zidentyfikowane te
+miejsca gdzieś tam w kodzie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7530-1
+00:19:26.954 --> 00:19:29.577
+<v Adam Koper>które działały na przykład.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7548-0
+00:19:30.297 --> 00:19:33.685
+<v Adam Koper>Synchronicznie i one się wywalały przez
+to często,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7548-1
+00:19:33.685 --> 00:19:37.737
+<v Adam Koper>że na przykład coś za długo działało,
+za długo było liczone.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7559-0
+00:19:39.547 --> 00:19:44.783
+<v Adam Koper>Jakieś były problemy też właśnie
+wydajności w tych w tych powiedzmy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7559-1
+00:19:44.783 --> 00:19:45.707
+<v Adam Koper>aplikacjach.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7565-0
+00:19:47.427 --> 00:19:48.867
+<v Adam Koper>I jak te wszystkie problemy właśnie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7583-0
+00:19:50.417 --> 00:19:53.853
+<v Adam Koper>Braku jakiegoś tam dokumentacji i pełnego
+zrozumienia systemu, pomimo,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7583-1
+00:19:53.853 --> 00:19:56.177
+<v Adam Koper>że ktoś ileś tam lat pracował nad tym
+systemem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7606-0
+00:19:57.867 --> 00:20:02.529
+<v Adam Koper>Zostały wyeliminowane,
+jak zostały zoptymalizowane pewne procesy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7606-1
+00:20:02.529 --> 00:20:07.333
+<v Adam Koper>w sensie już sam kod został
+zoptymalizowany, żeby działał szybciej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7606-2
+00:20:07.333 --> 00:20:09.947
+<v Adam Koper>Te części powiedzmy aplikacji, które.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7621-0
+00:20:11.657 --> 00:20:15.084
+<v Adam Koper>Których,
+które pomimo optymalizacji działały długo,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7621-1
+00:20:15.084 --> 00:20:16.337
+<v Adam Koper>zostały wyniesione.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7658-0
+00:20:17.867 --> 00:20:22.122
+<v Adam Koper>Do tylko, że tam długo to powiedzmy,
+nie wiem 10 sekund tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7658-1
+00:20:22.122 --> 00:20:26.586
+<v Adam Koper>to to było przy tej skali projektu,
+gdzie obywatele korzystają.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7658-2
+00:20:26.586 --> 00:20:31.539
+<v Adam Koper>No to 10 sekund. To już jest bardzo długo,
+które zostały wyniesione do</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7658-3
+00:20:31.539 --> 00:20:35.027
+<v Adam Koper>asynchronicznego przetwarzania,
+gdzieś tam w tle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7670-0
+00:20:35.897 --> 00:20:41.177
+<v Adam Koper>Właśnie opartego o kolejki,
+jak została dodana telemetria która.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-0
+00:20:43.067 --> 00:20:47.769
+<v Adam Koper>Na dashboardzie pokazywała ile jest
+aktualnie zalogowanych właśnie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-1
+00:20:47.769 --> 00:20:52.402
+<v Adam Koper>użytkowników obywateli,
+ile jest przetwarzanych obecnie i jakiego</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-2
+00:20:52.402 --> 00:20:55.560
+<v Adam Koper>typu eventów,
+jakie typy operacji są obecnie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-3
+00:20:55.560 --> 00:20:59.280
+<v Adam Koper>przetwarzane?
+Jak te wszystkie rzeczy się pojawiły i</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-4
+00:20:59.280 --> 00:21:04.193
+<v Adam Koper>jeszcze dodaliśmy też alerty,
+że jeżeli w infrastrukturze zaczyna się</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7725-5
+00:21:04.193 --> 00:21:05.667
+<v Adam Koper>dziać coś niedobrego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-0
+00:21:06.887 --> 00:21:10.517
+<v Adam Koper>Ee i rusza tam przypadki,
+które określamy jako niedobre,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-1
+00:21:10.517 --> 00:21:15.039
+<v Adam Koper>zostały zdefiniowane i na tej podstawie
+zostały zrobione alerty alert.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-2
+00:21:15.039 --> 00:21:18.988
+<v Adam Koper>To były wysyłanie maili do osób,
+które powinny to nadzorować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-3
+00:21:18.988 --> 00:21:23.319
+<v Adam Koper>Jak te rzeczy zostały zrealizowane,
+to po prostu przestalibyśmy być</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-4
+00:21:23.319 --> 00:21:27.205
+<v Adam Koper>informowani przez obywateli,
+że nam nasz system nie działa i</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7780-5
+00:21:27.205 --> 00:21:31.727
+<v Adam Koper>użytkowników, a zaczęliśmy te rzeczy,
+które się złe działy w systemie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7786-0
+00:21:32.507 --> 00:21:34.667
+<v Adam Koper>Wiedzieć,
+zanim użytkownicy nam to zgłosili?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7792-0
+00:21:36.537 --> 00:21:38.137
+<v Adam Koper>A poza tym tych problemów?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7802-0
+00:21:39.707 --> 00:21:43.987
+<v Adam Koper>Zaczęło być coraz coraz mniej po po
+uporządkowaniu tej aplikacji.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7805-0
+00:21:45.057 --> 00:21:45.857
+<v Adam Koper>Tak, to mniej więcej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7812-0
+00:21:47.137 --> 00:21:49.057
+<v Adam Koper>Na wysokim poziomie ogólności.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7815-0
+00:21:50.667 --> 00:21:51.107
+<v Adam Koper>Można opisać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7826-0
+00:21:52.367 --> 00:21:55.519
+<v Marcin Grzybowski>Dobrze,
+to ja mam jeszcze jedno pytanie jaki był</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7826-1
+00:21:55.519 --> 00:21:56.227
+<v Marcin Grzybowski>koszt tego?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7833-0
+00:21:59.417 --> 00:22:04.057
+<v Adam Koper>Kosztowało to mniej więcej z rok czasu
+zespołu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7836-0
+00:22:06.267 --> 00:22:06.547
+<v Marcin Grzybowski>Ile osób?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7842-0
+00:22:09.297 --> 00:22:11.857
+<v Adam Koper>Głównie przepisywały to 2 osoby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7846-0
+00:22:13.697 --> 00:22:15.457
+<v Marcin Grzybowski>Dobra, 2 osoby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7852-0
+00:22:16.947 --> 00:22:18.627
+<v Marcin Grzybowski>Rok czasu to było jedyne zadanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7856-0
+00:22:20.167 --> 00:22:21.407
+<v Adam Koper>Tak, oczywiście, że tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7878-0
+00:22:23.727 --> 00:22:27.251
+<v Adam Koper>Wtedy mieliśmy 100% fokusu właśnie na tej
+aplikacji w 2 osoby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7878-1
+00:22:27.251 --> 00:22:30.607
+<v Adam Koper>Tam w porywach czasami ktoś był do do do
+zespołu dołączany.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7902-0
+00:22:32.387 --> 00:22:35.541
+<v Adam Koper>Później ten zespół się też rozrósł.
+Mieliśmy tam jeszcze inne aplikacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7902-1
+00:22:35.541 --> 00:22:38.307
+<v Adam Koper>ale powiedzmy, że to dla 2 osób,
+to było około rok czasu pracy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7912-0
+00:22:42.037 --> 00:22:44.877
+<v Adam Koper>Ale to były inne czasy,
+to były czasy jeszcze sprzed eaja.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7920-0
+00:22:48.527 --> 00:22:50.287
+<v Marcin Grzybowski>O k. To też jest ważne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7937-0
+00:22:51.697 --> 00:22:58.217
+<v Marcin Grzybowski>Dobra, ja bym poszedł w stronę tego,
+co powinniśmy zrobić. Minimalnie mają vip.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7945-0
+00:23:00.217 --> 00:23:03.537
+<v Marcin Grzybowski>I tak ja bym, że tak powiem pokazał to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7950-0
+00:23:07.017 --> 00:23:08.497
+<v Marcin Grzybowski>Jakbyś mógł przewinąć?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7954-0
+00:23:09.677 --> 00:23:10.707
+<v Adam Koper>Tu mamy tir s.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7959-0
+00:23:11.537 --> 00:23:12.697
+<v Adam Koper>Dokładnie rozpisane.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7975-0
+00:23:15.987 --> 00:23:20.187
+<v Adam Koper>Tiras, czyli to to co ja uważam,
+że powinno być na mp do.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7964-0
+00:23:16.307 --> 00:23:16.827
+<v Marcin Grzybowski>A my?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7986-0
+00:23:22.447 --> 00:23:26.807
+<v Adam Koper>Czyli instalacja tych aplikacji webowych
+bez tej platformy centralnej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7994-0
+00:23:27.737 --> 00:23:29.457
+<v Adam Koper>Web wiu i tego typu rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7990-0
+00:23:28.897 --> 00:23:29.267
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/7997-0
+00:23:30.857 --> 00:23:32.217
+<v Marcin Grzybowski>Tak tylko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8010-0
+00:23:42.137 --> 00:23:45.257
+<v Marcin Grzybowski>A to już jest bardziej rozbudowane.
+Widzę schemat.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8026-0
+00:23:46.257 --> 00:23:49.713
+<v Adam Koper>No jest to dokładniej rozpisane,
+dlatego mówiłem najpierw na tej na tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8026-1
+00:23:49.713 --> 00:23:51.297
+<v Adam Koper>poziomie ogólnym, chciałem tutaj.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8033-0
+00:23:52.827 --> 00:23:53.837
+<v Adam Koper>Ten rysunek jest taki bardziej ogólny.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8080-0
+00:23:54.297 --> 00:23:58.642
+<v Adam Koper>Tak tutaj mówimy o samej architekturze,
+a tutaj już mamy rozpisane poszczególne</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8080-1
+00:23:58.642 --> 00:24:01.250
+<v Adam Koper>elementy,
+no bo taki side agent może mieć kilka</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8080-2
+00:24:01.250 --> 00:24:04.400
+<v Adam Koper>tuli tak czy tam do przechowywania,
+na przykład sekretów,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8080-3
+00:24:04.400 --> 00:24:08.148
+<v Adam Koper>czy jakieś tam różne takie rzeczy,
+jakby tutaj to wszystko umieścił,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8080-4
+00:24:08.148 --> 00:24:12.657
+<v Adam Koper>to byśmy nic nie zobaczyli na tym rysunku,
+by było za dużo strzałek i komponentów.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8091-0
+00:24:15.007 --> 00:24:18.967
+<v Adam Koper>Więc tu jest to rozpisane dokładniej ten
+TRM.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8117-0
+00:24:22.617 --> 00:24:26.352
+<v Adam Koper>Bo tam jeszcze mamy problemy tego typu,
+że te hasła są nie tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8117-1
+00:24:26.352 --> 00:24:31.080
+<v Adam Koper>jakbyśmy chcieli dystrybuowane na każdej
+na każdym komputerze każdej pani kasi i</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8130-0
+00:24:30.007 --> 00:24:35.757
+<v Marcin Grzybowski>Weźmy Wróć do tamtego obrazka to,
+bo na nim będzie mi łatwiej rozmawiać na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8117-2
+00:24:31.080 --> 00:24:31.897
+<v Adam Koper>tak dalej nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8130-1
+00:24:35.757 --> 00:24:36.447
+<v Marcin Grzybowski>początku.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8131-0
+00:24:38.317 --> 00:24:38.557
+<v Adam Koper>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8150-0
+00:24:41.367 --> 00:24:46.324
+<v Marcin Grzybowski>W pierwszej kolejności znaczy dla mnie
+równolegle,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8150-1
+00:24:46.324 --> 00:24:51.087
+<v Marcin Grzybowski>patrząc na to po temat sady agenta i side
+hosta.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8172-0
+00:24:52.117 --> 00:24:58.483
+<v Marcin Grzybowski>Bo te 2 kwadraciki byłyby najistotniejsze
+migration miałbym w ***** i miałbym go w</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8172-1
+00:24:58.483 --> 00:25:00.477
+<v Marcin Grzybowski>***** jak najdalej się da.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8185-0
+00:25:02.427 --> 00:25:07.627
+<v Marcin Grzybowski>I mówimy tutaj o kontekście
+zainstalowania.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8190-0
+00:25:09.677 --> 00:25:11.597
+<v Marcin Grzybowski>Yy tych aplikacji typu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8193-0
+00:25:12.757 --> 00:25:13.437
+<v Marcin Grzybowski>Te opłaty.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8200-0
+00:25:15.857 --> 00:25:19.257
+<v Marcin Grzybowski>Te opłaty CRUCF.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8204-0
+00:25:20.077 --> 00:25:21.237
+<v Marcin Grzybowski>I auta.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8212-0
+00:25:22.077 --> 00:25:25.557
+<v Marcin Grzybowski>4 aplikacje, które chciałbym,
+żeby działały.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8220-0
+00:25:26.557 --> 00:25:29.277
+<v Marcin Grzybowski>Żeby były w sposób jakiś tam instalowalny.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8226-0
+00:25:30.197 --> 00:25:33.517
+<v Marcin Grzybowski>Migracje nie są jeszcze potrzebne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8243-0
+00:25:34.397 --> 00:25:40.487
+<v Marcin Grzybowski>A skupiłbym się na tym na diploilu,
+żeby dało się diploować oni sobie ręcznie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8243-1
+00:25:40.487 --> 00:25:42.517
+<v Marcin Grzybowski>potrafią to instalować, a.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8259-0
+00:25:42.997 --> 00:25:46.018
+<v Marcin Grzybowski>My będziemy mieli czas na zrobienie
+migracji,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8259-1
+00:25:46.018 --> 00:25:48.317
+<v Marcin Grzybowski>kiedy faktycznie to ruszy z kopyta.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8275-0
+00:25:49.907 --> 00:25:53.833
+<v Marcin Grzybowski>Będzie mogło żyć z kopyta,
+bo na razie jesteśmy w *****.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8260-0
+00:25:49.967 --> 00:25:50.087
+<v Adam Koper>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8275-1
+00:25:53.833 --> 00:25:56.107
+<v Marcin Grzybowski>Nie mamy opcji instalowania tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8290-0
+00:25:57.607 --> 00:26:01.327
+<v Marcin Grzybowski>W wielu jednostkach nie mamy takiej opcji,
+jesteśmy zablokowani totalnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8318-0
+00:26:02.567 --> 00:26:05.937
+<v Marcin Grzybowski>Przez te wymaganie,
+że nie możemy w jęki zainstalować,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8318-1
+00:26:05.937 --> 00:26:09.982
+<v Marcin Grzybowski>czyli przez wymaganie,
+że musimy zainstalować to na tym serwerze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8318-2
+00:26:09.982 --> 00:26:12.127
+<v Marcin Grzybowski>na którym jest, a ja jest czy fair.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8324-0
+00:26:13.357 --> 00:26:14.237
+<v Marcin Grzybowski>Czyli Windows?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8361-0
+00:26:14.527 --> 00:26:20.050
+<v Adam Koper>No w tierze s nie ma w ogóle mowy o
+wiemce tutaj rozmawiamy o podejściu gdzie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8339-0
+00:26:18.277 --> 00:26:18.917
+<v Marcin Grzybowski>Dokładnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8345-0
+00:26:19.797 --> 00:26:20.877
+<v Marcin Grzybowski>Dokładnie tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8361-1
+00:26:20.050 --> 00:26:25.856
+<v Adam Koper>są gdzie są aplikacje instalowane na tym
+a i s ie NG nexie czy cokolwiek tam jest</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8361-2
+00:26:25.856 --> 00:26:26.847
+<v Adam Koper>na tej gminie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8368-0
+00:26:26.837 --> 00:26:29.437
+<v Marcin Grzybowski>Tak, tak i teraz, wracając dalej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8377-0
+00:26:30.237 --> 00:26:33.037
+<v Marcin Grzybowski>Czyli Fight agent i ten Fight host.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8382-0
+00:26:34.587 --> 00:26:35.867
+<v Marcin Grzybowski>Tylko te 2 rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8395-0
+00:26:36.997 --> 00:26:40.917
+<v Marcin Grzybowski>Fajter i będzie lekkie przerobienia tego
+flip serwera.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8402-0
+00:26:41.917 --> 00:26:44.797
+<v Marcin Grzybowski>I przerobienie tego architekt stora.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8407-0
+00:26:47.077 --> 00:26:50.397
+<v Marcin Grzybowski>Będzie kolejną jakąś opcją.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8428-0
+00:26:51.637 --> 00:26:57.400
+<v Marcin Grzybowski>Ona nie jest teraz ultra wymagana i jak
+to zacznie działać to wtedy będzie można</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8428-1
+00:26:57.400 --> 00:27:00.317
+<v Marcin Grzybowski>to dorobić będzie pewnie zapotrzebowanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8444-0
+00:27:00.637 --> 00:27:05.357
+<v Marcin Grzybowski>Pierwsze zapotrzebowanie, które widzę,
+to jest właśnie ten i sidehop.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8451-0
+00:27:08.167 --> 00:27:10.127
+<v Marcin Grzybowski>I teraz możemy zjechać do.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8454-0
+00:27:11.157 --> 00:27:12.317
+<v Marcin Grzybowski>Tego drugiego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8456-0
+00:27:14.157 --> 00:27:14.717
+<v Marcin Grzybowski>Screena.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8457-0
+00:27:17.247 --> 00:27:17.497
+<v Adam Koper>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8466-0
+00:27:17.907 --> 00:27:20.187
+<v Marcin Grzybowski>I teraz, jakbyś mógł je wyjaśnić?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8473-0
+00:27:21.357 --> 00:27:23.557
+<v Marcin Grzybowski>Z taką szybką prezentację tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8484-0
+00:27:26.207 --> 00:27:30.007
+<v Adam Koper>No właśnie to tu jest część rzeczy
+powtarza się z tego poprzedniego rysunku</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8484-1
+00:27:30.007 --> 00:27:30.807
+<v Adam Koper>tak, czyli mamy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8515-0
+00:27:31.727 --> 00:27:37.306
+<v Adam Koper>Fill tego site agenta on fill jest
+odpowiedzialny za fill za fill na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8515-1
+00:27:37.306 --> 00:27:42.885
+<v Adam Koper>przykład właśnie za tą telemetrię,
+no to tutaj będą pule typu jakieś</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8515-2
+00:27:42.885 --> 00:27:46.847
+<v Adam Koper>kolektory właśnie tych fill tej
+telemetrii fill.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8550-0
+00:27:49.017 --> 00:27:52.836
+<v Adam Koper>Mogą to być Windows Service,
+może to być fill coś innego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8550-1
+00:27:52.836 --> 00:27:58.236
+<v Adam Koper>no na razie tego nie będziemy robili tak
+fill to to dalej gdzieś tam wypycha fill</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8533-0
+00:27:55.667 --> 00:27:55.927
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8550-2
+00:27:58.236 --> 00:28:02.977
+<v Adam Koper>te dane tak tutaj mamy fill.
+Z kolei fill broker leaf to też za chwilę.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8556-0
+00:28:03.487 --> 00:28:05.167
+<v Adam Koper>Wypadnie no bo to jest z kolei.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8565-0
+00:28:07.337 --> 00:28:10.817
+<v Adam Koper>Ten Windows serwis,
+który jest odpowiedzialny za przepychanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8622-0
+00:28:12.457 --> 00:28:17.462
+<v Adam Koper>Powiedzmy eventów tych domenowych do do
+tej do tej centralnej bazy do odczytu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8622-1
+00:28:17.462 --> 00:28:22.530
+<v Adam Koper>no nie więc tych 2 elementów można je
+wyciąć. Na razie z rozważań teraz rzeczy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8622-2
+00:28:22.530 --> 00:28:26.965
+<v Adam Koper>które prawdopodobnie też wycinamy tutaj
+był ten migrator tak mówiłeś,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8622-3
+00:28:26.965 --> 00:28:31.336
+<v Adam Koper>że migrator on na razie się nie zajmujemy.
+To kolejna trzecia rzecz,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8622-4
+00:28:31.336 --> 00:28:32.857
+<v Adam Koper>która wylatuje na razie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8642-0
+00:28:33.647 --> 00:28:38.122
+<v Adam Koper>I teraz mamy tak,
+mamy jakiś tutaj w ramach tego side</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8642-1
+00:28:38.122 --> 00:28:42.847
+<v Adam Koper>agenta kolejny jakiś serwis,
+który jest takim update'em.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8648-0
+00:28:44.857 --> 00:28:46.377
+<v Adam Koper>Czyli to jest to to właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8665-0
+00:28:47.647 --> 00:28:51.410
+<v Adam Koper>Coś,
+co odpowiada nam za instalację nowych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8665-1
+00:28:51.410 --> 00:28:56.487
+<v Adam Koper>wersji tych wszystkich modułów tutaj SPAI
+tak dalej tych.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8671-0
+00:28:58.327 --> 00:29:00.207
+<v Adam Koper>Estesów i tych wszystkich rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8681-0
+00:29:03.097 --> 00:29:08.137
+<v Adam Koper>Czyli to jest usługa,
+która powinna umieć zainstalować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8709-0
+00:29:10.097 --> 00:29:14.642
+<v Adam Koper>Pobrane jako właśnie taki artefakt jakieś
+tam aplikacji api,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8709-1
+00:29:14.642 --> 00:29:19.857
+<v Adam Koper>tak zainstalować to na i a s ie czyli
+tutaj trzeba by było po prostu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8711-0
+00:29:21.177 --> 00:29:22.657
+<v Marcin Grzybowski>Nie, nie, nie, nie, nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8715-0
+00:29:23.617 --> 00:29:23.937
+<v Adam Koper>Co nie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8723-0
+00:29:24.007 --> 00:29:27.367
+<v Marcin Grzybowski>Właśnie poczekaj, nie nie żadnego Jestem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8737-0
+00:29:28.937 --> 00:29:33.392
+<v Adam Koper>No ale dlatego mówię,
+że na jakimś a je się engineer się czy co</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8737-1
+00:29:33.392 --> 00:29:34.297
+<v Adam Koper>tam ustalimy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8743-0
+00:29:33.877 --> 00:29:35.997
+<v Marcin Grzybowski>Tak, tak, tak, tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8781-0
+00:29:35.447 --> 00:29:38.901
+<v Adam Koper>Generalnie chodzi o to,
+że jeżeli ta aplikacja i ona powinna</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8781-1
+00:29:38.901 --> 00:29:42.695
+<v Adam Koper>działać z jakimiś odpowiednimi
+uprawnieniami, czyli uprawnieniami,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8781-2
+00:29:42.695 --> 00:29:46.376
+<v Adam Koper>powiedzmy, że admina po to,
+żeby mogła instalować właśnie usługi</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8781-3
+00:29:46.376 --> 00:29:50.567
+<v Adam Koper>windowsowe czy tam to będzie na i jesie,
+czy coś odpowiednie uprawnienia.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8813-0
+00:29:52.137 --> 00:29:55.998
+<v Adam Koper>Muszą być przyznane do konta,
+na którym będzie chodziła ta usługa i to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8813-1
+00:29:55.998 --> 00:29:59.370
+<v Adam Koper>będzie coś nowego,
+co trzeba zainstalować na na tym serwerze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8794-0
+00:29:57.517 --> 00:29:57.727
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8813-2
+00:29:59.370 --> 00:30:03.286
+<v Adam Koper>To będzie bardzo istotny komponent,
+bo on będzie musiał umieć robić to,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8813-3
+00:30:03.286 --> 00:30:04.537
+<v Adam Koper>co tam sobie wymyślimy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8823-0
+00:30:04.887 --> 00:30:07.817
+<v Adam Koper>Czy to będzie, a jest czy coś innego?
+Ja nie wiem dlaczego wy nie chcecie a i a</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8823-1
+00:30:07.817 --> 00:30:07.927
+<v Adam Koper>SA.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8829-0
+00:30:09.497 --> 00:30:11.417
+<v Adam Koper>Czy tam nie wiem enginesa czy czegoś?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8843-0
+00:30:12.327 --> 00:30:15.476
+<v Adam Koper>Generalnie to to coś jak będziemy
+instalowali,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8843-1
+00:30:15.476 --> 00:30:17.487
+<v Adam Koper>no to tutaj musi być ten fill.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8859-0
+00:30:19.647 --> 00:30:23.795
+<v Adam Koper>Te powiedzmy ta logika tych skryptów czy
+czegokolwiek to jest potrzebne,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8859-1
+00:30:23.795 --> 00:30:25.727
+<v Adam Koper>żeby instalować te moduły, no nie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8905-0
+00:30:27.407 --> 00:30:33.145
+<v Adam Koper>Ten host pisząc no to to jest po prostu
+czy to ten a ja jest czy to będą Windows</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8905-1
+00:30:33.145 --> 00:30:36.545
+<v Adam Koper>serwisy,
+czy to będzie Engine czy cokolwiek tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8905-2
+00:30:36.545 --> 00:30:41.150
+<v Adam Koper>wybierzemy to jest ten host,
+który te aplikacje wystawia i tutaj</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8905-3
+00:30:41.150 --> 00:30:45.897
+<v Adam Koper>jeszcze je mamy jedno api,
+które z którego będziemy mogli pobierać</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8905-4
+00:30:45.897 --> 00:30:48.447
+<v Adam Koper>sekrety, trzeba by było przygotować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8916-0
+00:30:50.207 --> 00:30:53.196
+<v Adam Koper>Jakiś moduł,
+w którym zapisywane byłyby konfiguracje</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8916-1
+00:30:53.196 --> 00:30:53.647
+<v Adam Koper>właśnie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8935-0
+00:30:53.917 --> 00:30:58.507
+<v Adam Koper>Te hasła i tak dalej,
+żeby to nie leżało tak odłogiem w piku</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8935-1
+00:30:58.507 --> 00:31:01.517
+<v Adam Koper>XML te hasła, tak jak teraz i po prostu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8945-0
+00:31:03.047 --> 00:31:06.007
+<v Adam Koper>Ten ta usługa w momencie kiedy instaluje?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8965-0
+00:31:07.687 --> 00:31:13.515
+<v Adam Koper>Taką apkę nie wiem tego epłatności ona
+instaluje te epłatności w taki sposób,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8965-1
+00:31:13.515 --> 00:31:15.607
+<v Adam Koper>że jeżeli na przykład sobie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8976-0
+00:31:17.447 --> 00:31:20.174
+<v Adam Koper>Zdecydujemy,
+że będzie uwierzytelnianie tutaj do tych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8976-1
+00:31:20.174 --> 00:31:21.487
+<v Adam Koper>sekretów przez certyfikat.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8984-0
+00:31:22.237 --> 00:31:26.277
+<v Adam Koper>No to taka aplikacja powiedzmy e
+płatności.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/8994-0
+00:31:27.197 --> 00:31:31.237
+<v Adam Koper>Powinna mieć możliwość odczytu
+certyfikatu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9042-0
+00:31:32.847 --> 00:31:37.794
+<v Adam Koper>Z certyfikat stora,
+czyli jak będziemy robili wyczytanie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9042-1
+00:31:37.794 --> 00:31:44.823
+<v Adam Koper>przez certyfikaty to taki update będzie
+pobierał jakiś tam certyfikat z naszej z</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9042-2
+00:31:44.823 --> 00:31:51.766
+<v Adam Koper>naszego tam serwera artefaktów będzie go
+instalował na certyfikat storze na tej</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9042-3
+00:31:51.766 --> 00:31:57.407
+<v Adam Koper>maszynie gdzie są te hosty w taki sposób
+będzie instalował żeby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9071-0
+00:31:57.757 --> 00:32:00.931
+<v Adam Koper>Uprawnienia do tego certyfikatu miało
+konto,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9071-1
+00:32:00.931 --> 00:32:05.869
+<v Adam Koper>na którym działa tutaj ten modu e
+płatności dajmy na to i w momencie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9071-2
+00:32:05.869 --> 00:32:10.877
+<v Adam Koper>kiedy epłatności jest uruchamiane,
+popiera sobie z certyfikacji storu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9111-0
+00:32:12.197 --> 00:32:16.188
+<v Adam Koper>Ten certyfikat używa go do
+uwierzytelnienia się z tą aplikacją z</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9111-1
+00:32:16.188 --> 00:32:20.732
+<v Adam Koper>sekretami i tutaj już w tej aplikacji z
+sekretami są wszelkie rzeczy typu</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9111-2
+00:32:20.732 --> 00:32:23.986
+<v Adam Koper>connection, string,
+jakieś tam nie wiem inne rzeczy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9111-3
+00:32:23.986 --> 00:32:26.197
+<v Adam Koper>które które obecnie leżą odłogiem w.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9147-0
+00:32:28.367 --> 00:32:31.802
+<v Adam Koper>W tym w tych plikach exe,
+jeżeli nie będziemy korzystać z</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9147-1
+00:32:31.802 --> 00:32:34.882
+<v Adam Koper>uwierzenia przez certyfikaty tylko
+jakiegoś innego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9147-2
+00:32:34.882 --> 00:32:38.673
+<v Adam Koper>no to będzie to trochę inaczej działa.
+To to jest do ustalenia,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9147-3
+00:32:38.673 --> 00:32:40.687
+<v Adam Koper>w jaki sposób to uwierzytelnianie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9159-0
+00:32:41.597 --> 00:32:45.477
+<v Adam Koper>Do tej usługi z sekretami zrobić jest
+kilka sposobów na to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9177-0
+00:32:48.077 --> 00:32:53.640
+<v Adam Koper>No i co tutaj jeszcze jest?
+No oczywiście jest tutaj ten te exeki</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9177-1
+00:32:53.640 --> 00:32:58.277
+<v Adam Koper>nasze słynne one już mają jakieś tam
+sposób powiedzmy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9188-0
+00:33:00.197 --> 00:33:03.117
+<v Adam Koper>Aktualizacji,
+więc pewnie to zostawimy tak jak jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9211-0
+00:33:05.197 --> 00:33:08.359
+<v Adam Koper>Być może trzeba będzie jakiś nowy sposób,
+a być może ten,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9211-1
+00:33:08.359 --> 00:33:10.976
+<v Adam Koper>który już jest to on jest wystarczająco
+dobrze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9211-2
+00:33:10.976 --> 00:33:14.957
+<v Adam Koper>żeby te aplikacje webview osadzone w tych
+egzekach również dystrybuować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9249-0
+00:33:17.007 --> 00:33:21.427
+<v Adam Koper>No i co? No i tutaj jeszcze jest,
+są te strzałki dostępu do bazy fajerwerd</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9249-1
+00:33:21.427 --> 00:33:25.140
+<v Adam Koper>więc tam migrator ma do tego dostęp te
+wszystkie moduły nasze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9249-2
+00:33:25.140 --> 00:33:29.266
+<v Adam Koper>no te aplikacje exe też mają tutaj ta
+strzałka mi się źle narysowała,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9249-3
+00:33:29.266 --> 00:33:31.447
+<v Adam Koper>że w komentarzu tylko jest delfi exe.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9256-0
+00:33:34.637 --> 00:33:36.437
+<v Adam Koper>Oj tyle to jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9253-0
+00:33:35.617 --> 00:33:35.737
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9297-0
+00:33:37.677 --> 00:33:42.430
+<v Adam Koper>To jest ten TRS,
+on tutaj rozwiązuje te problemy właśnie z</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9297-1
+00:33:42.430 --> 00:33:46.055
+<v Adam Koper>sekretami,
+bo to było podobno dosyć istotne,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9297-2
+00:33:46.055 --> 00:33:52.178
+<v Adam Koper>że to leży odłogiem plain tekstem,
+czy jakoś tam niezbyt mocno zaszyfrowane</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9297-3
+00:33:52.178 --> 00:33:54.917
+<v Adam Koper>w tych XML. Ach więc jest ten, no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9308-0
+00:33:54.267 --> 00:34:01.367
+<v Marcin Grzybowski>Tylko jest jedna rzecz jeszcze,
+bo ten egzekwować delfi owy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9318-0
+00:34:01.557 --> 00:34:04.437
+<v Marcin Grzybowski>Ja dodatkowo bym zrobił akcję taką, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9335-0
+00:34:06.327 --> 00:34:11.327
+<v Marcin Grzybowski>Te uwierzytelnianie egzekutor jednak by
+było po nowemu zabiona.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9352-0
+00:34:16.997 --> 00:34:19.819
+<v Adam Koper>Uwierzytelnianie egzekutor. Mówisz,
+że ten nowy estee,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9352-1
+00:34:19.819 --> 00:34:22.077
+<v Adam Koper>żeby tutaj był tak używany przez te
+egzeku?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9359-0
+00:34:20.587 --> 00:34:25.027
+<v Marcin Grzybowski>No tak jak jakby walił do niego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9370-0
+00:34:25.557 --> 00:34:29.277
+<v Marcin Grzybowski>To dostałby teścieżki do do baz.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9398-0
+00:34:30.197 --> 00:34:34.509
+<v Marcin Grzybowski>W taki sposób,
+jak mówiłeś tak jak cała reszta i dałoby</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9398-1
+00:34:34.509 --> 00:34:40.747
+<v Marcin Grzybowski>się to zrobić, byłoby to, że tak powiem,
+bo jest po prostu biblioteka. Menadżer,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9398-2
+00:34:40.747 --> 00:34:43.597
+<v Marcin Grzybowski>która ma jakiś sposób swój logowanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9409-0
+00:34:44.837 --> 00:34:48.277
+<v Marcin Grzybowski>Można by było podmienić te logowanie i
+wszyscy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9416-0
+00:34:49.277 --> 00:34:51.117
+<v Marcin Grzybowski>Egzekutor owcy mieliby od razu zmianę.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9430-0
+00:34:52.117 --> 00:34:55.677
+<v Marcin Grzybowski>Tylko warunkiem warunkiem no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9458-0
+00:34:53.157 --> 00:34:55.841
+<v Adam Koper>No ja myślę,
+że tego typu rzeczy właśnie o których</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9458-1
+00:34:55.841 --> 00:34:58.367
+<v Adam Koper>teraz mówisz,
+to można o tym porozmawiać na tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9458-2
+00:34:58.367 --> 00:35:01.629
+<v Adam Koper>spotkaniu właśnie z wilgosem tak i z
+wszystkimi tymi osobami,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9458-3
+00:35:01.629 --> 00:35:05.892
+<v Adam Koper>bo to będzie właśnie wtedy bardzo istotne,
+żeby ten konkretny rysunek rozkminić.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9458-4
+00:35:05.892 --> 00:35:06.997
+<v Adam Koper>No nie, no na części.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9471-0
+00:35:06.167 --> 00:35:11.847
+<v Marcin Grzybowski>Tylko warunkiem takim totalnym w sensie
+to bardziej to nie będzie na mp.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9495-0
+00:35:13.037 --> 00:35:18.821
+<v Marcin Grzybowski>Bo mp to jest coś takiego,
+że jesteśmy w stanie zainstalować te</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9495-1
+00:35:18.821 --> 00:35:24.877
+<v Marcin Grzybowski>rozwiązanie i ten serwis działa i choćby
+skały ***** to to działa.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9508-0
+00:35:25.557 --> 00:35:32.477
+<v Marcin Grzybowski>Po yy bez postawienia tego i bez
+działającego, powiedzmy tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9517-0
+00:35:32.997 --> 00:35:36.037
+<v Marcin Grzybowski>Tego agenta tego rozwiązania nie ma sensu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9528-0
+00:35:37.567 --> 00:35:40.927
+<v Marcin Grzybowski>Przepinać egzekwów na inne logowanie,
+bo dopiero.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9545-0
+00:35:43.877 --> 00:35:47.925
+<v Marcin Grzybowski>To jest ultra i to będzie bardzo poważna
+sprawa i to musi działać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9545-1
+00:35:47.925 --> 00:35:49.557
+<v Marcin Grzybowski>To musi działać **********.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9570-0
+00:35:52.877 --> 00:35:55.852
+<v Marcin Grzybowski>Żeby się na coś takiego odważyć,
+bo nie odważy się,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9570-1
+00:35:55.852 --> 00:35:59.228
+<v Marcin Grzybowski>dopóki te rozwiązanie nie będzie stabilne,
+to nie ma bata,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9570-2
+00:35:59.228 --> 00:36:01.517
+<v Marcin Grzybowski>żebym żebyśmy zmienili sposób logowania.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9580-0
+00:36:11.167 --> 00:36:14.287
+<v Adam Koper>Polek jakieś pytania do tego komentarze
+uwagi?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9587-0
+00:36:20.357 --> 00:36:22.157
+<v Adam Koper>Masz wyłączony mikrofon jakby co?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9608-0
+00:36:27.217 --> 00:36:32.127
+<v Marcin Grzybowski>Ja się w ogóle jak Bolek nie gada jeszcze
+to ja się jednej rzeczy martwię. Adam,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9608-1
+00:36:32.127 --> 00:36:35.097
+<v Marcin Grzybowski>bo ty powiedziałeś, że my się boimy,
+a ja je SA.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9619-0
+00:36:36.777 --> 00:36:40.337
+<v Marcin Grzybowski>I teraz boję się,
+że ty nie masz doświadczenia za ja Jestem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9621-0
+00:36:41.957 --> 00:36:42.477
+<v Adam Koper>To znaczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9631-0
+00:36:43.807 --> 00:36:46.207
+<v Marcin Grzybowski>No właśnie,
+jakie masz doświadczenie za ja Jestem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9656-0
+00:36:47.447 --> 00:36:50.316
+<v Adam Koper>No w jakiś tam aplikacjach, na przykład,
+który,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9656-1
+00:36:50.316 --> 00:36:55.039
+<v Adam Koper>które nad którymi pracowaliśmy kiedyś tam,
+w zamierzchłych czasach w luxmedzie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9656-2
+00:36:55.039 --> 00:36:58.207
+<v Adam Koper>używaliśmy,
+a SA do czegoś tam do hostowania tkapek.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9666-0
+00:36:59.397 --> 00:37:01.537
+<v Marcin Grzybowski>No to słuchaj tego,
+kiedy to było zamierzchło, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9670-0
+00:37:02.817 --> 00:37:04.097
+<v Adam Koper>10 15 lat temu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9684-0
+00:37:04.937 --> 00:37:09.017
+<v Marcin Grzybowski>Yy od już nie pamiętam jakiego czasu,
+a ja został ******.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9694-0
+00:37:10.267 --> 00:37:13.327
+<v Marcin Grzybowski>I nie wiem czy jeszcze są update daje
+sobie to po pierwsze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9711-0
+00:37:13.977 --> 00:37:16.457
+<v Adam Koper>Ja też tego nie wiem,
+znaczy ostatnio to do takich mniejszych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9711-1
+00:37:16.457 --> 00:37:17.657
+<v Adam Koper>rzeczy to używaliśmy enginesa.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9740-0
+00:37:18.197 --> 00:37:21.476
+<v Marcin Grzybowski>No dokładnie tylko i wyłącznie adam nie
+będziemy szli,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9722-0
+00:37:20.237 --> 00:37:20.477
+<v Adam Koper>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9740-1
+00:37:21.476 --> 00:37:26.006
+<v Marcin Grzybowski>dlaczego on już jest od razu skreślony.
+Wiesz, że nek stanie zainstalujesz,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9740-2
+00:37:26.006 --> 00:37:27.437
+<v Marcin Grzybowski>bo ta nie zainstalujesz.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9763-0
+00:37:27.957 --> 00:37:33.192
+<v Marcin Grzybowski>A jak chcesz zainstalować nuda to to jest
+przez jakiegoś ruska pisane podół</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9755-0
+00:37:32.987 --> 00:37:33.387
+<v Adam Koper>Jasne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9763-1
+00:37:33.192 --> 00:37:36.637
+<v Marcin Grzybowski>instalowany odpadło skreśliłem to kilka
+lat temu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9803-0
+00:37:36.227 --> 00:37:40.527
+<v Adam Koper>O k ja ja się nie upieram przy tym,
+bo to ja zostawiłem na tym poziomie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9803-1
+00:37:40.527 --> 00:37:43.274
+<v Adam Koper>abstrakcji,
+żeby właśnie nie rozmawiać o tych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9803-2
+00:37:43.274 --> 00:37:47.276
+<v Adam Koper>szczegółach. Może inaczej,
+żeby nie ustalać tego w tym dokumencie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9803-3
+00:37:47.276 --> 00:37:51.456
+<v Adam Koper>bo to chciałem właśnie zostawić na te
+rozmowy. Poza tym nie chciałem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9803-4
+00:37:51.456 --> 00:37:53.547
+<v Adam Koper>Wiesz właśnie tego typu rozmów, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9813-0
+00:37:55.127 --> 00:37:58.087
+<v Adam Koper>Że to nie może być to czy tamto,
+to jest szczegół tylko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9833-0
+00:38:00.457 --> 00:38:05.658
+<v Adam Koper>Już ja nie nie używałem a jest,
+a już dawno tak jak tak jak tak jak</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9814-0
+00:38:00.837 --> 00:38:00.997
+<v Marcin Grzybowski>O k.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9820-0
+00:38:01.557 --> 00:38:01.957
+<v Marcin Grzybowski>Dobra.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9833-1
+00:38:05.658 --> 00:38:07.417
+<v Adam Koper>powiedziałem a NG next.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9836-0
+00:38:08.277 --> 00:38:09.357
+<v Adam Koper>Yy używałem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9844-0
+00:38:11.397 --> 00:38:14.797
+<v Adam Koper>Ostatnio chyba tam, ze 2 lata temu, więc.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9851-0
+00:38:16.537 --> 00:38:18.537
+<v Adam Koper>Jak najbardziej może to być enginex?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9864-0
+00:38:19.487 --> 00:38:24.048
+<v Marcin Grzybowski>Znaczy prawda będzie taka,
+że to dotknę to w rzeczy się i tak stawia</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9864-1
+00:38:24.048 --> 00:38:24.247
+<v Marcin Grzybowski>na.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9890-0
+00:38:26.427 --> 00:38:31.503
+<v Adam Koper>No ale to stoi za enginesem na który,
+bo kester nie nie obsługuje wszystkich</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9890-1
+00:38:31.503 --> 00:38:33.547
+<v Adam Koper>rzeczy, które są potrzebne nam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9894-0
+00:38:31.517 --> 00:38:35.797
+<v Marcin Grzybowski>Tak, tak, tak, tak, tak, tak, tak,
+dokładnie, tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9897-0
+00:38:37.427 --> 00:38:38.147
+<v Marcin Grzybowski>Dokładnie tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9908-0
+00:38:39.777 --> 00:38:42.457
+<v Marcin Grzybowski>Ale też poszedłbym dokładnie tak, bym.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9913-0
+00:38:41.877 --> 00:38:44.317
+<v Adam Koper>Andrzej next będzie naszym rivers proxy
+tam będzie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9923-0
+00:38:45.887 --> 00:38:48.607
+<v Adam Koper>Ten ssl termination i jakieś takie rzeczy
+nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9934-0
+00:38:52.237 --> 00:38:56.637
+<v Marcin Grzybowski>Tutaj dodatkowym,
+że tak powiem atutem tego rozwiązania.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9938-0
+00:38:58.597 --> 00:39:00.837
+<v Marcin Grzybowski>Mm jest to, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9948-0
+00:39:01.397 --> 00:39:04.797
+<v Marcin Grzybowski>Jak będzie stała taka usługa ten site
+host?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9956-0
+00:39:05.517 --> 00:39:07.757
+<v Marcin Grzybowski>Na Windows Service tak dalej, no to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9959-0
+00:39:08.597 --> 00:39:09.477
+<v Marcin Grzybowski>Po pierwsze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9979-0
+00:39:11.567 --> 00:39:18.407
+<v Marcin Grzybowski>Kse w owe kolejki i cr u kolejki będą
+działać w tle i jeszcze załatwimy tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9979-1
+00:39:18.407 --> 00:39:19.487
+<v Marcin Grzybowski>samym Pawła.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9983-0
+00:39:21.157 --> 00:39:21.797
+<v Marcin Grzybowski>Problem z.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9989-0
+00:39:21.857 --> 00:39:23.727
+<v Adam Koper>Jakieś tam problemy ze skeczu lerem?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10000-0
+00:39:22.637 --> 00:39:26.557
+<v Marcin Grzybowski>Usypianie my się dokładnie tak to to jest
+na pewno.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/9994-0
+00:39:23.797 --> 00:39:24.117
+<v Adam Koper>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10003-0
+00:39:28.637 --> 00:39:29.317
+<v Marcin Grzybowski>Duży plus.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10018-0
+00:39:30.097 --> 00:39:35.272
+<v Adam Koper>Musimy na tym said,
+agencie zrobić taką funkcjonalność i na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10018-1
+00:39:35.272 --> 00:39:35.617
+<v Adam Koper>tym.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10056-0
+00:39:37.247 --> 00:39:42.572
+<v Adam Koper>Na side agencie slesz update'y możliwość
+takie narzędzia do instalacji właśnie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10056-1
+00:39:42.572 --> 00:39:47.493
+<v Adam Koper>aplikacji webowej na tym enginesie
+Windows serwisu tak żeby on umiał też</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10056-2
+00:39:47.493 --> 00:39:50.527
+<v Adam Koper>zainstalować,
+jeśli będzie nam to potrzebne.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10099-0
+00:39:52.317 --> 00:39:55.253
+<v Adam Koper>Różne typy aplikacji,
+czyli czy to są jakieś tam dotnetowe</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10099-1
+00:39:55.253 --> 00:39:59.185
+<v Adam Koper>takie api, czy to są jakieś next JS owe,
+jeżeli będziemy musieli to oddzielnie</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10099-2
+00:39:59.185 --> 00:40:02.818
+<v Adam Koper>stawiać statyczne te takie webowe
+aplikacje jakieś takie rzeczy, no nie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10099-3
+00:40:02.818 --> 00:40:06.750
+<v Adam Koper>bo to troszeczkę inaczej się instaluje,
+no nie konfiguruje się tego troszeczkę</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10099-4
+00:40:06.750 --> 00:40:07.397
+<v Adam Koper>inaczej tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10127-0
+00:40:08.967 --> 00:40:14.460
+<v Adam Koper>Enginesa a później jak już będziemy
+kiedyś tam wchodzili w tematy z dokerem</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10127-1
+00:40:14.460 --> 00:40:19.447
+<v Adam Koper>to można by było w tym update'terze też
+zrobić możliwość instalacji.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10135-0
+00:40:21.157 --> 00:40:24.517
+<v Adam Koper>Tych aplikacji dokerowych tak kontenerów.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10136-0
+00:40:25.577 --> 00:40:25.737
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10149-0
+00:40:26.087 --> 00:40:31.847
+<v Adam Koper>I to nie tyle zastępowałoby aplikacje
+powiedzmy Janka co?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10199-0
+00:40:32.757 --> 00:40:37.363
+<v Adam Koper>Trochę inaczej działałaby architektura po
+prostu tutaj by był,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10199-1
+00:40:37.363 --> 00:40:41.970
+<v Adam Koper>by było to narzędzie do instalacji tak
+samo, a cały ten moduł,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10199-2
+00:40:41.970 --> 00:40:47.015
+<v Adam Koper>bo tam Janek ma to exe i tą tą
+wizualizację tego to by w jakiejś tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10199-3
+00:40:47.015 --> 00:40:51.621
+<v Adam Koper>formie musiało zostać,
+a to był byłoby tylko takim narzędziem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10199-4
+00:40:51.621 --> 00:40:53.157
+<v Adam Koper>który umie nam wziąć.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10208-0
+00:40:54.687 --> 00:40:57.487
+<v Adam Koper>Na żądanie tak takiej aplikacji Janka
+umie nam wziąć.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10218-0
+00:40:59.087 --> 00:41:02.527
+<v Adam Koper>Kontener czy tam obraz dokerowy i go po
+prostu zainstalować?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10229-0
+00:41:03.917 --> 00:41:05.957
+<v Adam Koper>Na na tej maszynie w odpowiedni sposób,
+tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10235-0
+00:41:07.327 --> 00:41:10.127
+<v Marcin Grzybowski>No właśnie te narzędzi Janka.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10250-0
+00:41:10.817 --> 00:41:15.250
+<v Marcin Grzybowski>W całym,
+żeby ono było na zasadzie i tak było</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10250-1
+00:41:15.250 --> 00:41:17.177
+<v Marcin Grzybowski>rozmazane w Markiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10266-0
+00:41:18.117 --> 00:41:25.917
+<v Marcin Grzybowski>Żeby i tak i tak siedziało coś na tyle i
+wiem, ze coś co jest serwisem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10252-0
+00:41:19.127 --> 00:41:19.207
+<v Adam Koper>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10269-0
+00:41:26.717 --> 00:41:27.717
+<v Marcin Grzybowski>Wszyscy ma api.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10277-0
+00:41:28.477 --> 00:41:29.637
+<v Adam Koper>Tak dokładnie no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10290-0
+00:41:28.717 --> 00:41:34.028
+<v Marcin Grzybowski>I tak naprawdę dokładnie i ten front
+Janka ten egzo pianka miałby się z tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10290-1
+00:41:34.028 --> 00:41:34.517
+<v Marcin Grzybowski>łączyć.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10310-0
+00:41:36.177 --> 00:41:41.097
+<v Marcin Grzybowski>I dlatego cisnąłem Janka,
+żeby w środku jednak walił po restaupi.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10296-0
+00:41:36.357 --> 00:41:36.877
+<v Adam Koper>Dokładnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10317-0
+00:41:41.917 --> 00:41:43.597
+<v Marcin Grzybowski>On mówił, że mu jest niewygodnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10325-0
+00:41:45.157 --> 00:41:47.917
+<v Marcin Grzybowski>Nieprzyjemnie i tak dalej i woli tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10332-0
+00:41:49.757 --> 00:41:51.717
+<v Marcin Grzybowski>Oj będą zmiany pewnie no i tyle no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10352-0
+00:41:56.647 --> 00:42:01.232
+<v Adam Koper>Ale to i tak jeszcze z tym z tym widokami
+będzie chwila czasu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10352-1
+00:42:01.232 --> 00:42:05.527
+<v Adam Koper>zanim to do tego etapu dojdziemy,
+ale po prostu ten agent.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10397-0
+00:42:07.167 --> 00:42:11.705
+<v Adam Koper>To jest po prostu taki narzędziownik to
+on ma takie narzędzia,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10397-1
+00:42:11.705 --> 00:42:17.540
+<v Adam Koper>umie zainstalować aplikację tą web app y
+umie zainstalować SPA umie zainstalować</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10397-2
+00:42:17.540 --> 00:42:22.870
+<v Adam Koper>tego SSAI go update'ować w przyszłości
+będzie umiał te dokerowe kontenery</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10387-0
+00:42:17.967 --> 00:42:18.047
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10397-3
+00:42:22.870 --> 00:42:24.527
+<v Adam Koper>instalować z kolei ten.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10400-0
+00:42:26.327 --> 00:42:26.337
+<v Adam Koper>Ten site.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-0
+00:42:26.397 --> 00:42:31.163
+<v Adam Koper>Agent będzie mu podsuwał,
+czy tam te te artefakty tak do instalacji.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-1
+00:42:31.163 --> 00:42:35.031
+<v Adam Koper>On będzie też ten side agent,
+bo te są tylko narzędzia,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10414-0
+00:42:33.167 --> 00:42:33.367
+<v Marcin Grzybowski>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-2
+00:42:35.031 --> 00:42:39.589
+<v Adam Koper>tak to są tylko narzędzia tutaj będzie on
+miał jakąś komunikację.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-3
+00:42:39.589 --> 00:42:43.941
+<v Adam Koper>Docelowo z tą naszą platformą powiedzmy
+centralną i umiał tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-4
+00:42:43.941 --> 00:42:48.154
+<v Adam Koper>to ta strzałka umiał pobrać te artefakty
+umiał zaraportować,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10469-5
+00:42:48.154 --> 00:42:52.437
+<v Adam Koper>która usługa jest podniesiona,
+jakieś takie różne rzeczy nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10478-0
+00:42:53.287 --> 00:42:55.767
+<v Adam Koper>To można w pewnym momencie później po
+prostu dodawać te klocki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10502-0
+00:42:59.047 --> 00:43:01.967
+<v Adam Koper>Możliwe,
+że tutaj będzie jeszcze potrzebna jakaś</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10502-1
+00:43:01.967 --> 00:43:04.828
+<v Adam Koper>mała zmiana,
+żeby tego samego agenta można było</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10502-2
+00:43:04.828 --> 00:43:08.047
+<v Adam Koper>aktualizować,
+żeby on mógł się samoaktualizować, nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10505-0
+00:43:09.167 --> 00:43:10.047
+<v Marcin Grzybowski>Mhm, dobra.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10525-0
+00:43:14.117 --> 00:43:18.612
+<v Adam Koper>No to jest ten rysunek bym omówił,
+tam są jakieś dodatkowe rzeczy, które.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10525-1
+00:43:18.612 --> 00:43:22.197
+<v Adam Koper>No pewnie na razie odkładamy na półkę.
+No tu jest właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10540-0
+00:43:23.597 --> 00:43:29.757
+<v Adam Koper>Z tymi wiem kami bo tir m to są wiemki
+plus ta centralna platforma, no nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10551-0
+00:43:31.237 --> 00:43:32.757
+<v Adam Koper>Ale na razie to składam na później.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10550-0
+00:43:31.767 --> 00:43:32.927
+<v Marcin Grzybowski>Tak, ale na razie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10553-0
+00:43:33.397 --> 00:43:33.877
+<v Marcin Grzybowski>No.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10569-0
+00:43:38.777 --> 00:43:43.974
+<v Marcin Grzybowski>Bo za dużo tej przyjemności.
+Natomiast ogólnie koncepcja jest,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10569-1
+00:43:43.974 --> 00:43:46.697
+<v Marcin Grzybowski>wydaje mi się całkiem niezła ten.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10588-0
+00:43:49.397 --> 00:43:54.884
+<v Marcin Grzybowski>To co powiedziałem o tych i o TS,
+trzeba będzie jeszcze zrobić listę taki</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10588-1
+00:43:54.884 --> 00:43:55.477
+<v Marcin Grzybowski>większy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10593-0
+00:43:57.497 --> 00:43:57.977
+<v Marcin Grzybowski>Czyli.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10602-0
+00:43:58.387 --> 00:44:00.527
+<v Adam Koper>J este Jeszcze raz co to było?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10653-0
+00:43:59.197 --> 00:44:05.809
+<v Marcin Grzybowski>I o TS jednostki są rządu terytorialnego,
+czyli czyli te jednostki urzędu. Cześć,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10612-0
+00:44:02.787 --> 00:44:03.147
+<v Adam Koper>Dobra.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10622-0
+00:44:04.557 --> 00:44:05.717
+<v Adam Koper>Dobra, dobra już.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10653-1
+00:44:05.809 --> 00:44:11.293
+<v Marcin Grzybowski>no to to jest moim zdaniem kluczowa
+sprawa, bo jakbyśmy co zrobili,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10653-2
+00:44:11.293 --> 00:44:15.487
+<v Marcin Grzybowski>żeby im się wygodnie zaglądało tam,
+gdzie oni chcą,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10653-3
+00:44:15.487 --> 00:44:19.277
+<v Marcin Grzybowski>to też jest feature dla urzędu taki
+*********.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10657-0
+00:44:20.767 --> 00:44:21.287
+<v Marcin Grzybowski>Jakby coś.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10682-0
+00:44:22.437 --> 00:44:26.419
+<v Adam Koper>Ja tam specjalnie dla ciebie Bolek
+jeszcze podkreśla też to,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10682-1
+00:44:26.419 --> 00:44:31.837
+<v Adam Koper>że ten tir m jakkolwiek daleko by on nie
+był to wydaje mi się, że on tyle na tyle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10718-0
+00:44:33.447 --> 00:44:37.788
+<v Adam Koper>Powiedzmy taką fajną rzeczą dla info
+system, że to byłby selling point.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10718-1
+00:44:37.788 --> 00:44:40.863
+<v Adam Koper>Wydaje mi się,
+że taki burmistrz czy wójt gminy to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10718-2
+00:44:40.863 --> 00:44:44.119
+<v Adam Koper>rośnie mocno w piórka,
+kiedy może się pochwalić przed</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10718-3
+00:44:44.119 --> 00:44:47.194
+<v Adam Koper>obywatelami,
+że ma taką aplikację typu m obywatel,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10718-4
+00:44:47.194 --> 00:44:49.847
+<v Adam Koper>że tam można sobie podejrzeć swoje
+podatki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10740-0
+00:44:49.917 --> 00:44:54.053
+<v Adam Koper>Jakieś tam rachunki za wodę czy tam za
+coś innego i że to siedzi po prostu w</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10740-1
+00:44:54.053 --> 00:44:55.557
+<v Adam Koper>telefonie obywatela, no nie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10758-0
+00:44:56.597 --> 00:45:01.122
+<v Marcin Grzybowski>My to wiemy, adam, my to wiemy,
+my to totalnie wiemy i chcemy tego i to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10758-1
+00:45:01.122 --> 00:45:03.887
+<v Marcin Grzybowski>ja nie przekreśla my tego absolutnie
+tylko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10797-0
+00:45:03.957 --> 00:45:09.268
+<v Marcin Grzybowski>Patrząc realnie na czas na to,
+jak jesteśmy w w ***** to to ważniejsze</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10773-0
+00:45:06.497 --> 00:45:07.537
+<v Adam Koper>To ja rozumiem wszystko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10797-1
+00:45:09.268 --> 00:45:12.859
+<v Marcin Grzybowski>jest to,
+żebyśmy zaczęli to najpierw instalować</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10797-2
+00:45:12.859 --> 00:45:17.797
+<v Marcin Grzybowski>niż robić taką wielką kobyłę,
+którą nie wiadomo, kiedy skończymy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10792-0
+00:45:15.597 --> 00:45:16.077
+<v Adam Koper>Rozumiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10845-0
+00:45:17.957 --> 00:45:22.678
+<v Adam Koper>I jeszcze jedna uwaga do tego,
+bo teraz rozmawiamy o architekturze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10802-0
+00:45:18.517 --> 00:45:18.757
+<v Marcin Grzybowski>Ale.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10845-1
+00:45:22.678 --> 00:45:27.468
+<v Adam Koper>to faktycznie część jest z tego daleko,
+bo po prostu nie mamy czasu,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10845-2
+00:45:27.468 --> 00:45:31.495
+<v Adam Koper>a w poprzek tej dyskusji moim zdaniem
+stoi jeszcze temat,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10845-3
+00:45:31.495 --> 00:45:37.188
+<v Adam Koper>a i bo można jeszcze by było porozmawiać
+na jakimś tam spotkaniu o tym jak tego a</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10845-4
+00:45:37.188 --> 00:45:39.757
+<v Adam Koper>i a zacząć używać, bo w tym momencie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10851-0
+00:45:40.917 --> 00:45:42.357
+<v Adam Koper>Ja sobie coś tam dłubie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10855-0
+00:45:43.767 --> 00:45:44.047
+<v Adam Koper>Z a i m.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10869-0
+00:45:46.007 --> 00:45:49.007
+<v Adam Koper>W firmie zaczęli ludzie sobie coś tam
+dłubać za jajem, coś sobie robi.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10884-0
+00:45:51.167 --> 00:45:56.040
+<v Adam Koper>Ola coś sobie Paweł robi z a i MI jakoś
+pracuje z a i em Marcin każdy coś tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10884-1
+00:45:56.040 --> 00:45:56.727
+<v Adam Koper>sobie robi.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10889-0
+00:45:58.967 --> 00:46:00.607
+<v Adam Koper>I ogólnie chodzi o to, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10903-0
+00:46:02.367 --> 00:46:07.089
+<v Adam Koper>Nie dzielimy się wystarczająco dobrze i
+nie standaryzujemy tego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10903-1
+00:46:07.089 --> 00:46:08.687
+<v Adam Koper>co robimy poprzez a i.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10907-0
+00:46:10.447 --> 00:46:11.407
+<v Adam Koper>Na skalę powiedzmy firmy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10914-0
+00:46:12.157 --> 00:46:14.077
+<v Adam Koper>Nie mamy takiego fokusu na to w ogóle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10934-0
+00:46:15.647 --> 00:46:21.145
+<v Adam Koper>A jeżeli będziemy, powiedzmy pewne rzeczy,
+które my umiemy robić, to po pierwsze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10934-1
+00:46:21.145 --> 00:46:24.967
+<v Adam Koper>jeśli się zatrzymamy nad tym ja jako adam
+koper i sobie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10960-0
+00:46:26.197 --> 00:46:30.777
+<v Adam Koper>Zamiast zrealizować zadania wystaw,
+przycisk czy coś tam innego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10960-1
+00:46:30.777 --> 00:46:34.864
+<v Adam Koper>jakieś tam obligacje jak ja sobie
+zrealizuje też zadanie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10960-2
+00:46:34.864 --> 00:46:38.317
+<v Adam Koper>żeby zautomatyzować tego typu powiedzmy
+zadania.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10995-0
+00:46:39.767 --> 00:46:42.592
+<v Adam Koper>Poprzez skille i przetestuję,
+że to działa,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10995-1
+00:46:42.592 --> 00:46:47.473
+<v Adam Koper>a później się podzielę z zespołem i
+powiem jak to tego czegoś można używać,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10995-2
+00:46:47.473 --> 00:46:52.353
+<v Adam Koper>to w tym momencie mamy zautomatyzowaną i
+jakąś tam przyspieszoną ścieżkę do</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10995-3
+00:46:52.353 --> 00:46:54.087
+<v Adam Koper>implementacji pewnego typu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/10997-0
+00:46:55.807 --> 00:46:56.047
+<v Adam Koper>Rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-0
+00:46:57.037 --> 00:47:02.074
+<v Adam Koper>Ja do tego mówię tak abstrakcyjnie,
+bo tymi rzeczami mogą być konkretne,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-1
+00:47:02.074 --> 00:47:06.421
+<v Adam Koper>jakieś funkcjonalności,
+które będziemy za pomocą takich skilli</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-2
+00:47:06.421 --> 00:47:10.285
+<v Adam Koper>można by było,
+powiedzmy szybciej implementować zarówno</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-3
+00:47:10.285 --> 00:47:13.666
+<v Adam Koper>pewne jakieś standardowe komponenty w
+aplikacji,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-4
+00:47:13.666 --> 00:47:19.324
+<v Adam Koper>jak również można było ustandaryzować na
+przykład proces w ogóle tworzenia nowych</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11050-5
+00:47:19.324 --> 00:47:21.877
+<v Adam Koper>feature'ów, czyli to też są 2 rzeczy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11058-0
+00:47:22.687 --> 00:47:24.847
+<v Adam Koper>Jakieś tam ortogonalne jedna rzecz to
+jest.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11060-0
+00:47:26.647 --> 00:47:26.847
+<v Adam Koper>Zbudowanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11116-0
+00:47:27.357 --> 00:47:31.888
+<v Adam Koper>Dla firmy jakiegoś takiego toolboxa z
+jakichś takich building bloków,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11116-1
+00:47:31.888 --> 00:47:36.807
+<v Adam Koper>że tak się robi nie wiem nowy and pointy,
+bo wtedy są jakieś tam wymagania,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11116-2
+00:47:36.807 --> 00:47:41.856
+<v Adam Koper>tak restowe tak się robi na przykład
+klienta do do jakichś tam endpointów tak</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11116-3
+00:47:41.856 --> 00:47:45.610
+<v Adam Koper>się robi. Nie wiem,
+uwierzytelnianie tak się robi coś tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11116-4
+00:47:45.610 --> 00:47:50.077
+<v Adam Koper>tego typu jakieś tam building bloki
+moglibyśmy sobie ustandaryzować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11130-0
+00:47:52.287 --> 00:47:57.327
+<v Adam Koper>I również można było ustandaryzować to,
+w jaki sposób pracujemy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11136-0
+00:47:57.717 --> 00:47:59.397
+<v Adam Koper>Ee powiedzmy z ajem żeby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11190-0
+00:48:00.967 --> 00:48:05.732
+<v Adam Koper>Na przykład w ramach każdego fitera,
+który implementujemy powstała jakaś tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11190-1
+00:48:05.732 --> 00:48:10.187
+<v Adam Koper>dokumentacja, jak to ma działać,
+żeby powstał jakiś taki side dokument?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11190-2
+00:48:10.187 --> 00:48:13.158
+<v Adam Koper>Jakie decyzje architektoniczne zostały
+podjęte,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11190-3
+00:48:13.158 --> 00:48:17.180
+<v Adam Koper>żeby powstał dokument z rice notesami dla
+użytkownika końcowego,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11190-4
+00:48:17.180 --> 00:48:22.007
+<v Adam Koper>żeby powstał jakiś dokument z instrukcją
+dla serwisu, jak to to zainstalować?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11200-0
+00:48:23.567 --> 00:48:26.687
+<v Adam Koper>Więc na różne sposoby można automatyzować
+różne rzeczy i standaryzować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11208-0
+00:48:27.397 --> 00:48:30.437
+<v Adam Koper>Jak tego typu inicjatywę będziemy
+podejmowali?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11220-0
+00:48:32.207 --> 00:48:36.407
+<v Adam Koper>To po prostu te bardzo odległe cele.
+Być może uda się zrealizować szybciej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11223-0
+00:48:37.757 --> 00:48:38.357
+<v Adam Koper>Niż wolniej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11225-0
+00:48:39.887 --> 00:48:40.127
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11227-0
+00:48:40.357 --> 00:48:40.837
+<v Marcin Grzybowski>Zgadza się.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11233-0
+00:48:42.127 --> 00:48:43.967
+<v Adam Koper>Więc to, co dzisiaj się wydaje,
+niemożliwe?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11239-0
+00:48:44.757 --> 00:48:46.797
+<v Adam Koper>Być może stanie się możliwe.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11243-0
+00:48:53.627 --> 00:48:54.667
+<v Marcin Grzybowski>No powiedzmy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11247-0
+00:48:59.967 --> 00:49:01.007
+<v Adam Koper>No dobra to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11253-0
+00:49:03.257 --> 00:49:04.737
+<v Adam Koper>Chyba nie ma sensu dalej tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11259-0
+00:49:05.837 --> 00:49:08.077
+<v Adam Koper>Przeglądać, że to jest za dużo,
+po prostu w tym dokumencie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11261-0
+00:49:10.157 --> 00:49:10.277
+<v Adam Koper>Ee.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11275-0
+00:49:12.347 --> 00:49:16.307
+<v Bolesław Groszek>No ja też chcę na spokojnie,
+po studiuję też sobie obejrzę.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11298-0
+00:49:18.207 --> 00:49:21.212
+<v Bolesław Groszek>Jeszcze raz dobrze, Marcin,
+że że nagrywałeś,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11298-1
+00:49:21.212 --> 00:49:25.981
+<v Bolesław Groszek>bo tak jak tak jak mówiłem tutaj chyba
+nawet bardziej problematyczne z o</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11298-2
+00:49:25.981 --> 00:49:28.007
+<v Bolesław Groszek>skupienie w biurze niż ten niż.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11328-0
+00:49:29.767 --> 00:49:32.921
+<v Bolesław Groszek>Niż w pociągu musiałem się przesiąść w
+rezultacie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11328-1
+00:49:32.921 --> 00:49:36.200
+<v Bolesław Groszek>żeby gdzieś w jakimś spokojniejszym
+miejscu znaleźć,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11328-2
+00:49:36.200 --> 00:49:40.097
+<v Bolesław Groszek>bo tu chłopaki mają spotkania auty jakieś
+inne tematy i tutaj.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11349-0
+00:49:40.877 --> 00:49:44.910
+<v Bolesław Groszek>Ciągle coś wychodzi,
+a a kiedy byśmy się spotkali w przyszłym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11349-1
+00:49:44.910 --> 00:49:47.576
+<v Bolesław Groszek>tygodniu,
+tym większym gronie czy jak to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11349-2
+00:49:47.576 --> 00:49:48.357
+<v Bolesław Groszek>myśleliście?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11352-0
+00:49:48.237 --> 00:49:51.167
+<v Marcin Grzybowski>No tak, tak, tak, tak, tak,
+zdecydowanie tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11357-0
+00:49:51.927 --> 00:49:55.367
+<v Bolesław Groszek>Bierzemy wszystkich tych wszystkich.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11364-0
+00:49:56.397 --> 00:49:57.997
+<v Bolesław Groszek>Wszystkich tam z grupy czy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11378-0
+00:49:59.527 --> 00:50:04.487
+<v Bolesław Groszek>Powoli rozszerzamy to grono,
+w tym w tym temacie jak jak to widzicie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11421-0
+00:50:08.257 --> 00:50:12.119
+<v Adam Koper>To niech Marcin zdecyduje,
+kogo chcemy na tym spotkaniu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11421-1
+00:50:12.119 --> 00:50:17.472
+<v Adam Koper>Ja bym ustalił zakres tego spotkania,
+po prostu możemy to nazwać ten TRS, tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11421-2
+00:50:17.472 --> 00:50:21.944
+<v Adam Koper>że omawiamy i wyciągamy z tego TRS.
+Jeszcze go odchudzamy do MVP,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11421-3
+00:50:21.944 --> 00:50:25.807
+<v Adam Koper>czyli celem będzie określenie zarysowanie
+tego MVP. Tak?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11422-0
+00:50:28.317 --> 00:50:28.517
+<v Marcin Grzybowski>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11424-0
+00:50:28.507 --> 00:50:28.987
+<v Adam Koper>Marcin.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11428-0
+00:50:29.637 --> 00:50:30.877
+<v Marcin Grzybowski>Tak, tak, tak tylko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11452-0
+00:50:31.797 --> 00:50:34.482
+<v Marcin Grzybowski>Właśnie tu jest tak co do kogo na te
+spotkanie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11452-1
+00:50:34.482 --> 00:50:38.397
+<v Marcin Grzybowski>No to bierzemy sabotażystów czy nie wiemy,
+nie bierzemy sabotażystów.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11511-0
+00:50:39.027 --> 00:50:43.268
+<v Adam Koper>Znaczy ja mam takie taką ogólną zasadę,
+jeżeli chcemy zrobić spotkanie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11511-1
+00:50:43.268 --> 00:50:47.333
+<v Adam Koper>na którym zbieramy informacje i jakieś
+rzeczy te, które nam pomogły.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11511-2
+00:50:47.333 --> 00:50:52.045
+<v Adam Koper>Ostatnio na spotkaniu z sabotażystami,
+bo są po prostu dla nas pewne informacje</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11511-3
+00:50:52.045 --> 00:50:55.521
+<v Adam Koper>wejściowe, co się da, czego się nie da,
+albo może inaczej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11511-4
+00:50:55.521 --> 00:50:57.347
+<v Adam Koper>że wszystkiego się nie da, ale.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11551-0
+00:50:58.237 --> 00:51:01.892
+<v Adam Koper>Ale możemy to oceniać później na kolejnym
+spotkaniu, że może to,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11551-1
+00:51:01.892 --> 00:51:04.592
+<v Adam Koper>co się nie da jakoś się da jednak zrobić
+tylko,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11551-2
+00:51:04.592 --> 00:51:08.585
+<v Adam Koper>że wtedy już nie możemy mieć na tym
+spotkaniu osób, które będą głośno.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11551-3
+00:51:08.585 --> 00:51:11.397
+<v Adam Koper>Krzyczały, że się nie da. Nie da, nie da,
+nie da.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11552-0
+00:51:13.727 --> 00:51:13.847
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11559-0
+00:51:15.467 --> 00:51:17.427
+<v Marcin Grzybowski>No dobra, jeżeli zbieramy wiedzę.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11567-0
+00:51:18.317 --> 00:51:20.157
+<v Marcin Grzybowski>No to sobotę Żydów też bierzemy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11573-0
+00:51:23.697 --> 00:51:24.737
+<v Marcin Grzybowski>Jeśli tak powiedziałeś?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11588-0
+00:51:24.767 --> 00:51:28.304
+<v Bolesław Groszek>No chyba tak się wydaje, no jakby może,
+no jak ktoś krzyknie, że się nie da.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11588-1
+00:51:28.304 --> 00:51:29.177
+<v Bolesław Groszek>No to może coś tam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11593-0
+00:51:29.237 --> 00:51:30.157
+<v Bolesław Groszek>Już się z tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11606-0
+00:51:31.807 --> 00:51:35.589
+<v Bolesław Groszek>Uda wyciągnąć jakby w jakiejś takiej
+pesymistycznej wersji nawet jakieś</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11606-1
+00:51:35.589 --> 00:51:36.167
+<v Bolesław Groszek>zagrożenia.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11610-0
+00:51:38.477 --> 00:51:39.997
+<v Marcin Grzybowski>No dobra to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11614-0
+00:51:42.527 --> 00:51:43.327
+<v Marcin Grzybowski>Bo tak robiła.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11631-0
+00:51:44.517 --> 00:51:47.884
+<v Marcin Grzybowski>Po wszystkich tych,
+którzy których braliśmy ostatnio i tam</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11631-1
+00:51:47.884 --> 00:51:49.597
+<v Marcin Grzybowski>bał, ma i wilgosa pewnie może.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11633-0
+00:51:50.877 --> 00:51:51.197
+<v Marcin Grzybowski>Które?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11639-0
+00:51:52.757 --> 00:51:54.237
+<v Bolesław Groszek>Dobra, jakiś dzień macie ten?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11650-0
+00:51:58.377 --> 00:52:01.977
+<v Adam Koper>Ja mam taką propozycję,
+że ja mogę spróbować ten dokument.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11657-0
+00:52:04.597 --> 00:52:08.317
+<v Adam Koper>Wyplotkować po prostu dokument o TRS.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11693-0
+00:52:09.887 --> 00:52:14.753
+<v Adam Koper>Żeby tam była tylko INFORMACJA O TRS, tak,
+żeby po prostu można było komuś dać taki</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11693-1
+00:52:14.753 --> 00:52:17.303
+<v Adam Koper>dokument,
+że o tym będziemy rozmawiali tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11693-2
+00:52:17.303 --> 00:52:20.084
+<v Adam Koper>czy że to jest temat,
+bo jak damy ten dokument,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11693-3
+00:52:20.084 --> 00:52:24.487
+<v Adam Koper>no to nawet się nikomu nie chciało tego
+przeczytać. Za dużo tutaj jest nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11703-0
+00:52:25.817 --> 00:52:29.097
+<v Marcin Grzybowski>Jeszcze jedno pytanie,
+czemu nazwałeś to tier s?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11706-0
+00:52:30.087 --> 00:52:30.527
+<v Adam Koper>W sensie?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11726-0
+00:52:31.557 --> 00:52:35.474
+<v Adam Koper>Tier to jest taki tier to dla mnie jest
+na zasadzie,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11711-0
+00:52:31.737 --> 00:52:32.417
+<v Marcin Grzybowski>Pomadował.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11726-1
+00:52:35.474 --> 00:52:39.317
+<v Adam Koper>że jak kupujesz subskrypcję nie wiem na
+przykład w.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11760-0
+00:52:41.327 --> 00:52:45.770
+<v Adam Koper>Cent kodzie to masz ten TR jakiś tam
+podstawowy pro później masz maks i tak</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11760-1
+00:52:45.770 --> 00:52:49.921
+<v Adam Koper>dalej tak czyli to jest poziom
+subskrypcji tier a SM ten to są t shirt</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11755-0
+00:52:48.297 --> 00:52:49.217
+<v Marcin Grzybowski>No tak, tak tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11760-2
+00:52:49.921 --> 00:52:50.447
+<v Adam Koper>size nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11762-0
+00:52:51.367 --> 00:52:51.847
+<v Marcin Grzybowski>Ok.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11771-0
+00:52:56.387 --> 00:52:58.431
+<v Adam Koper>Nie wiem,
+być może to jakieś tak slang jakieś</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11771-1
+00:52:58.431 --> 00:52:59.587
+<v Adam Koper>korporacyjne, no nie wiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11780-0
+00:52:59.957 --> 00:53:03.397
+<v Marcin Grzybowski>Wiesz co często gęsto tiera jest to jest
+już taki top.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11783-0
+00:53:04.197 --> 00:53:04.517
+<v Marcin Grzybowski>Więc.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11788-0
+00:53:05.017 --> 00:53:06.697
+<v Adam Koper>Nie, nie, to są t shirt size.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11792-0
+00:53:08.057 --> 00:53:08.337
+<v Marcin Grzybowski>O k.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11794-0
+00:53:08.277 --> 00:53:09.357
+<v Adam Koper>T shirt rozmiary.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11796-0
+00:53:10.367 --> 00:53:10.767
+<v Marcin Grzybowski>Dobra.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11807-0
+00:53:11.227 --> 00:53:16.450
+<v Adam Koper>SM jak tam nie wiem,
+będziemy coś dalej rozwijać to będzie l</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11807-1
+00:53:16.450 --> 00:53:16.707
+<v Adam Koper>xl.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11809-0
+00:53:17.847 --> 00:53:18.047
+<v Marcin Grzybowski>Ok.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11817-0
+00:53:19.277 --> 00:53:21.877
+<v Marcin Grzybowski>Spróbuję się przeprogramować, ale ciężko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11823-0
+00:53:24.477 --> 00:53:26.157
+<v Adam Koper>Ja sobie to jakoś nazwałem, bo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11827-0
+00:53:28.277 --> 00:53:29.277
+<v Adam Koper>Musiałem jakoś nazwać.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11830-0
+00:53:30.077 --> 00:53:30.517
+<v Adam Koper>Że tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11836-0
+00:53:31.557 --> 00:53:33.397
+<v Adam Koper>A pisałem ten dokument.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11840-0
+00:53:35.637 --> 00:53:37.437
+<v Adam Koper>Też, że tak powiem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11858-0
+00:53:38.357 --> 00:53:41.979
+<v Adam Koper>W oderwaniu od wszystkich tylko po prostu
+te informacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11858-1
+00:53:41.979 --> 00:53:46.237
+<v Adam Koper>które sobie zebrałem na przestrzeni tego
+tych paru miesięcy pracy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11864-0
+00:53:46.877 --> 00:53:50.357
+<v Adam Koper>Yy sobie zebrałem tak i i.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11883-0
+00:53:53.117 --> 00:53:55.673
+<v Adam Koper>I chciałeś,
+żebyśmy porozmawiali o architekturze,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11883-1
+00:53:55.673 --> 00:53:58.997
+<v Adam Koper>więc to zebrałem tak w jeden dokument i i
+wyprodukowałem to nie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11879-0
+00:53:58.227 --> 00:53:58.347
+<v Marcin Grzybowski>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11884-0
+00:54:00.367 --> 00:54:00.527
+<v Marcin Grzybowski>Ok.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11890-0
+00:54:01.277 --> 00:54:02.637
+<v Adam Koper>Ale okazało się, że to jest no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11892-0
+00:54:03.837 --> 00:54:04.237
+<v Adam Koper>Za dużo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11895-0
+00:54:09.157 --> 00:54:09.997
+<v Adam Koper>Dobra to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11902-0
+00:54:12.617 --> 00:54:14.417
+<v Adam Koper>Ustawy jak ustawi się jakieś spotkanie to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11913-0
+00:54:17.487 --> 00:54:20.127
+<v Adam Koper>Po prostu daj znać i co no i tyle no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11921-0
+00:54:20.087 --> 00:54:23.487
+<v Marcin Grzybowski>Będziemy pisać na tym na tych na
+fundamentach.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11929-0
+00:54:25.727 --> 00:54:27.967
+<v Marcin Grzybowski>Jakąś propozycję spotkania i zobaczymy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11932-0
+00:54:29.937 --> 00:54:31.257
+<v Marcin Grzybowski>Nie będzie pasowało.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11933-0
+00:54:32.457 --> 00:54:32.577
+<v Adam Koper>Mhm.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11954-0
+00:54:33.327 --> 00:54:38.847
+<v Bolesław Groszek>Dobra no to dzięki za ten za tą
+prezentację adam bo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11940-0
+00:54:34.047 --> 00:54:34.687
+<v Marcin Grzybowski>Tak zrobimy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11952-0
+00:54:35.797 --> 00:54:36.637
+<v Marcin Grzybowski>Dobra, dzięki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11947-0
+00:54:35.867 --> 00:54:36.307
+<v Adam Koper>Dzięki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11959-0
+00:54:40.447 --> 00:54:42.687
+<v Bolesław Groszek>To sporo merytorycznej wiedzy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11970-0
+00:54:44.737 --> 00:54:47.017
+<v Adam Koper>No ja się ja się starałem chociaż.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11967-0
+00:54:44.797 --> 00:54:46.077
+<v Marcin Grzybowski>No tak dzięki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11985-0
+00:54:48.607 --> 00:54:53.786
+<v Adam Koper>Właśnie trudno jest mi czasami ocenić,
+ile tutaj wysiłków te rzeczy trzeba</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/11985-1
+00:54:53.786 --> 00:54:55.927
+<v Adam Koper>wsadzić, bo no właśnie jak tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12008-0
+00:54:57.837 --> 00:55:01.108
+<v Adam Koper>Pracuje w takim trybie,
+że 2 godziny gdzieś tam rano,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12008-1
+00:55:01.108 --> 00:55:04.925
+<v Adam Koper>a później wieczorem.
+No to mam tak jak wy to też zauważacie za</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12008-2
+00:55:04.925 --> 00:55:06.197
+<v Adam Koper>mało, powiedzmy tego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12010-0
+00:55:07.317 --> 00:55:07.397
+<v Adam Koper>Yy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12023-0
+00:55:08.317 --> 00:55:13.268
+<v Adam Koper>Feedbacku ja to przynajmniej tak odczuwam,
+że mam za mało feedbacku od ciebie od</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12023-1
+00:55:13.268 --> 00:55:13.757
+<v Adam Koper>Marcina.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12049-0
+00:55:14.877 --> 00:55:18.884
+<v Adam Koper>Yy raz, yy, co w ogóle trzeba zrobić? A 2,
+że czy jak coś zrobiłem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12049-1
+00:55:18.884 --> 00:55:22.714
+<v Adam Koper>czy to jest to co trzeba,
+czy nie trzeba czasami tutaj po prostu</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12049-2
+00:55:22.714 --> 00:55:25.837
+<v Adam Koper>nie wiem,
+coś mocno przeszacuję tak jak tutaj także.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12050-0
+00:55:28.047 --> 00:55:28.287
+<v Adam Koper>O.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12057-0
+00:55:32.727 --> 00:55:33.487
+<v Adam Koper>Marcin też.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12082-0
+00:55:33.387 --> 00:55:37.029
+<v Bolesław Groszek>No ale fajnie, myślę,
+że że fajnie i tak będziemy pogadać o tym</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12082-1
+00:55:37.029 --> 00:55:41.013
+<v Bolesław Groszek>większym gronie właśnie jak jakimi się
+ustosunkują z tego co właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12082-2
+00:55:41.013 --> 00:55:41.867
+<v Bolesław Groszek>No na przykład.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12101-0
+00:55:42.237 --> 00:55:47.251
+<v Bolesław Groszek>Rozmawiałem z Markiem,
+to on był bardziej sceptyczny tutaj,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12101-1
+00:55:47.251 --> 00:55:51.597
+<v Bolesław Groszek>no ale to właśnie będzie okazja tam
+przedyskutować.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12130-0
+00:55:54.947 --> 00:55:58.393
+<v Adam Koper>No ja myślę,
+że Marek może nie mieć świadomości,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12130-1
+00:55:58.393 --> 00:56:03.879
+<v Adam Koper>że ja pracuję tutaj już te parę miesięcy
+i to nie jest de facto jakiś kawałek</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12130-2
+00:56:03.879 --> 00:56:05.427
+<v Adam Koper>pracy, który zrobiłem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12135-0
+00:56:06.967 --> 00:56:08.687
+<v Adam Koper>W piątkowy wieczór i.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12168-0
+00:56:09.237 --> 00:56:13.887
+<v Adam Koper>I to jest jakiś a i slop tylko to jest
+jakieś tam pewne rzeczy są przemyślane na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12168-1
+00:56:13.887 --> 00:56:16.700
+<v Adam Koper>podstawie tych informacji,
+które tutaj zebrałem.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12168-2
+00:56:16.700 --> 00:56:20.144
+<v Adam Koper>No nie i ja tak usłyszałem od Marcina,
+że Marek stwierdził,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12159-0
+00:56:19.687 --> 00:56:19.927
+<v Bolesław Groszek>Tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12168-3
+00:56:20.144 --> 00:56:22.957
+<v Adam Koper>że to jest a i slop i on nie będzie tego
+czytał.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12183-0
+00:56:26.057 --> 00:56:30.735
+<v Bolesław Groszek>No ok no tak on się zastanawiał jakby
+czemu to jest ten czemu to jest po</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12183-1
+00:56:30.735 --> 00:56:32.337
+<v Bolesław Groszek>angielsku i jak jakaś no.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12191-0
+00:56:33.517 --> 00:56:34.917
+<v Bolesław Groszek>No tak, no to inna sprawa.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12209-0
+00:56:34.357 --> 00:56:38.437
+<v Marcin Grzybowski>Tylko, że yy ten,
+ale ja z Markiem też gadałem,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12209-1
+00:56:38.437 --> 00:56:43.537
+<v Marcin Grzybowski>żeby wyjaśnić to Marek trochę się nie
+dogadaliśmy na końcu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12219-0
+00:56:44.547 --> 00:56:49.347
+<v Marcin Grzybowski>Tam było powiedziane o dwutorowym pisaniu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12240-0
+00:56:50.477 --> 00:56:57.691
+<v Marcin Grzybowski>I ja mam wrażenie,
+że hasło dwutorowe dla jednych to było</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12240-1
+00:56:57.691 --> 00:57:00.677
+<v Marcin Grzybowski>żeby pisać em barcadero.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12248-0
+00:57:01.557 --> 00:57:04.717
+<v Marcin Grzybowski>I sobie webowe po staremu jakoś tam.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12250-0
+00:57:06.477 --> 00:57:07.037
+<v Marcin Grzybowski>A.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12258-0
+00:57:08.077 --> 00:57:10.357
+<v Marcin Grzybowski>Ja na przykład zrozumiałem dwutorowość.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12262-0
+00:57:11.397 --> 00:57:14.117
+<v Marcin Grzybowski>Że piszemy webowe.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12270-0
+00:57:15.697 --> 00:57:19.217
+<v Marcin Grzybowski>Tutaj tak, żeby zadziałały te płatności.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12276-0
+00:57:20.187 --> 00:57:23.347
+<v Marcin Grzybowski>I zadziałały te rienki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12282-0
+00:57:25.147 --> 00:57:27.907
+<v Marcin Grzybowski>To było moje zrozumienie dworność.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12288-0
+00:57:29.567 --> 00:57:31.847
+<v Marcin Grzybowski>I dlatego Marek powiedział, żeby.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12307-0
+00:57:32.837 --> 00:57:37.439
+<v Marcin Grzybowski>Mówiąc o tym dwutorowym powiedział,
+żeby olać to nie robić te embarkedero,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12307-1
+00:57:37.439 --> 00:57:38.237
+<v Marcin Grzybowski>który i tyle.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12343-0
+00:57:38.887 --> 00:57:44.094
+<v Adam Koper>A ja jeszcze inaczej rozumiem dwutorowo
+gość ja dwutorowo tutaj rozumiem w ten</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12320-0
+00:57:40.707 --> 00:57:41.867
+<v Marcin Grzybowski>O właśnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12343-1
+00:57:44.094 --> 00:57:47.850
+<v Adam Koper>sposób jak tutaj rozpisałem,
+że mamy TRSITRMI to są TRY,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12343-2
+00:57:47.850 --> 00:57:50.487
+<v Adam Koper>które zostaną po wsze czasy dlatego, że.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12386-0
+00:57:52.487 --> 00:57:55.759
+<v Adam Koper>TRS to jest coś,
+co jest bardziej w naszym zasięgu na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12386-1
+00:57:55.759 --> 00:57:58.850
+<v Adam Koper>dzień dzisiejszy,
+bo to jest coś bliskiego obecnej</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12386-2
+00:57:58.850 --> 00:58:03.395
+<v Adam Koper>architekturze i tutaj wymaga to pewnych
+oczywiście działań i dopracowania,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12386-3
+00:58:03.395 --> 00:58:07.577
+<v Adam Koper>ale będziemy mogli powiedzmy tą naszą
+obecną ofertę trochę poprawić.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12437-0
+00:58:09.317 --> 00:58:13.918
+<v Adam Koper>A TRM jest to oferta bardziej rozbudowana,
+gdzie mamy już te kontenery?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12437-1
+00:58:13.918 --> 00:58:18.391
+<v Adam Koper>Mamy tą centralną platformę,
+być może to jeszcze można rozdzielić ten</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12437-2
+00:58:18.391 --> 00:58:23.632
+<v Adam Koper>m na jakiś nie wiem, m jeden m 2 albo MIL,
+bo być może kontenery na przykład mogą</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12437-3
+00:58:23.632 --> 00:58:28.297
+<v Adam Koper>wejść wcześniej niż ta centralna
+platforma albo jakieś tam jeszcze innej</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12437-4
+00:58:28.297 --> 00:58:30.917
+<v Adam Koper>konfiguracji, ale te kolejne TRERY to są.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12452-0
+00:58:33.567 --> 00:58:35.923
+<v Adam Koper>Rzeczy,
+nad którymi będziemy zawsze pracowali</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12452-1
+00:58:35.923 --> 00:58:37.767
+<v Adam Koper>równolegle, dlatego, że pewne gminy.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12476-0
+00:58:38.117 --> 00:58:42.639
+<v Adam Koper>Na których mamy tylko komputer pani kasi
+po prostu nie wdrożymy tiera m nigdy i to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12476-1
+00:58:42.639 --> 00:58:46.017
+<v Adam Koper>nam powiedziało serwis.
+Na tym ostatnim spotkaniu. Oni mówią,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12476-2
+00:58:46.017 --> 00:58:47.597
+<v Adam Koper>że po prostu tych kontenerów.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-0
+00:58:48.437 --> 00:58:51.959
+<v Adam Koper>Nie wdrożą na na 10 procentach gmin albo
+nawet więcej,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-1
+00:58:51.959 --> 00:58:56.186
+<v Adam Koper>bo po prostu oni nie mają tam
+infrastruktury na dzień dzisiejszy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-2
+00:58:56.186 --> 00:59:00.413
+<v Adam Koper>więc jeżeli się zdecydujemy na TRM,
+to będzie to musiało być tak,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-3
+00:59:00.413 --> 00:59:04.320
+<v Adam Koper>czy inaczej rozwijane.
+W sensie będziemy musieli developować</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-4
+00:59:04.320 --> 00:59:07.523
+<v Adam Koper>zarówno TRS,
+jak i TRM jednocześnie i równolegle,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12540-5
+00:59:07.523 --> 00:59:10.597
+<v Adam Koper>bo te duże gminy być może kupią od nas
+ten TRM.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12550-0
+00:59:11.557 --> 00:59:14.797
+<v Adam Koper>Ale małe po prostu zostaną bardzo długo,
+jeszcze na.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12593-0
+00:59:16.167 --> 00:59:18.937
+<v Adam Koper>Ja jednocześnie też chciałbym,
+żeby te aplikacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12593-1
+00:59:18.937 --> 00:59:23.481
+<v Adam Koper>które rozwijamy tutaj na serwis hoście,
+czyli to co najwięcej kosztuje nas pracy,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12593-2
+00:59:23.481 --> 00:59:25.975
+<v Adam Koper>żeby te aplikacje to były te same
+aplikacje,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12593-3
+00:59:25.975 --> 00:59:28.967
+<v Adam Koper>niezależnie czy mamy je na tym tierze czy
+team terze.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12620-0
+00:59:30.967 --> 00:59:33.955
+<v Adam Koper>Żeby to to po prostu ta praca nie była
+duplikowana, a to,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12620-1
+00:59:33.955 --> 00:59:37.407
+<v Adam Koper>co będzie wymagało naszej pracy.
+No to tutaj po prostu jeżeli mamy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12620-2
+00:59:37.407 --> 00:59:39.776
+<v Adam Koper>kontenery,
+no to to wymaga pewnej dodatkowego</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12620-3
+00:59:39.776 --> 00:59:40.807
+<v Adam Koper>jakiegoś tam efortu.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12633-0
+00:59:41.557 --> 00:59:46.837
+<v Adam Koper>Wysiłku przy tej instalacji przy tych
+narzędziach do do instalacji, tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12687-0
+00:59:48.327 --> 00:59:52.866
+<v Adam Koper>No i też jeszcze jedna uwaga,
+że jak ten TRMW ogóle komuś sprzedamy</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12687-1
+00:59:52.866 --> 00:59:55.803
+<v Adam Koper>jakiemuś większemu graczowi typu
+Legionowo,</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12687-2
+00:59:55.803 --> 01:00:01.210
+<v Adam Koper>to być może inne gminy mniejsze zgapią
+ten pomysł i powiedzą o kurde ten wójt to</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12687-3
+01:00:01.210 --> 01:00:06.216
+<v Adam Koper>tutaj ma te aplikacje dla obywateli,
+po prostu jednak kupią ten komputer i</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12687-4
+01:00:06.216 --> 01:00:09.687
+<v Adam Koper>będzie można u nich też zainstalować coś
+większego.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12701-0
+01:00:10.677 --> 01:00:15.597
+<v Adam Koper>Więc ja mam takie na to patrzenie na tą
+dwutorowość, że to jest jednocześnie.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12704-0
+01:00:18.447 --> 01:00:19.487
+<v Adam Koper>Kilka rzeczy tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12707-0
+01:00:22.087 --> 01:00:22.487
+<v Marcin Grzybowski>Spoko.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12711-0
+01:00:27.787 --> 01:00:28.707
+<v Adam Koper>No dobra to.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12718-0
+01:00:30.477 --> 01:00:32.677
+<v Adam Koper>To tyle chyba na dzisiaj, tak?</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12720-0
+01:00:33.467 --> 01:00:34.427
+<v Marcin Grzybowski>Tak, tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12728-0
+01:00:35.337 --> 01:00:37.337
+<v Adam Koper>Dobra, to Jeszcze raz dzięki i.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12742-0
+01:00:37.257 --> 01:00:40.578
+<v Bolesław Groszek>Dobra, dzięki,
+to będzie myślał umawiać na tym na na</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12732-0
+01:00:37.377 --> 01:00:38.017
+<v Marcin Grzybowski>Dzięki.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12742-1
+01:00:40.578 --> 01:00:41.017
+<v Bolesław Groszek>grubym.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12745-0
+01:00:41.947 --> 01:00:42.627
+<v Marcin Grzybowski>Dokładnie tak.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12754-0
+01:00:43.077 --> 01:00:44.717
+<v Adam Koper>Dobra, na razie hej.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12761-0
+01:00:44.367 --> 01:00:45.767
+<v Marcin Grzybowski>Dobra hejo.</v>
+
+3099f4a8-00b4-4b5a-8da3-7f3a91885140/12762-0
+01:00:44.387 --> 01:00:45.707
+<v Bolesław Groszek>To na razie ja miłego dnia.</v>
