@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mockups-panel-lokalny",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "docs/Stories/2026_10_19_Panel_Lokalny_Koncepcja_UI/mockups", "-p", "8765", "-c-1", "--silent"],
+      "port": 8765
+    }
+  ]
+}
