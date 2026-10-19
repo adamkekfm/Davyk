@@ -20,11 +20,13 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 | # | Wymaganie | Zakres | Ślad |
 |---|---|---|---|
 | D1 | Agent rejestruje placówkę przy pierwszym uruchomieniu na podstawie istniejącego klucza licencyjnego i jednorazowego tokenu instalacyjnego; otrzymuje identyfikator placówki i sekret agenta. | MVP | 7.4 |
-| D2 | Agent cyklicznie (domyślnie co 15 min, konfigurowalnie) pobiera desired state: listę aplikacji i wersji udostępnionych tej placówce (bramka 1 po stronie serwisu). | MVP | T‑Z9 |
+| D2 | Agent cyklicznie (domyślnie co godzinę, konfigurowalnie) pobiera desired state: listę aplikacji i wersji udostępnionych tej placówce (bramka 1 po stronie serwisu). | MVP | T‑Z9 |
 | D3 | Pakiety pobierane są wznawialnie (słabe łącza) do katalogu staging, osobno per aplikacja. | MVP | 7.4 |
 | D4 | Każdy pakiet jest weryfikowany przed użyciem: podpis Authenticode binariów i podpis manifestu przypiętym kluczem wydań. Pakiet niepodpisany lub zmieniony jest odrzucany i raportowany. | MVP | T‑A10 |
 | D5 | Agent obsługuje import pakietu z pliku lokalnego (ta sama weryfikacja) dla placówek bez internetu na serwerze. | później | T‑A12 |
 | D6 | Jedna placówka może mieć wiele maszyn z agentem (różne zestawy aplikacji); desired state jest per maszyna. | MVP (model danych), później (UI) | 7.10 T3 |
+| D7 | Instancje Agenta musza mieć świadomość pracy na współdzielonej placówce. | MVP | nowe |
+| D8 | Instancje aplikacji musza mieć świadomość trybu pracy jako serwer (aplikacja UI dla Admina. Instaluje API i/lub usługi wykonujace zadania z harmonogramu. Może być wymagana maksymalnie jedna instancja na placówke) lub jako klient (aplikacja z UI dla operatora) | MVP | nowe |
 
 ### 2.2 Instalacja
 
@@ -37,15 +39,15 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 | I5 | Agent generuje konfigurację nginx z szablonu wersjonowanego razem z agentem (routing po prefiksach, TLS, port), testuje ją i przeładowuje bez przerwy dla pozostałych aplikacji. Nikt nie edytuje jej ręcznie. | MVP | 7.4 |
 | I6 | Port nginx jest konfigurowalny; przy zajętym 443 (IIS w okresie przejściowym) agent wybiera port alternatywny i raportuje. Porty loopback przydziela agent z pominięciem zajętych. | MVP | T‑H4, 7.11 |
 | I7 | Agent generuje klucz i certyfikat TLS placówki (CA placówki, certyfikat dla FQDN serwera i localhost) lub importuje certyfikat dostarczony przez IT gminy. | MVP | D‑5 |
-| I8 | Agent tworzy bazę CI (plik Firebird) jeśli nie istnieje, z użytkownikiem Firebird, którego hasło trafia do magazynu sekretów. To jedyne „dotknięcie” Firebirda. | MVP | 7.7 |
+| I8 | Agent tworzy bazę CI (plik Firebird) jeśli nie istnieje, z użytkownikiem Firebird, którego hasło trafia do magazynu sekretów. To jedyne „dotknięcie” Firebirda. Możliwe, że zostanie wybrane inne rozwiazanie klasy Key Vault.| MVP | 7.7 |
 | I9 | Sprawdzenia wstępne przed każdą instalacją: uprawnienia konta, miejsce na dysku, wolne porty, aktywne sesje na bazie. Brak uprawnień kończy operację raportem, bez prób obejścia. | MVP | T‑A14 |
-| I10 | Aplikacje otrzymują przy starcie od agenta: adres nasłuchu, katalog logów, ścieżkę do sekretów; konfigurację nie‑sekretną czytają z bazy CI. | MVP | 7.7 |
+| I10 | Aplikacje otrzymują przy starcie od agenta: adres nasłuchu, katalog logów, ścieżkę do sekretów (CI albo inny key vault); konfigurację nie‑sekretną czytają z bazy CI lub innego key vault. | MVP | 7.7 |
 
 ### 2.3 Aktualizacja i bramkowanie
 
 | # | Wymaganie | Zakres | Ślad |
 |---|---|---|---|
-| A1 | **Agent nigdy nie instaluje aktualizacji jednostronnie.** Pakiet pobrany i zweryfikowany czeka na akceptację informatyka (bramka 2) w panelu lokalnym. | MVP | T‑Z1, Z‑8 |
+| A1 | **Agent nigdy nie instaluje aktualizacji jednostronnie.** Pakiet pobrany i zweryfikowany czeka na akceptację informatyka (bramka 2) w panelu lokalnym. Będzie potrzebna aplikacja UI backoffice dla admina do zarzadzania instalacjami | MVP | T‑Z1, Z‑8 |
 | A2 | Informatyk może: zainstalować teraz, zaplanować okno (data, godzina), odrzucić z powodem, cofnąć do poprzedniej wersji. Odrzucenie z powodem trafia do serwisu. | MVP | T‑Z3 |
 | A3 | Polityka „instaluj automatycznie w oknie” jest opt‑in per aplikacja, włączana wyłącznie przez informatyka i widoczna dla serwisu. | MVP | 7.9 |
 | A4 | Aktualizowana jest jedna aplikacja naraz; pozostałe działają bez przerwy. | MVP | T‑Z11 |
@@ -53,7 +55,7 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 | A6 | Przy niezdrowym health lub braku odpowiedzi agent automatycznie cofa do poprzedniej wersji i poprzedniej konfiguracji nginx, raportuje przyczynę i powiadamia panel lokalny. | MVP | T‑A15 |
 | A7 | Manifest pakietu deklaruje wpływ (restart, migracja schematu, pilne) i minimalną wersję agenta; agent odmawia instalacji pakietu wymagającego nowszego agenta. | MVP | 8.4 |
 | A8 | Krok `pre-start` w przebiegu aktualizacji zarezerwowany dla Migratora (backup, migracje); do tego czasu niezgodność wersji schematu wykrywa health i powoduje rollback. | MVP (hak), później (Migrator) | T‑D3 |
-| A9 | Samoaktualizacja agenta: pobranie, weryfikacja, podmiana katalogu i restart usługi; podlega bramce 2 lub polityce auto. Osobny Updater później. | MVP | T‑A7, D‑11 |
+| A9 | Samoaktualizacja agenta: pobranie, weryfikacja, podmiana katalogu i restart usługi; podlega bramce 2 lub polityce auto. Osobny Updater później jeśli to możliwe. | MVP | T‑A7, D‑11 |
 | A10 | Druga instancja aplikacji pod innym prefiksem na bazie testowej (środowisko testowe obok produkcji). | później | T‑Z7 |
 
 ### 2.4 Monitoring i raportowanie
@@ -73,8 +75,8 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 |---|---|---|---|
 | P1 | Aplikacja webowa hostowana przez agenta wyłącznie na `127.0.0.1`; dostęp równa się sesji na serwerze (RDP); bez nowej tożsamości. | MVP | D‑4, T‑H5 |
 | P2 | Pokazuje per aplikacja: wersję zainstalowaną, stan, wersję udostępnioną, release notes, wpływ, aktywne sesje na bazie, miejsce na dysku. | MVP | T‑Z3 |
-| P3 | Formularz konfiguracji nie‑sekretnej nad bazą CI z walidacją kompletności; pola haseł trafiają do magazynu sekretów i nie są wyświetlane. | MVP | T‑K4, T‑K5 |
-| P4 | Obsługuje dwa warianty: informatyk wpisuje wszystko sam, albo importuje pakiet konfiguracji przygotowany przez serwis (zaszyfrowany jednorazowym kluczem). | MVP | T‑K5 |
+| P3 | Formularz konfiguracji nie‑sekretnej nad bazą CI z walidacją kompletności; pola haseł trafiają do magazynu sekretów i wartości nie są wyświetlane. | MVP | T‑K4, T‑K5 |
+| P4 | Obsługuje import pakietu konfiguracji przygotowany przez serwis (zaszyfrowany jednorazowym kluczem) jako szablon który można modyfikować. Niektóre parametry moga być pozostawione do wypełnienia przez admina/informatyka i jednocześnie wymagane | MVP | T‑K5 |
 | P5 | Diagnostyka: logi agenta, wynik health, test połączenia z InfoSystem, adres dla operatorów. | MVP | 7.4 |
 | P6 | Język polski, bez żargonu technicznego platformy; obsługa „ptaszkami”. | MVP | N1, N13 |
 
@@ -87,6 +89,7 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 | S3 | Przekazanie sekretów aplikacji: plik per aplikacja zaszyfrowany DPAPI (zakres maszyny) z ACL dla konta usługi aplikacji; rotacja przez nadpisanie i restart. Mechanizm do potwierdzenia (D‑8). | MVP | D‑8 |
 | S4 | Agent nie zmienia hasła SYSDBA ani użytkowników Firebirda bez jawnego polecenia informatyka w panelu. | MVP | Z‑9 |
 | S5 | Backend magazynu za interfejsem umożliwiającym implementację dla Linuksa. | później | D‑2 |
+| S6 | Źródło konfiguracji jak i sekretów powinno być możliwe dodać na podobnej zasadzie jak dodaje sie plik appsettings lub zmienne środowiskowe jako źródło konfiguracji. Klient do odczytu konfiguracji powinien być enkapsulowany w Nuget | MVP | nowe |
 
 ## 3. Wymagania niefunkcjonalne
 
@@ -101,7 +104,7 @@ Site Agent to jedyny komponent, który instaluje oprogramowanie w placówce. Dzi
 | N7 | **Wyłączalność:** informatyk może zatrzymać lub odinstalować agenta bez utraty działających aplikacji; dokument dla IT opisuje, co agent robi i jak go wyłączyć. | O‑U5, P6 |
 | N8 | **Obserwowalność agenta:** logi strukturalne bez sekretów i danych osobowych, rotowane; wersja agenta w każdym raporcie. | C8 |
 | N9 | **Kompatybilność:** współistnienie z IIS, innymi usługami na portach 80/443 i wieloma instancjami Firebirda na tej samej maszynie. | 7.11, O‑I9 |
-| N10 | **Zegar:** agent nie używa zegara PC do decyzji o wersjach; znaczniki czasu w raportach pochodzą z serwera InfoSystem lub są oznaczone jako lokalne. | T‑H11 |
+| N10 | **Zegar:** agent nie używa zegara PC do decyzji o wersjach; znaczniki czasu w raportach pochodzą z serwera InfoSystem (lub innego serwera z sieci.. np DNS?) lub są oznaczone jako lokalne. | T‑H11 |
 
 ## 4. Interfejsy
 
